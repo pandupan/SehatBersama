@@ -74,3 +74,22 @@
     @apply bg-background text-foreground;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-hero-news {
+  background-image: url("https://i.ibb.co/7gbvGWd/Group-86.png");
+  background-position:50% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Jika Anda ingin memastikan gambar tampilan mobile, Anda bisa menambahkan media query seperti ini: */
+@media (max-width: 640px) {
+
+  .bg-hero-news {
+    background-position:50%;
+  }
+}
