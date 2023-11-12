@@ -1,4 +1,4 @@
-import HeroKonsultasi from '@/components/ForumDiskusi/HeroKonsultasi'
+import HeroKonsultasi from '@/components/pages/ForumDiskusi/HeroKonsultasi'
 import React from 'react'
 
 const index = () => {

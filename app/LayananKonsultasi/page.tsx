@@ -1,4 +1,4 @@
-import LayananKonsul from '@/components/LayananKonsultasi/LayananKonsul'
+import LayananKonsul from '@/components/pages/LayananKonsultasi/LayananKonsul'
 import React from 'react'
 
 const page = () => {
