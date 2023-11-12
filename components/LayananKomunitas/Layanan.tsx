@@ -30,7 +30,7 @@ const Layanan = () => {
               </p>
             </div>
           </a>
-          <a href="#" className="bg-[#34b1b1] hover:bg-[#257d7d] h-[362px] w-[300px] rounded-2xl flex flex-col p-6 items-center">
+          <a href="/LayananKonsultasi" className="bg-[#34b1b1] hover:bg-[#257d7d] h-[362px] w-[300px] rounded-2xl flex flex-col p-6 items-center">
             <div>
               <div className="relative  w-[200px] h-[200px]">
                 <div className="object-fit">

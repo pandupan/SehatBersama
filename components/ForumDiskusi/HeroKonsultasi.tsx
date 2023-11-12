@@ -11,9 +11,9 @@ const HeroKonsultasi = () => {
           Jangan biarkan masalah kesehatan Anda semakin parah, segera konsultasikan dengan dokter untuk mendapatkan penanganan yang tepat.
           </p>
           <div>
-            <button className='px-10 py-2 bg-[#4bb6be] hover:bg-[#36858b] text-white text-md rounded-xl'>
+            <a href="/LayananKomunitas" className='px-10 py-2 bg-[#4bb6be] hover:bg-[#36858b] text-white text-md rounded-xl'>
               Gabung Komunitas
-            </button>
+            </a>
           </div>
         </div>
         <div className='relative w-[600px] h-[500px] mt-20'>
