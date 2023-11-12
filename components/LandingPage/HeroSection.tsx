@@ -22,7 +22,7 @@ const HeroSection = () => {
             dengan
           </h1>
           <h1 className='text-7xl font-semibold '>
-            SehatBersama
+            SehatBersama test
           </h1>
         </div>
       </div>
