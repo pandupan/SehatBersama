@@ -16,17 +16,21 @@ const Navbar = () => {
       {/* Desktop Nav */}
       <div className="hidden container lg:flex justify-between items-center">
         <div className="relative w-[75px] h-[60px]">
-          <Image
-            src="/image/MainIcon.png"
-            alt="Sehat Bersama Logo"
-            fill={true}
-          />
+          <Link href="/">          
+            <Image
+              src="/image/MainIcon.png"
+              alt="Sehat Bersama Logo"
+              fill={true}
+            />
+          </Link>
         </div>
         <div className="flex justify-between items-center w-1/2 text-lg">
           <Link href="/">Home</Link>
 
           <div className="relative flex justify-center items-center gap-2 group h-[75px]">
-            <p>Artikel</p>
+            <Link href="/Artikel">
+              <p>Artikel</p>
+            </Link>
             <BiChevronDown size={25} className="transform-gpu transition-transform group-hover:rotate-180"/>
             <div className="hidden group-hover:flex border absolute top-[77px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4 z-10 rounded-md">
               <Link href="/">
@@ -58,13 +62,15 @@ const Navbar = () => {
           </div>
 
           <div className="relative flex justify-center items-center gap-2 group h-[75px]">
-            <p>Layanan Diskusi</p>
+            <Link href="/ForumKomunitas">
+              <p>Layanan Diskusi</p>
+            </Link>
             <BiChevronDown size={25} className="transform-gpu transition-transform group-hover:rotate-180"/>
             <div className="hidden group-hover:flex border absolute top-[77px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4 z-10 rounded-md">
-              <Link href="/">
+              <Link href="/LayananKomunitas">
                 <div className="py-2 hover:text-blue-500">Forum Diskusi</div>
               </Link>
-              <Link href="/">
+              <Link href="/LayananKonsultasi">
                 <div className="py-2 hover:text-blue-500 whitespace-nowrap">Konsultasi</div>
               </Link>
             </div>
@@ -105,9 +111,9 @@ const Navbar = () => {
           <div className="w-full h-full px-[25px]">
             <ul className="space-y-5 text-lg my-6 px-1" onClick={() => setNav(!nav)}>
               <li><Link href="/">Home</Link></li>
-              <li><Link href="/">Artikel</Link></li>
+              <li><Link href="/Artikel">Artikel</Link></li>
               <li><Link href="/">Kalkulator</Link></li>
-              <li><Link href="/">Layanan Diskusi</Link></li>
+              <li><Link href="/ForumKomunitas">Layanan Diskusi</Link></li>
             </ul>
             <div className="w-full h-auto flex flex-col gap-4">
               <Button title="Mendaftar" />
