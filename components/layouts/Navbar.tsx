@@ -8,7 +8,9 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 import { useState } from 'react'
 
 const Navbar = () => {
+
   const [nav, setNav] = useState(true)
+  
   return (
     <nav className="fixed w-full h-[75px] flex items-center bg-white z-50">
       {/* Desktop Nav */}
@@ -22,7 +24,8 @@ const Navbar = () => {
         </div>
         <div className="flex justify-between items-center w-1/2 text-lg">
           <Link href="/">Home</Link>
-          <Link href="/" className="relative flex justify-center items-center gap-2 group h-[75px]">
+
+          <div className="relative flex justify-center items-center gap-2 group h-[75px]">
             <p>Artikel</p>
             <BiChevronDown size={25} className="transform-gpu transition-transform group-hover:rotate-180"/>
             <div className="hidden group-hover:flex border absolute top-[77px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4 z-10 rounded-md">
@@ -36,8 +39,9 @@ const Navbar = () => {
                 <div className="py-2 hover:text-blue-500 whitespace-nowrap">Asupan Kalori</div>
               </Link>
             </div>
-          </Link>
-          <Link href="/" className="relative flex justify-center items-center gap-2 group h-[75px]">
+          </div>
+
+          <div className="relative flex justify-center items-center gap-2 group h-[75px]">
             <p>Kalkulator</p>
             <BiChevronDown size={25} className="transform-gpu transition-transform group-hover:rotate-180"/>
             <div className="hidden group-hover:flex border absolute top-[77px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4 z-10 rounded-md">
@@ -51,8 +55,9 @@ const Navbar = () => {
                 <div className="py-2 hover:text-blue-500 whitespace-nowrap">Asupan Kalori</div>
               </Link>
             </div>
-          </Link>
-          <Link href="/" className="relative flex justify-center items-center gap-2 group h-[75px]">
+          </div>
+
+          <div className="relative flex justify-center items-center gap-2 group h-[75px]">
             <p>Layanan Diskusi</p>
             <BiChevronDown size={25} className="transform-gpu transition-transform group-hover:rotate-180"/>
             <div className="hidden group-hover:flex border absolute top-[77px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4 z-10 rounded-md">
@@ -63,7 +68,8 @@ const Navbar = () => {
                 <div className="py-2 hover:text-blue-500 whitespace-nowrap">Konsultasi</div>
               </Link>
             </div>
-          </Link>
+          </div>
+
         </div>
         <div className="">
           <Button title="Masuk" />
