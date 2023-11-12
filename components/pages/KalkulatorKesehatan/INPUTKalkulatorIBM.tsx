@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const KalkulatorIBM = () => {
   return (
-    <div className="flex flex-col h-[1100px] mb-24">
+    <div className="flex flex-col h-[1000px] mb-24">
       <div className="mt-10 flex flex-col bg-[#a7e9e6] w-full pt-16 pb-8 px-20  gap-4">
         <h1 className="text-3xl font-bold">Kalkulator Kesehatan</h1>
         <div className="text-[#9a8e8e] font-bold flex flex-row">
@@ -31,7 +31,7 @@ const KalkulatorIBM = () => {
                     <Image src="/image/pria.png" alt="Pria" fill={true} />
                   </div>
                 </div>
-                <h1 className="text-center mt-4 font-bold underline underline-offset-auto">
+                <h1 className="text-center mt-4 text-white font-bold underline underline-offset-auto">
                   Pria
                 </h1>
               </button>
@@ -43,7 +43,7 @@ const KalkulatorIBM = () => {
                     <Image src="/image/wanita.png" alt="Pria" fill={true} />
                   </div>
                 </div>
-                <h1 className="text-center mt-4 font-bold underline underline-offset-auto">
+                <h1 className="text-center mt-4 text-white font-bold underline underline-offset-auto">
                   Wanita
                 </h1>
               </button>
