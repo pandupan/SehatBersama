@@ -21,7 +21,7 @@ const Footer = () => {
           Sehat Bersama
         </h1>
 
-        <div className="justify-end lg:flex hidden flex-row gap-8 xl:mr-0 sm:mr-16 sm:my-0 my-2">
+        <div className="justify-end xl:flex hidden flex-row gap-8 xl:mr-0 sm:mr-16 sm:my-0 my-2">
           <a
             href=""
             className="xl:w-[300px]  w-[120px] h-[30px] sm:h-[44px] bg-white items-center flex justify-center rounded-md sm:rounded-xl"
