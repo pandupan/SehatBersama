@@ -9,10 +9,10 @@ import { useState } from 'react'
 
 const Navbar = () => {
 
-  const [nav, setNav] = useState(true)
+  const [nav, setNav] = useState(false)
   
   return (
-    <nav className="fixed w-full h-[75px] flex items-center bg-white z-50">
+    <nav className="fixed left-0 top-0 w-full h-[75px] flex items-center bg-white z-50">
       {/* Desktop Nav */}
       <div className="hidden container lg:flex justify-between items-center">
         <div className="relative w-[75px] h-[60px]">
