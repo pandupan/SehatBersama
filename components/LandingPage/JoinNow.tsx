@@ -9,10 +9,8 @@ const JoinNow = () => {
         </p>
       </div>
       <div className='mt-14'>
-        <button className='py-6 px-4 bg-[#4bb6be] hover:bg-[#30787d] rounded-xl'>
-            <h3 className='text-white text-2xl'>
+        <button className='py-6 px-4 bg-[#4bb6be] hover:bg-[#30787d] rounded-xl text-white text-2xl'>
               Bergabung Sekarang
-            </h3>
         </button>
       </div>
     </div>

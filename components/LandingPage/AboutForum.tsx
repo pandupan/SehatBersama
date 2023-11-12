@@ -18,27 +18,29 @@ const AboutForum = () => {
           />
         </div>
       </div>
-      <div className='flex flex-row bg-[#eaf8f6] w-full h-[400px] -mt-40 px-32 gap-10'>
-        <div className='flex flex-col mt-28 w-[278px] h-[467px] items-center'>
-          <div className='relative w-[278px] h-[367px] '>
-            <Image
-            src="/image/LayananKonsultasi.png"
-            alt="Layanan Diskusi"
-            fill={true}/>
+      <div className='flex flex-row bg-[#eaf8f6] w-full h-[400px] -mt-40  gap-10'>
+        <div className='container flex-row flex px-32 gap-10'>
+          <div className='flex flex-col mt-28 w-[278px] h-[467px] items-center'>
+            <div className='relative w-[278px] h-[367px] '>
+              <Image
+              src="/image/LayananKonsultasi.png"
+              alt="Layanan Diskusi"
+              fill={true}/>
+            </div>
+            <div className=' justify-center flex items-center'>
+              <h3 className='text-center mt-10 text-xl '>Layanan Konsultasi</h3>
+            </div>
           </div>
-          <div className=' justify-center flex items-center'>
-            <h3 className='text-center mt-10 text-xl '>Layanan Konsultasi</h3>
-          </div>
-        </div>
-        <div className='flex flex-col mt-28 w-[278px] h-[467px] items-center'>
-          <div className='relative w-[278px] h-[367px] '>
-            <Image
-            src="/image/ForumDisk.png"
-            alt="Layanan Diskusi"
-            fill={true}/>
-          </div>
-          <div className=' justify-center flex items-center'>
-            <h3 className='text-center mt-10 text-xl '>Forum Diskusi</h3>
+          <div className='flex flex-col mt-28 w-[278px] h-[467px] items-center'>
+            <div className='relative w-[278px] h-[367px] '>
+              <Image
+              src="/image/ForumDisk.png"
+              alt="Layanan Diskusi"
+              fill={true}/>
+            </div>
+            <div className=' justify-center flex items-center'>
+              <h3 className='text-center mt-10 text-xl '>Forum Diskusi</h3>
+            </div>
           </div>
         </div>
 
