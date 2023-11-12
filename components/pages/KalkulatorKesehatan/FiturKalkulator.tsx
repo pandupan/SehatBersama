@@ -54,7 +54,7 @@ const FiturKalkulator = () => {
           </div>
         </div>
         <div className="flex flex-col h-[500px]">
-          <a href="#" className=" h-[290px] bg-[#9cd7d4] hover:bg-[#76a3a1] rounded-2xl">
+          <a href="/KalkulatorKesehatan/KalkulatorBMR" className=" h-[290px] bg-[#9cd7d4] hover:bg-[#76a3a1] rounded-2xl">
             <div className="relative w-[250px] h-[250px]">
               <Image
                 src="/image/KalkulatorBMR.png"
@@ -64,7 +64,7 @@ const FiturKalkulator = () => {
             </div>
           </a>
           <div className="flex flex-col w-[230px] text-center">
-            <h3 className="font-medium text-xl py-4">Asupan Kalori</h3>
+            <h3 className="font-medium text-xl py-4">Kalkulator BMR</h3>
             <p className="font-medium text-xl text-[#736f6f]">
             Alat untuk mengetahui berapa banyak kalori dari asupan makanan yang dimakan
             </p>

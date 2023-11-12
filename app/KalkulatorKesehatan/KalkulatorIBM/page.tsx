@@ -1,4 +1,4 @@
-import INPUTKalkulatorIBM from '@/components/pages/KalkulatorKesehatan/INPUTKalkulatorIBMI'
+import INPUTKalkulatorIBM from '@/components/pages/KalkulatorKesehatan/INPUTKalkulatorIBM'
 import React from 'react'
 
 const page = () => {
