@@ -1,12 +1,11 @@
-'use client'
-
+import React from 'react'
 import Button from '@/components/core/Button'
 import Image from 'next/image'
-import React from 'react'
 
-function page() {
+
+const ArtikelDetail = () => {
   return (
-    <div className="mt-[75px] py-4 container mx-auto">
+<div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-2xl sm:text-4xl font-bold">
           Pentingnya Gizi yang Baik untuk Pertumbuhan Optimal Balita
@@ -91,4 +90,4 @@ function page() {
   )
 }
 
-export default page
+export default ArtikelDetail
