@@ -1,4 +1,4 @@
-import LoginPage from '@/components/pages/Auth/LoginPage'
+import LoginPage from '@/components/pages/AuthPage/LoginPage'
 import React from 'react'
 
 

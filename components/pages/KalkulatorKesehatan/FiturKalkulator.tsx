@@ -1,7 +1,13 @@
-import React from "react";
+'use client'
+
+import { useSession } from "next-auth/react";
 import Image from "next/image";
 
+
 const FiturKalkulator = () => {
+
+  const { data } : any = useSession();
+  
   return (
     <div className="flex flex-col h-[800px] mb-24">
       <div className="mt-10 flex flex-col bg-[#a7e9e6] w-full pt-16 pb-8 px-20  gap-4">

@@ -6,8 +6,12 @@ import Link from 'next/link'
 import { BiChevronDown } from 'react-icons/bi'
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
 import { useState } from 'react'
+import { signIn,signOut, useSession } from 'next-auth/react'
+
 
 const Navbar = () => {
+  const { data } : any = useSession();
+  console.log(data)
 
   const [nav, setNav] = useState(false)
   
@@ -79,8 +83,12 @@ const Navbar = () => {
           </div>
 
         </div>
-        <div className="">
-          <Button title="Masuk" />
+        <div>
+          {data ? (
+            <Button title="Keluar" onClick={() => signOut()} />
+          ) : (
+            <Button title="Masuk" onClick={() => signIn()} />
+          )}
         </div>
       </div>
       {/* End Desktop Nav */}
