@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 const KategoriArtikel = () => {
   return (
@@ -28,9 +29,9 @@ const KategoriArtikel = () => {
           </p>
           <div>
             <h3 className="flex justify-start">11 November 2023</h3>
-              <a href="#" className="text-gray-500 hover:text-blue-500 ">
-                Baca Selengkapnya ...
-              </a>
+            <a href="#" className="text-gray-500 hover:text-blue-500 ">
+              Baca Selengkapnya ...
+            </a>
           </div>
         </div>
       </div>
@@ -43,7 +44,9 @@ const KategoriArtikel = () => {
       <div className="p-8 flex flex-row bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col">
           <h1 className="font-bold text-xl">HIDUP SEHAT</h1>
-          <h3 className="font-bold text-md mt-2">Penyakit Diabetes Mellitus Tidak Mengenal Usia</h3>
+          <h3 className="font-bold text-md mt-2">
+            Penyakit Diabetes Mellitus Tidak Mengenal Usia
+          </h3>
           <p className="line-clamp-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab
             reprehenderit beatae fugiat. Aut eum impedit, provident unde
@@ -60,19 +63,18 @@ const KategoriArtikel = () => {
         <div>
           <div className="relative w-[261px] h-[181px] rounded-xl overflow-hidden">
             <div className="object-fit">
-              <Image
-              src='/image/artikel1.png'
-              alt='artikel1'
-              fill={true}/>
+              <Image src="/image/artikel1.png" alt="artikel1" fill={true} />
             </div>
           </div>
         </div>
       </div>
-       {/* ARTIKEL 1 */}
-       <div className="p-8 flex flex-row bg-white border-2 border-black rounded-2xl my-4 ">
+      {/* ARTIKEL 1 */}
+      <div className="p-8 flex flex-row bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col">
           <h1 className="font-bold text-xl">HIDUP SEHAT</h1>
-          <h3 className="font-bold text-md mt-2">Penyakit Diabetes Mellitus Tidak Mengenal Usia</h3>
+          <h3 className="font-bold text-md mt-2">
+            Penyakit Diabetes Mellitus Tidak Mengenal Usia
+          </h3>
           <p className="line-clamp-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab
             reprehenderit beatae fugiat. Aut eum impedit, provident unde
@@ -89,19 +91,18 @@ const KategoriArtikel = () => {
         <div>
           <div className="relative w-[261px] h-[181px] rounded-xl overflow-hidden">
             <div className="object-fit">
-              <Image
-              src='/image/artikel1.png'
-              alt='artikel1'
-              fill={true}/>
+              <Image src="/image/artikel1.png" alt="artikel1" fill={true} />
             </div>
           </div>
         </div>
       </div>
-       {/* ARTIKEL 1 */}
-       <div className="p-8 flex flex-row bg-white border-2 border-black rounded-2xl my-4 ">
+      {/* ARTIKEL 1 */}
+      <div className="p-8 flex flex-row bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col">
           <h1 className="font-bold text-xl">HIDUP SEHAT</h1>
-          <h3 className="font-bold text-md mt-2">Penyakit Diabetes Mellitus Tidak Mengenal Usia</h3>
+          <h3 className="font-bold text-md mt-2">
+            Penyakit Diabetes Mellitus Tidak Mengenal Usia
+          </h3>
           <p className="line-clamp-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab
             reprehenderit beatae fugiat. Aut eum impedit, provident unde
@@ -118,19 +119,18 @@ const KategoriArtikel = () => {
         <div>
           <div className="relative w-[261px] h-[181px] rounded-xl overflow-hidden">
             <div className="object-fit">
-              <Image
-              src='/image/artikel1.png'
-              alt='artikel1'
-              fill={true}/>
+              <Image src="/image/artikel1.png" alt="artikel1" fill={true} />
             </div>
           </div>
         </div>
       </div>
-       {/* ARTIKEL 1 */}
-       <div className="p-8 flex flex-row bg-white border-2 border-black rounded-2xl my-4 ">
+      {/* ARTIKEL 1 */}
+      <div className="p-8 flex flex-row bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col">
           <h1 className="font-bold text-xl">HIDUP SEHAT</h1>
-          <h3 className="font-bold text-md mt-2">Penyakit Diabetes Mellitus Tidak Mengenal Usia</h3>
+          <h3 className="font-bold text-md mt-2">
+            Penyakit Diabetes Mellitus Tidak Mengenal Usia
+          </h3>
           <p className="line-clamp-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab
             reprehenderit beatae fugiat. Aut eum impedit, provident unde
@@ -147,13 +147,29 @@ const KategoriArtikel = () => {
         <div>
           <div className="relative w-[261px] h-[181px] rounded-xl overflow-hidden">
             <div className="object-fit">
-              <Image
-              src='/image/artikel1.png'
-              alt='artikel1'
-              fill={true}/>
+              <Image src="/image/artikel1.png" alt="artikel1" fill={true} />
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
+        <button>
+          <AiOutlineLeft size={40} />
+        </button>
+        <div className="flex flex-row text-5xl gap-20 border-x-2 px-10 border-black">
+          <a href="#" className="text-black hover:text-blue-500">
+            1
+          </a>
+          <a href="#" className="text-black hover:text-blue-500">
+            2
+          </a>
+          <a href="#" className="text-black hover:text-blue-500">
+            3
+          </a>
+        </div>
+        <button>
+          <AiOutlineRight size={40} />
+        </button>
       </div>
     </div>
   );
