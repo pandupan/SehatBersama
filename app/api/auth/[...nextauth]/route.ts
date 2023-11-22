@@ -13,19 +13,22 @@ const authOption: NextAuthOptions = {
             credentials:{
                 fullname : {label : "Full Name", type : "text"},
                 email : {label : "Email", type : "email"},
-                password : {label : "Password", type : "password"}
+                password : {label : "Password", type : "password"},
+                handphone : {label : "Handphone", type : "handphone"}
             },
             async authorize(credentials : any ){
-                const {email, password, fullname} = credentials as {
+                const {email, password, fullname, handphone} = credentials as {
                     fullname : string;
                     email : string;
                     password : string;
+                    handphone : string;
                 };
                 const user : any = {
                     id : 1,
                     fullname : fullname,
                     email : email,
-                    password : password
+                    handphone : handphone,
+                    password : password,
                 };
                 if(user){
                     // console.log(user);
@@ -62,4 +65,4 @@ const handler = NextAuth(authOption)
 
 export {
     handler as GET, handler as POST
-};
+}; 
