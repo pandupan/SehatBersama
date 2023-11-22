@@ -126,7 +126,9 @@ const Navbar = () => {
               <li><Link href="/ForumKomunitas">Layanan Diskusi</Link></li>
             </ul>
             <div className="w-full h-auto flex flex-col gap-4">
-              <Button title="Mendaftar" />
+              <Link className='w-full h-auto flex flex-col' href="/register">
+                <Button title="Mendaftar" />
+              </Link>
               <Button title="Masuk" />
             </div>
           </div>

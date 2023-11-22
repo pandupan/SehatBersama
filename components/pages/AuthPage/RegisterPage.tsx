@@ -40,7 +40,7 @@ const RegisterPage = () => {
   }
 
   return (
-    <div className="mt-20 flex flex-row justify-center ">
+    <div className="mt-20 flex flex-row justify-center "> 
 
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col px-20">
