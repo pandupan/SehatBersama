@@ -8,4 +8,12 @@ export function mainMiddleware(request: NextRequest) {
 
 }
 
-export default withAuth(mainMiddleware,["/KalkulatorKesehatan","/ForumKomunitas","/LayananKomunitas","/LayananKonsultasi"])
+export default withAuth(mainMiddleware,[
+  "/KalkulatorKesehatan",
+  "/ForumKomunitas",
+  "/LayananKomunitas",
+  "/LayananKonsultasi",
+  "/AsupanAir",
+  "/KalkulatorBMR",
+  "/KalkulatorIBM"
+])
