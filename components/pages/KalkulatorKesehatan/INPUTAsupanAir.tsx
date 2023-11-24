@@ -34,7 +34,7 @@ const INPUTAsupanAir = () => {
           <div>
             <h3 className="font-semibold text-xl">Berat Badan</h3>
             <input
-              className="ml-2 p-2 border border-gray-300 rounded w-[300px]"
+              className="ml-2 p-2 border border-gray-300 rounded w-[300px] text-black"
               type="text"
               placeholder="Masukkan Berat Badan Anda"
             />

@@ -22,7 +22,9 @@ export default function RootLayout({
       <body className={poppins.className}>
         <ProviderWrapper>
             <Navbar/>
+            <div className='overflow-hidden'>
               {children}
+            </div>
             <Footer/>
         </ProviderWrapper>
       </body>
