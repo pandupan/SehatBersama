@@ -16,7 +16,7 @@ const HeroKonsultasi = () => {
             </a>
           </div>
         </div>
-        <div className='relative lg:w-[600px] xl:h-[500px] lg:h-[400px] sm:h-[250px] sm:w-[400px] w-[200px] h-[170px] mt-20'>
+        <div className='relative lg:w-[600px] xl:h-[500px] lg:h-[400px] sm:h-[250px] sm:w-[400px] w-[250px] h-[170px] mt-20'>
           <Image
           src="/image/KonsulDokter.png"
           alt='Konsultasi'
