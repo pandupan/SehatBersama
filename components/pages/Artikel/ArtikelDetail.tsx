@@ -29,8 +29,8 @@ const ArtikelDetail = () => {
                     </span>
                 </div>
             </div>
-            <div className="my-auto">
-                <Button title="Kembali?"/>
+            <div className="my-auto sm:flex hidden">
+                <Button title="Kembali"/>
             </div>
         </div>
       </div>
