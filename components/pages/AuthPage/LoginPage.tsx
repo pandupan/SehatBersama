@@ -36,39 +36,41 @@ const LoginPage = () => {
 
   return (
     <div className="mt-20 flex flex-row justify-center "> 
-      <div className="flex flex-col px-20">
+      <div className="flex flex-col px-20 ">
       {error && <p className="text-red-500">{error}</p>}
         <h1 className="text-4xl font-bold mb-10 text-center">Login</h1>
         <form className="flex flex-col gap-4" onSubmit={handleLogin}>
-          <div className="flex flex-col gap-2">
-            <h3 className="font-semibold text-xl">Email</h3>
-            <input
-              className="p-2 border-2 border-[#4bb6be] rounded "
-              type="email"
-              id="email" 
-              name="email"
-              placeholder="Masukkan Email Anda"
-            />
-          </div>
-          <div className="flex flex-col gap-2 mt-4">
-            <h3 className="font-semibold text-xl">Password</h3>
-            <input
-              className="p-2 border-2 border-[#4bb6be] rounded "
-              type="password" 
-              id="password" 
-              name="password"
-              placeholder="Masukkan Password Anda"
-            />
-          </div>
-          <div className="flex flex-col gap-2 mt-4 justify-center items-center px-32">
-            <div className="flex justify-center">
-              <button 
-                className="bg-[#4bb6be] text-center text-white p-2 py-2 px-10"
-                type='submit'
-                disabled={isLoading}
-              >
-                {isLoading?"Loading...":"Login"}
-              </button>
+          <div className="flex flex-col justify-center items-center sm:items-stretch">
+            <div className="flex flex-col gap-2">
+              <h3 className="font-semibold text-xl">Email</h3>
+              <input
+                className="p-2 border-2 border-[#4bb6be] rounded "
+                type="email"
+                id="email" 
+                name="email"
+                placeholder="Masukkan Email Anda"
+              />
+            </div>
+            <div className="flex flex-col gap-2 mt-4">
+              <h3 className="font-semibold text-xl">Password</h3>
+              <input
+                className="p-2 border-2 border-[#4bb6be] rounded "
+                type="password" 
+                id="password" 
+                name="password"
+                placeholder="Masukkan Password Anda"
+              />
+            </div>
+            <div className="flex flex-col gap-2 mt-4 justify-center items-center px-32">
+              <div className="flex justify-center">
+                <button 
+                  className="bg-[#4bb6be] text-center text-white p-2 py-2 px-10"
+                  type='submit'
+                  disabled={isLoading}
+                >
+                  {isLoading?"Loading...":"Login"}
+                </button>
+              </div>
             </div>
           </div>
         </form>
@@ -86,9 +88,11 @@ const LoginPage = () => {
           </a>
         </div>
       </div>
-      <div className="relative w-full h-[500px] overflow-hidden">
-        <div className="object-cover w-full h-full">
-          <Image src="/image/HeroSection.png" alt="login" layout="fill" />
+      <div className="relative overflow-hidden lg:flex hidden">
+        <div className="overflow-hidden w-[1000px]">
+          <div className="object-contain">
+            <Image src="/image/HeroSection.png" alt="register" fill={true} />
+          </div>
         </div>
       </div>
     </div>
