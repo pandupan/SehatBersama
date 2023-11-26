@@ -38,13 +38,13 @@ const LoginPage = () => {
     <div className="mt-20 flex flex-row justify-center "> 
       <div className="flex flex-col px-20 ">
       {error && <p className="text-red-500">{error}</p>}
-        <h1 className="text-4xl font-bold mb-10 text-center">Login</h1>
+        <h1 className="sm:text-4xl text-3xl font-bold sm:mb-10 mb-8 text-center">Login</h1>
         <form className="flex flex-col gap-4" onSubmit={handleLogin}>
           <div className="flex flex-col justify-center items-center sm:items-stretch">
             <div className="flex flex-col gap-2">
-              <h3 className="font-semibold text-xl">Email</h3>
+              <h3 className="font-semibold text-sm sm:text-xl">Email</h3>
               <input
-                className="p-2 border-2 border-[#4bb6be] rounded "
+                className="p-2 border-2 border-[#4bb6be] rounded sm:w-auto w-[250px] sm:text-base text-sm"
                 type="email"
                 id="email" 
                 name="email"
@@ -52,9 +52,9 @@ const LoginPage = () => {
               />
             </div>
             <div className="flex flex-col gap-2 mt-4">
-              <h3 className="font-semibold text-xl">Password</h3>
+              <h3 className="font-semibold text-sm sm:text-xl">Password</h3>
               <input
-                className="p-2 border-2 border-[#4bb6be] rounded "
+                className="p-2 border-2 border-[#4bb6be] rounded sm:w-auto w-[250px] sm:text-base text-sm"
                 type="password" 
                 id="password" 
                 name="password"
@@ -64,7 +64,7 @@ const LoginPage = () => {
             <div className="flex flex-col gap-2 mt-4 justify-center items-center px-32">
               <div className="flex justify-center">
                 <button 
-                  className="bg-[#4bb6be] text-center text-white p-2 py-2 px-10"
+                  className="bg-[#4bb6be] text-center text-white p-2 py-2 px-10 sm:text-base text-sm"
                   type='submit'
                   disabled={isLoading}
                 >
@@ -75,11 +75,11 @@ const LoginPage = () => {
           </div>
         </form>
         <div className="flex flex-col gap-2 mt-4 border-b border-black py-4">
-          <button className="text-[#4bb6be] hover:underline">
+          <button className="text-[#4bb6be] sm:text-base text-sm hover:underline">
             Lupa Password?
           </button>
         </div>
-        <div className="flex flex-col gap-2 mt-4  py-4">
+        <div className="flex flex-col gap-2 mt-4  sm:text-base text-sm py-4">
           <p className="justify-center text-center items-center ">
             Belum Punya Akun ?
           </p>

@@ -43,14 +43,14 @@ const RegisterPage = () => {
       <div className="flex flex-col">
         <form onSubmit={handleSubmit}>
           <div className="flex flex-col px-10 justify-center items-center sm:items-stretch xl:px-20">
-            <h1 className="sm:text-4xl text-2xl font-bold mb-10 text-center">Register</h1>
+            <h1 className="sm:text-4xl text-3xl font-bold sm:mb-10 mb-8 text-center">Register</h1>
             {error && <p className="text-red-500">{error}</p>}
 
             {/* Input Nama */}
             <div className="flex flex-col gap-2">
-              <h3 className="font-semibold text-xl">Nama</h3>
+              <h3 className="font-semibold text-sm sm:text-xl">Nama</h3>
               <input
-                className="p-2 border-2 border-[#4bb6be] rounded "
+                className="p-2 border-2 border-[#4bb6be] rounded sm:w-auto w-[250px] sm:text-base text-sm"
                 type="text"
                 id="fullname"
                 name="fullname"
@@ -61,22 +61,22 @@ const RegisterPage = () => {
 
             {/* Input Email */}
             <div className="flex flex-col gap-2 mt-4">
-              <h3 className="font-semibold text-xl">Email</h3>
+              <h3 className="font-semibold text-sm sm:text-xl">Email</h3>
               <input
                 type="email"
                 name="email"
                 id="email"
                 required
-                className="p-2 border-2 border-[#4bb6be] rounded "
+                className="p-2 border-2 border-[#4bb6be] rounded sm:w-auto w-[250px] sm:text-base text-sm"
                 placeholder="Masukkan Email Anda"
               />
             </div>
 
             {/* Input Nomor HP */}
             <div className="flex flex-col gap-2 mt-4">
-              <h3 className="font-semibold text-xl">Nomor HP</h3>
+              <h3 className="font-semibold text-sm sm:text-xl">Nomor HP</h3>
               <input
-                className="p-2 border-2 border-[#4bb6be] rounded "
+                className="p-2 border-2 border-[#4bb6be] rounded sm:w-auto w-[250px] sm:text-base text-sm"
                 id="handphone"
                 name="handphone"
                 type="text"
@@ -87,13 +87,13 @@ const RegisterPage = () => {
 
             {/* Input Password */}
             <div className="flex flex-col gap-2 mt-4">
-              <h3 className="font-semibold text-xl">Password</h3>
+              <h3 className="font-semibold text-sm sm:text-xl">Password</h3>
               <input
                 id="password"
                 name="password"
                 type="password"
                 required
-                className="p-2 border-2 border-[#4bb6be] rounded "
+                className="p-2 border-2 border-[#4bb6be] rounded sm:w-auto w-[250px] sm:text-base text-sm"
                 placeholder="Masukkan Password Anda"
               />
             </div>
@@ -101,7 +101,7 @@ const RegisterPage = () => {
               <div className="flex justify-center">
                 <button
                   type="submit"
-                  className="bg-[#4bb6be] text-center text-white p-2 py-2 px-10"
+                  className="bg-[#4bb6be] text-center text-white p-2 py-2 px-10 sm:text-base text-sm"
                   disabled={isLoading}
                 >
                   {isLoading ? "Loading..." : "Register"}
@@ -110,7 +110,7 @@ const RegisterPage = () => {
             </div>
           </div>
         </form>
-        <div className="flex flex-row justify-center gap-2 mt-4  py-4">
+        <div className="flex flex-row sm:text-base text-sm justify-center gap-2 mt-4  py-4">
           <p className="">Sudah Punya Akun?</p>
           <Link href="/login">
             <button className="text-[#4bb6be] hover:underline">Masuk</button>

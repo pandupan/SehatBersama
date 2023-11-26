@@ -2,9 +2,9 @@ import React from "react";
 
 const OUTPUTKalkulatorBMR = () => {
   return (
-    <div className="flex flex-col container  pt-20 pb-40 px-20">
+    <div className="flex flex-col container  lg:py-40 sm:py-20 sm:mb-0 mb-10 sm:px-20">
       <div className="border-2 border-gray-100 rounded-t-2xl p-10 flex flex-col">
-        <p className="text-2xl border rounded-2xl py-2 px-4 mt-4 text-center font-semibold">
+        <p className="sm:text-2xl border rounded-2xl py-2 px-4 mt-4 text-center font-semibold">
           Berdasarkan informasi yang Anda berikan, hasil kalkulasi BMR Anda
           adalah [Nilai BMR] kalori per hari.
         </p>
@@ -21,7 +21,7 @@ const OUTPUTKalkulatorBMR = () => {
       </div>
       <a
         href="/KalkulatorKesehatan"
-        className="px-10 py-4 bg-[#4bb6be] text-white text-center rounded-b-2xl"
+        className="px-10 py-4 bg-[#4bb6be] text-white text-center sm:text-base text-xs rounded-b-2xl"
       >
         CEK KESEHATAN LAINNYA
       </a>

@@ -10,7 +10,7 @@ const FiturKalkulator = () => {
   
   return (
     <div className="flex flex-col lg:h-[800px] h-[600px] lg:mb-24">
-      <div className="mt-10 flex flex-col bg-[#a7e9e6] w-full pt-16 pb-8 lg:px-20 px-8  lg:gap-4 sm:gap-2">
+      <div className="mt-10 flex flex-col bg-[#a7e9e6] w-full pt-16 pb-8 lg:px-20 px-4  lg:gap-4 sm:gap-2">
         <h1 className="lg:text-3xl sm:text-xl  font-bold">
           Kalkulator Kesehatan
         </h1>
@@ -37,8 +37,7 @@ const FiturKalkulator = () => {
           <div className="flex flex-col sm:w-[150px] lg:w-[230px] text-center">
             <h3 className="font-medium lg:text-xl sm:text-base text-xs py-4">Kalkulator IBM</h3>
             <p className="font-medium sm:text-sm lg:text-xl text-xs text-[#736f6f]">
-              Alat skrining mandiri yang bisa dilakukan untuk mengontrol Body
-         gap-2      Mass Index
+              Alat skrining mandiri yang bisa dilakukan untuk mengontrol Body Mass Index
             </p>
           </div>
         </div>
@@ -55,7 +54,7 @@ const FiturKalkulator = () => {
           <div className="flex flex-col sm:w-[150px] lg:w-[230px] text-center">
             <h3 className="font-medium lg:text-xl sm:text-base text-xs py-4">Asupan Air</h3>
             <p className="font-medium sm:text-sm lg:text-xl text-xs text-[#736f6f]">
-            Alat Mandiri Pengontrol asupan air yang dibutuhgap-2 kan sehari-hari
+            Alat Mandiri Pengontrol asupan air yang dibutuhkan sehari-hari
             </p>
           </div>
         </div>

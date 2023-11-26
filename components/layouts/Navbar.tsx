@@ -146,7 +146,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/Informasi Kesehatan">Informasi Kesehatan</Link>
+              <Link href="/InformasiKesehatan">Informasi Kesehatan</Link>
             </li>
             <li>
               <Link href="/KalkulatorKesehatan">Kalkulator</Link>

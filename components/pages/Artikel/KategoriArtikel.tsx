@@ -44,7 +44,37 @@ const KategoriArtikel = () => {
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">HIDUP SEHAT</h1>
-          <h3 className="font-bold sm:text-md text-xs sm:mt-2 mt-1">
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+            Penyakit Diabetes Mellitus Tidak Mengenal Usia
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab
+            reprehenderit beatae fugiat. Aut eum impedit, provident unde
+            temporibus, minima natus voluptatibus explicabo necessitatibus enim
+            neque iure quasi molestias et.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">11 November 2023</h2>
+          <div>
+            <a href="/InformasiKesehatan/KategoriArtikel/Artikel" className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1">
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <Image src="/image/artikel1.png" alt="artikel1" fill={true} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* ARTIKEL 2 */}
+      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">HIDUP SEHAT</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
             Penyakit Diabetes Mellitus Tidak Mengenal Usia
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
@@ -70,11 +100,11 @@ const KategoriArtikel = () => {
           </div>
         </div>
       </div>
-      {/* ARTIKEL 1 */}
+      {/* ARTIKEL 3 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">HIDUP SEHAT</h1>
-          <h3 className="font-bold sm:text-md text-xs sm:mt-2 mt-1">
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
             Penyakit Diabetes Mellitus Tidak Mengenal Usia
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
@@ -100,41 +130,11 @@ const KategoriArtikel = () => {
           </div>
         </div>
       </div>
-      {/* ARTIKEL 1 */}
+      {/* ARTIKEL 4 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">HIDUP SEHAT</h1>
-          <h3 className="font-bold sm:text-md text-xs sm:mt-2 mt-1">
-            Penyakit Diabetes Mellitus Tidak Mengenal Usia
-          </h3>
-          <p className="line-clamp-2 sm:text-base text-xs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab
-            reprehenderit beatae fugiat. Aut eum impedit, provident unde
-            temporibus, minima natus voluptatibus explicabo necessitatibus enim
-            neque iure quasi molestias et.
-          </p>
-          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">11 November 2023</h2>
-          <div>
-            <a href="#" className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1">
-              Baca Selengkapnya ...
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="flex items-center justify-center">
-            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
-              <div className="object-fit">
-                <Image src="/image/artikel1.png" alt="artikel1" fill={true} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* ARTIKEL 1 */}
-      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
-        <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">HIDUP SEHAT</h1>
-          <h3 className="font-bold sm:text-md text-xs sm:mt-2 mt-1">
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
             Penyakit Diabetes Mellitus Tidak Mengenal Usia
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
@@ -161,10 +161,10 @@ const KategoriArtikel = () => {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
-        <button className="sm:flex hidden">
+        <button title="leftbig" className="sm:flex hidden">
           <AiOutlineLeft size={40} />
         </button>
-        <button className="flex sm:hidden">
+        <button title="leftsmall" className="flex sm:hidden">
           <AiOutlineLeft size={20} />
         </button>
         <div className="flex flex-row sm:text-5xl text-2xl sm:gap-20 gap-10 border-x-2 px-10 border-black">
@@ -178,10 +178,10 @@ const KategoriArtikel = () => {
             3
           </a>
         </div>
-        <button className="sm:flex hidden">
+        <button title="rightbig" className="sm:flex hidden">
           <AiOutlineRight size={40} />
         </button>
-        <button className="flex sm:hidden">
+        <button title="rightsmall" className="flex sm:hidden">
           <AiOutlineRight size={20} />
         </button>
       </div>

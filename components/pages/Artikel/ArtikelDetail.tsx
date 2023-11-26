@@ -7,7 +7,7 @@ const ArtikelDetail = () => {
   return (
 <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
-        <h1 className="text-2xl sm:text-4xl font-bold">
+        <h1 className="text-lg sm:text-4xl font-bold">
           Pentingnya Gizi yang Baik untuk Pertumbuhan Optimal Balita
         </h1>
         <div className="flex items-centerjustify-between">
@@ -29,8 +29,10 @@ const ArtikelDetail = () => {
                     </span>
                 </div>
             </div>
-            <div className="my-auto sm:flex hidden">
-                <Button title="Kembali"/>
+            <div className="my-auto">
+                <a href="/InformasiKesehatan/KategoriArtikel" className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2">
+                  Kembali
+                </a>
             </div>
         </div>
       </div>
