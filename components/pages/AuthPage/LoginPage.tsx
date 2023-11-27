@@ -90,9 +90,7 @@ const LoginPage = () => {
       </div>
       <div className="relative overflow-hidden lg:flex hidden">
         <div className="overflow-hidden w-[1000px]">
-          <div className="object-contain">
-            <Image src="/image/HeroSection.png" alt="register" fill={true} />
-          </div>
+            <Image src="/image/HeroSection.png" alt="register" fill={true} className="object-cover" />
         </div>
       </div>
     </div>
