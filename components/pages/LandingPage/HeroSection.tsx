@@ -8,7 +8,8 @@ const HeroSection = () => {
         <Image
         src="/image/HeroSection.png"
         alt="HeroSection"
-        fill={true} />
+        fill={true} 
+        className='object-cover'/>
       </div>
       <div className='relative container'>
         <div className='absolute w-[200px] sm:w-[400px] lg:w-[600px] h-[155px] sm:h-[255px] lg:h-[370px] text-white bg-[#4bb6be] -top-24 sm:-top-32 lg:-top-60 left-2 lg:left-20 sm:p-10 p-4 flex flex-col gap-8'>
