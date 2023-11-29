@@ -23,13 +23,13 @@ const HalamanInformasi = () => {
           <div className="flex flex-row sm:gap-20 gap-2 rounded-2xl lg:px-10 sm:px-6 px-2 sm:py-4 py-2 bg-[#4bb6be]">
             <div className="flex flex-col gap-4">
               <a
-                href="/InformasiKesehatan/KategoriArtikel"
+                href="/InformasiKesehatan/HidupSehat"
                 className="sm:text-base text-xs  font-semibold sm:font-bold text-white hover:text-[#207183]"
               >
                 HIDUP SEHAT
               </a>
               <a
-                href="#"
+                href="/InformasiKesehatan/KesehatanMental"
                 className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
               >
                 KESEHATAN MENTAL
@@ -37,13 +37,13 @@ const HalamanInformasi = () => {
             </div>
             <div className="flex flex-col gap-4">
               <a
-                href="#"
+                href="/InformasiKesehatan/Kehamilan"
                 className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
               >
                 KEHAMILAN
               </a>
               <a
-                href="#"
+                href="/InformasiKesehatan/NutrisiDanDiet"
                 className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
               >
                 NUTRISI DAN DIET
@@ -51,13 +51,13 @@ const HalamanInformasi = () => {
             </div>
             <div className="flex flex-col gap-4">
               <a
-                href="#"
+                href="/InformasiKesehatan/Penyakit"
                 className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
               >
                 PENYAKIT
               </a>
               <a
-                href="#"
+                href="/InformasiKesehatan/GiziDanSuplemen"
                 className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
               >
                 GIZI DAN SUPLEMEN
@@ -79,7 +79,7 @@ const HalamanInformasi = () => {
           </div>
           <div className="flex flex-row gap-10">
             <a
-              href="/InformasiKesehatan/KategoriArtikel"
+              href="/InformasiKesehatan/HidupSehat"
               className="flex flex-col w-[240px] sm:w-[300px]"
             >
               <div className="relative overflow-hidden bg-[#34b1b1] rounded-xl sm:h-[150px] sm:w-[300px] h-[120px] w-[220px]  flex flex-col p-6 items-center">
@@ -104,7 +104,7 @@ const HalamanInformasi = () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/InformasiKesehatan/KesehatanMental"
               className="hidden sm:flex flex-col w-[240px] sm:w-[300px] "
             >
               <div className="relative overflow-hidden bg-[#34b1b1] rounded-xl sm:h-[150px] sm:w-[300px] h-[120px] w-[220px] flex flex-col p-6 items-center">
@@ -129,7 +129,7 @@ const HalamanInformasi = () => {
               </div>
             </a>
             <a
-              href="#"
+              href="/InformasiKesehatan/Kehamilan"
               className="hidden sm:flex flex-col w-[240px] sm:w-[300px]"
             >
               <div className="relative overflow-hidden bg-[#34b1b1] rounded-xl sm:h-[150px] sm:w-[300px] h-[120px] w-[220px] flex flex-col p-6 items-center">
