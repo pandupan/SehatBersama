@@ -104,10 +104,13 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-          Penyebab Sendi Geser dan Cara Menanganinya dengan Tepat
+            Penyebab Sendi Geser dan Cara Menanganinya dengan Tepat
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-          Sendi geser adalah keadaan di mana tulang bergeser dari tempat perlekatannya pada sendi yang disebabkan dari kecelakaan, olahraga, faktor usia dan faktor keturunan. Kondisi ini bisa diatasi dengan reposisi, imobilisasi, hingga operasi.
+            Sendi geser adalah keadaan di mana tulang bergeser dari tempat
+            perlekatannya pada sendi yang disebabkan dari kecelakaan, olahraga,
+            faktor usia dan faktor keturunan. Kondisi ini bisa diatasi dengan
+            reposisi, imobilisasi, hingga operasi.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
             11 November 2023
@@ -141,16 +144,18 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Cemas? Ini 10 Cara untuk Mengatasinya
+            Sakit Gigi Tak Kunjung Sembuh, Ini Penyebab dan Cara Mengatasinya
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Saat kita punya perasaan takut, khawatir, atau gelisah yang timbul
-            akibat adanya ancaman atau masalah yang tidak pasti, itulah yang
-            disebut dengan cemas. Cemas adalah reaksi alami tubuh, membantu kita
-            beradaptasi dengan situasi yang menantang atau berbahaya. Tapi,
-            kalau cemasnya terlalu sering, berlebihan, atau mengganggu aktivitas
-            sehari-hari, maka bisa jadi itu adalah tanda gangguan kecemasan.
-            Jadi kalau kita cemasnya itu wajar-wajar aja, tak perlu khawatir.
+            Sakit gigi tak kunjung sembuh bisa disebabkan oleh infeksi di gigi.
+            Jika gigi tidak segera dirawat ke dokter gigi, maka rasa sakit bisa
+            terus timbul meski bisa mereda sementara saat minum obat sakit gigi.
+            Sakit gigi bisa cuma dirasakan sebentar, tapi bisa juga dirasakan
+            terus menerus. Sakit gigi yang tidak kunjung sembuh ini tentu
+            mengganggu, jadi kamu perlu tahu juga cara mengatasinya. Biasanya,
+            jika rasa nyeri tidak kunjung hilang meski kamu sudah minum obat,
+            itu tandanya tindakan perawatan dari dokter perlu segera kamu
+            dapatkan.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
             10 November 2023
@@ -184,13 +189,18 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Memahami PENYAKIT dan Cara Menjaganya
+            Penyebab Napas Pendek dan Cara Mengatasinya
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Seperti halnya kesehatan fisik, PENYAKIT juga tidak boleh luput dari
-            perhatianmu, lho. Jika PENYAKIT terganggu, kondisi fisik dan
-            kualitas hidupmu juga bisa menurun. Untuk mengetahui lebih jauh
-            mengenai PENYAKIT, mari simak ulasan berikut ini.
+            Penyakit jantung bisa menyebabkan napas jadi pendek-pendek. Saat
+            seseorang mengalami gangguan jantung, jantung tidak cukup kuat
+            memompa darah dengan baik, sehingga fungsi pernapasan tidak
+            maksimal. Napas pendek normal jika dialami oleh orang yang baru saja
+            melakukan olahraga intens, mengalami perubahan suhu secara drastis,
+            atau berada di ketinggian. Namun, jika kamu mengalaminya hampir
+            setiap saat, bahkan saat beraktivitas ringan atau sedang
+            beristirahat, bisa jadi ada gangguan kesehatan yang perlu
+            diwaspadai.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
             18 November 2023
