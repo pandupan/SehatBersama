@@ -1,10 +1,21 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import Link from "next/link";
+import { cardousel } from "@/lib/image";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const HalamanInformasi = () => {
   return (
-    <div className=" to-white w-full h-[700px] sm:pb-24 ">
+    <div className=" to-white w-full h-[1000px] sm:pb-24 ">
       <div className="flex flex-col  container ">
         <div className="flex flex-col mt-28  text-justify">
           <h1 className="text-center lg:text-4xl sm:text-2xl text-xl font-bold">
@@ -66,7 +77,7 @@ const HalamanInformasi = () => {
           </div>
         </div>
         {/* CROUSEL */}
-        <div className="relative w-full mt-10 flex flex-row justify-center items-center sm:gap-10 gap-2">
+        {/* <div className="relative w-full mt-10 flex flex-row justify-center items-center sm:gap-10 gap-2">
           <div className="sm:flex hidden">
             <button title="left">
               <AiOutlineLeft size={50} />
@@ -85,7 +96,7 @@ const HalamanInformasi = () => {
               <div className="relative overflow-hidden bg-[#34b1b1] rounded-xl sm:h-[150px] sm:w-[300px] h-[120px] w-[220px]  flex flex-col p-6 items-center">
                 <div className="object-fit">
                   <Image
-                    src="/image/hidupsehat.png"
+                    src="/image/hidupsehat.png" 
                     alt="hidupsehat"
                     fill={true}
                   />
@@ -164,6 +175,55 @@ const HalamanInformasi = () => {
               <AiOutlineRight size={30} />
             </button>
           </div>
+        </div> */}
+        <div className="relative w-full mt-10 flex flex-row justify-center items-center gap-2">
+          <Swiper
+            navigation
+            pagination={{ type: "fraction" }}
+            modules={[Navigation, Pagination, Autoplay]}
+            autoplay={{ delay: 3000 }}
+            breakpoints={{
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              768: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+            }}
+            className=" w-full rounded-lg text-[#4bb6be] flex justify-center items-center"
+          >
+            {cardousel.map((image, index) => (
+              <SwiperSlide key={index}>
+                <a
+                  href={image.link}
+                  className="flex flex-col w-[240px] sm:w-[300px] mx-auto"
+                >
+                  <div className="relative overflow-hidden bg-[#34b1b1] rounded-xl sm:h-[150px] sm:w-[300px] h-[120px] w-[220px]  flex flex-col p-6 items-center">
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      fill={true}
+                      className="block h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="sm:mt-4">
+                    <h1 className="text-[#145782] font-semibold text-lg sm:text-2xl">
+                      {image.title}
+                    </h1>
+                    <p className="sm:text-sm text-xs sm:mt-4 mt-2 line-clamp-2 text-[#145782]">
+                      {image.desk}
+                    </p>
+                  </div>
+                </a>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </div>
