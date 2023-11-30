@@ -1,12 +1,10 @@
-import INPUTKalkulatorBMR from '@/components/pages/KalkulatorKesehatan/INPUTKalkulatorBMR'
-import OUTPUTKalkulatorBMR from '@/components/pages/KalkulatorKesehatan/OUTPUTKalkulatorBMR'
+import InputOutputBMR from '@/components/pages/KalkulatorKesehatan/InputOutputBMR'
 import React from 'react'
 
 const page = () => {
   return (
   <>
-  <INPUTKalkulatorBMR/>
-  <OUTPUTKalkulatorBMR/>
+    <InputOutputBMR/>
   </>
   )
 }

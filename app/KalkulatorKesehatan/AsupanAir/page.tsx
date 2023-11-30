@@ -1,13 +1,11 @@
-import INPUTAsupanAir from '@/components/pages/KalkulatorKesehatan/INPUTAsupanAir'
-import OUTPUTAsupanAir from '@/components/pages/KalkulatorKesehatan/OUTPUTAsupanAir'
+import InputOutputAIR from '@/components/pages/KalkulatorKesehatan/InputOutputAir'
 import React from 'react'
 
 
 const page = () => {
   return (
   <>
-    <INPUTAsupanAir/>
-    <OUTPUTAsupanAir/>
+    <InputOutputAIR/>
   </>
   )
 }

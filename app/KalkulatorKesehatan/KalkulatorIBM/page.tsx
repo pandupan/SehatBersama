@@ -1,12 +1,10 @@
-import INPUTKalkulatorIBM from '@/components/pages/KalkulatorKesehatan/INPUTKalkulatorIBM'
-import OUTPUTKalkulatorIBM from '@/components/pages/KalkulatorKesehatan/OUTPUTKalkulatorIBM'
+import InputOutputIBM from '@/components/pages/KalkulatorKesehatan/InputOutputIBM'
 import React from 'react'
 
 const page = () => {
   return (
     <>
-    <INPUTKalkulatorIBM/>
-    <OUTPUTKalkulatorIBM/>
+    <InputOutputIBM/>
     </>
   )
 }
