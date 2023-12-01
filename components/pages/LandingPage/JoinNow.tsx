@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const JoinNow = () => {
@@ -9,9 +10,9 @@ const JoinNow = () => {
         </p>
       </div>
       <div className='lg:mt-14 mt-4'>
-        <button className='py-4 px-4 bg-[#4bb6be] hover:bg-[#30787d] rounded-xl text-white text-xs md:text-base lg:text-2xl'>
+        <Link href='/ForumKomunitas' className='py-4 px-4 bg-[#4bb6be] hover:bg-[#30787d] rounded-xl text-white text-xs md:text-base lg:text-2xl'>
               Bergabung Sekarang
-        </button>
+        </Link>
       </div>
     </div>
   )

@@ -66,17 +66,17 @@ const Footer = () => {
           <div className="flex flex-col sm:w-[179px] gap-2 ">
             <h1 className="text-sm sm:text-2xl font-bold">Akses Cepat</h1>
             <div className="flex flex-col font-light gap-1 sm:gap-2">
-              <a href="" className="text-xs sm:text-base font-light">
+              <a href="/" className="text-xs sm:text-base font-light">
                 Home
               </a>
-              <a href="" className="text-xs sm:text-base font-light">
-                Atikel
+              <a href="/InformasiKesehatan" className="text-xs sm:text-base font-light">
+                Artikel
               </a>
-              <a href="" className="text-xs sm:text-base font-light">
-                Kalkulator
+              <a href="/KalkulatorKesehatan" className="text-xs sm:text-base font-light">
+                Kalkulator Kesehatan
               </a>
-              <a href="" className="text-xs sm:text-base font-light">
-                Layanan Konsultasi
+              <a href="/ForumKomunitas" className="text-xs sm:text-base font-light">
+                Layanan Diskusi
               </a>
             </div>
           </div>

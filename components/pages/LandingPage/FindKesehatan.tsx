@@ -18,6 +18,7 @@ const FindKesehatan = () => {
             src="/image/Kalkulator.png"
             alt="Kalkulator Kesehatan"
             fill={true}
+            className='object-cover'
             />
           </div>
         </div>

@@ -12,9 +12,10 @@ const AboutForum = () => {
         </div>
         <div className='relative lg:w-[528px] lg:h-[564px] sm:w-[328px] sm:h-[364px] w-[124px] h-[142px]'>
           <Image
-          src="/image/InformKes.jpeg"
+          src="/image/ForumKomunitas.png"
           alt="aboutforum"
           fill={true}
+          className='object-cover'
           />
         </div>
       </div>

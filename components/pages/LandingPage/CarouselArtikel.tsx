@@ -8,11 +8,12 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Link from 'next/link';
 
 const CarouselArtikel = () => {
   return (
-    <div className='container px-20 flex flex-col justify-center items-center'>
-      <div className='flex flex-row lg:gap-20 gap-8'>
+    <div className='container px-20 flex flex-col justify-center items-center w-full'>
+      <div className='flex flex-row lg:gap-20 gap-8 justify-center items-center w-full'>
       <Swiper
   navigation
   pagination={{ type: "fraction" }}
@@ -21,28 +22,30 @@ const CarouselArtikel = () => {
   breakpoints={{
     640: {
       slidesPerView: 1,
-      spaceBetween: 10,
+
     },
     768: {
-      slidesPerView: 1,
-      spaceBetween: 20,
+      slidesPerView: 2,
+
     },
     1024: {
-      slidesPerView: 3,
-      spaceBetween: 30,
+      slidesPerView: 2,
+
     },
   }}
-  className="w-full rounded-lg text-[#4bb6be] flex justify-center items-center"
+  className='flex justify-center items-center mx-auto text-[#4bb6be]'
 >
   {crouselLP.map((image, index) => (
     <SwiperSlide key={index}>
-      <div className="relative md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] w-[100px] h-[100px]">
+      <div className="relative mx-auto md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] w-[100px] h-[100px]">
+      <Link href={image.link}>
         <Image
           src={image.src}
           alt="Artikel"
           fill={true}
           className="object-cover"
         />
+      </Link>
       </div>
     </SwiperSlide>
   ))}

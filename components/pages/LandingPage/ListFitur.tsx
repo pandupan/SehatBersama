@@ -10,13 +10,12 @@ const ListFitur = () => {
       {/* INFORMASI KESEHATAN */}
       <div className=" lg:ml-20 sm:ml-40 ml-60 flex flex-row lg:mt-20 mt-4">
         <div className="relative lg:w-[420px] lg:h-[460px] md:w-[220px] md:h-[260px] w-[120px] h-[160px] border-2 lg:border-4 rounded-xl lg:rounded-[50px] border-[#4bb6be] overflow-hidden">
-          <div className="object-fit">
             <Image
               src="/image/InformKes.jpeg"
               alt="InformasiKesehatan"
               fill={true}
+              className="object-cover"
             />
-          </div>
         </div>
         <div className="flex flex-row lg:ml-10 w-[350px] lg:gap-10 gap-4 pr-2 pt-2 lg:pt-0 lg:pr-0 ml-2 lg:mt-10">
           <h1 className="text-[#3299db] lg:text-4xl sm:text-3xl text-md font-bold">1</h1>
@@ -29,13 +28,12 @@ const ListFitur = () => {
       {/* FORUM KOMUNITAS */}
       <div className="flex flex-row-reverse -mt-[20px] lg:-mt-[50px] lg:mr-0 sm:mr-40 mr-64 ">
         <div className="relative lg:w-[420px] lg:h-[460px] md:w-[220px] md:h-[260px] w-[120px] h-[160px] border-2 lg:border-4 rounded-xl lg:rounded-[50px] border-[#4bb6be] overflow-hidden">
-          <div className="object-fit">
             <Image
-              src="/image/InformKes.jpeg"
+              src="/image/ForumKomunitas.png"
               alt="InformasiKesehatan"
               fill={true}
+              className="object-cover"
             />
-          </div>
         </div>
         <div className="flex flex-row-reverse lg:mr-10 w-[350px] mt-4 pr-2 pt-2 lg:pt-0 lg:pr-0 lg:mt-32">
           <h1 className="text-[#3299db] lg:text-4xl sm:text-3xl text-md font-bold">2</h1>
@@ -50,7 +48,7 @@ const ListFitur = () => {
         <div className="relative lg:w-[420px] lg:h-[460px] md:w-[220px] md:h-[260px] w-[120px] h-[160px] border-2 lg:border-4 rounded-xl lg:rounded-[50px] border-[#4bb6be] overflow-hidden">
           <div className="object-fit">
             <Image
-              src="/image/InformKes.jpeg"
+              src="/image/KalkulatorKesehatan.png"
               alt="InformasiKesehatan"
               fill={true}
             />
