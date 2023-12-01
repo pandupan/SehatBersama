@@ -14,7 +14,6 @@ const InputOutputIBM = () => {
 
   const [thresholdBMI, handleThresholdBMI] = useState(0);
   const [nilaiBMI, setnilaiBMI] = useState(0);
-  const [resikoBMIIndex, setResikoBMIIndex] = useState(-1);
 
   function handleThreshold(threshold: any) {
     threshold = thresholdBMI;
@@ -32,7 +31,7 @@ const InputOutputIBM = () => {
     }
   }
 
-  console.log(input);
+  // console.log(input);
 
   const handleChange = (e: any) => {
     setInput({
@@ -49,7 +48,7 @@ const InputOutputIBM = () => {
       berat: parseInt(input.berat),
       gender: parseInt(input.gender),
     };
-    console.log(nilaiInput);
+    // console.log(nilaiInput);
 
     const hasilBMI =
       nilaiInput.berat /
@@ -66,14 +65,9 @@ const InputOutputIBM = () => {
       gender: "",
     });
 
-    console.log("Threshold Result:", handleThreshold(thresholdBMI));
+    // console.log("Threshold Result:", handleThreshold(thresholdBMI));
 
-    const indexResikoBMI = handleThreshold(thresholdBMI);
-    const tempResikoBMIIndex = resikoBMI.findIndex(
-      (resiko) => resiko.threshold === indexResikoBMI
-    );
 
-    setResikoBMIIndex(tempResikoBMIIndex);
   };
 
   return (
@@ -212,9 +206,9 @@ const InputOutputIBM = () => {
                     {handleThreshold(thresholdBMI)}
                   </h1>
                 </div>
-                <p className=" lg:text-xl text-sm border rounded-2xl py-2 px-4 mt-4 ">
+                {/* <p className=" lg:text-xl text-sm border rounded-2xl py-2 px-4 mt-4 ">
                   Berat ideal Anda adalah 53.25-73.66 kg.
-                </p>
+                </p> */}
               </div>
               <div className="flex flex-row lg:gap-14 gap-4 justify-center sm:border-l  lg:ml-4  lg:text-base text-xs">
                 <div className="flex flex-col sm:ml-4">
@@ -232,17 +226,64 @@ const InputOutputIBM = () => {
               </div>
             </div>
             <div className="lg:text-base text-xs sm:mt-0 mt-4 flex-col gap-20 bg-gray-100 rounded-2xl p-6">
-              {resikoBMIIndex !== -1 && (
-                <div key={resikoBMIIndex}>
-                  <h1 className="font-bold">Risiko : </h1>
-                  <p>{resikoBMI[resikoBMIIndex].resiko}</p>
-                  <div>
-                    <h1 className="font-bold">Rekomendasi : </h1>
-                    <p>{resikoBMI[resikoBMIIndex].rekomendasi}</p>
-                  </div>
+        {resikoBMI.map((item) => {
+          if (thresholdBMI <= 18.5 && item.threshold === "Kurus") {
+            return (
+              <div key={item.id}>
+                <h1 className="font-bold">Risiko :</h1>
+                <p> {item.resiko}</p>
+                <div>
+                  <h1 className="font-bold">Rekomendasi : </h1>
+                  <p>{item.rekomendasi}</p>
                 </div>
-              )}
-            </div>
+              </div>
+            );
+          } else if (
+            thresholdBMI > 18.5 &&
+            thresholdBMI <= 24.9 &&
+            item.threshold === "Normal"
+          ) {
+            return (
+              <div key={item.id}>
+                <h1 className="font-bold">Risiko :</h1>
+                <p> {item.resiko}</p>
+                <div>
+                  <h1 className="font-bold">Rekomendasi : </h1>
+                  <p>{item.rekomendasi}</p>
+                </div>
+              </div>
+            );
+          } else if (
+            thresholdBMI > 24.9 &&
+            thresholdBMI <= 29.9 &&
+            item.threshold === "Obesitas 1"
+          ) {
+            return (
+              <div key={item.id}>
+                <h1 className="font-bold">Risiko :</h1>
+                <p> {item.resiko}</p>
+                <div>
+                  <h1 className="font-bold">Rekomendasi : </h1>
+                  <p>{item.rekomendasi}</p>
+                </div>
+              </div>
+            );
+          } else if (thresholdBMI > 29.9 && item.threshold === "Obesitas 2") {
+            return (
+              <div key={item.id}>
+                <h1 className="font-bold">Risiko :</h1>
+                <p> {item.resiko}</p>
+                <div>
+                  <h1 className="font-bold">Rekomendasi : </h1>
+                  <p>{item.rekomendasi}</p>
+                </div>
+              </div>
+            );
+          } else {
+            return null;
+          }
+        })}
+      </div>
           </div>
           <a
             href="/KalkulatorKesehatan"
