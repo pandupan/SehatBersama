@@ -59,7 +59,7 @@ const Navbar = () => {
                   Asupan Air
                 </div>
               </Link>
-              <Link href="/KalkulatorKesehatan">
+              <Link href="/KalkulatorKesehatan/KalkulatorBMR">
                 <div className="py-2 hover:text-blue-500 whitespace-nowrap">
                   Asupan Kalori
                 </div>
