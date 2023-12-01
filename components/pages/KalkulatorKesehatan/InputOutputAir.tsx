@@ -109,7 +109,9 @@ const InputOutputAIR = () => {
         </div>
 
       </div>
+
       <div className="flex flex-col container  lg:py-40 sm:py-20 sm:mb-0 mb-10 sm:px-20">
+        { kebutuhanAir !== 0 && (
         <div className="border-2 border-gray-100 rounded-t-2xl p-10 flex flex-col">
           <p className="sm:text-2xl border rounded-2xl py-2 px-4 mt-4 text-center font-semibold">
             Anda disarankan untuk mengonsumsi sekitar {kebutuhanAir} Liter air setiap hari.
@@ -120,13 +122,17 @@ const InputOutputAIR = () => {
               menjaga hidrasi tubuh optimal.
             </p>
           </div>
-        </div>
         <a
           href="/KalkulatorKesehatan"
           className="px-10 py-4 bg-[#4bb6be] text-white text-center sm:text-base text-xs rounded-b-2xl"
         >
           CEK KESEHATAN LAINNYA
         </a>
+        </div>
+
+        )
+
+        }
       </div>
     </>
   );

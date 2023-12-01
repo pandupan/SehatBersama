@@ -12,6 +12,8 @@ const InputOutputBMR = () => {
   });
   console.log(input);
 
+  const [hasilBMR, setHasilBMR] = useState(0);
+
   const handleChange = (e: any) => {
     setInput({
       ...input,
@@ -45,11 +47,14 @@ const InputOutputBMR = () => {
           1.8 * parseInt(input.tinggi) -
           4.7 * parseInt(input.usia)
         );
+      } else {
+        return 0;
       }
     }
-
     const hasilBMR = handleGender();
     console.log(hasilBMR);
+
+    setHasilBMR(parseFloat(hasilBMR.toFixed(2)));
 
     setInput({
       usia: "",
@@ -184,30 +189,38 @@ const InputOutputBMR = () => {
           </form>
         </div>
       </div>
-      <div className="flex flex-col container  lg:py-40 sm:py-20 sm:mb-0 mb-10 sm:px-20">
-        <div className="border-2 border-gray-100 rounded-t-2xl p-10 flex flex-col">
-          <p className="sm:text-2xl border rounded-2xl py-2 px-4 mt-4 text-center font-semibold">
-            Berdasarkan informasi yang Anda berikan, hasil kalkulasi BMR Anda
-            adalah [Nilai BMR] kalori per hari.
-          </p>
-          <div className="flex-col bg-gray-100 rounded-2xl p-6">
-            <p className="text-center">
-              Ini adalah jumlah kalori yang dibutuhkan tubuh Anda saat
-              beristirahat untuk menjaga fungsi dasar seperti pernapasan, detak
-              jantung, dan fungsi organ internal lainnya. Pastikan untuk
-              memperhatikan kebutuhan tambahan kalori berdasarkan tingkat
-              aktivitas fisik Anda untuk menentukan total kebutuhan kalori
-              harian Anda.
-            </p>
+      
+      { hasilBMR !== 0 && (
+
+          <div className="flex flex-col container  lg:py-40 sm:py-20 sm:mb-0 mb-10 sm:px-20">
+            <div className="border-2 border-gray-100 rounded-t-2xl p-10 flex flex-col">
+            {typeof hasilBMR !== 'undefined' && (
+                <p className="sm:text-2xl border rounded-2xl py-2 px-4 mt-4 text-center font-semibold">
+                  Berdasarkan informasi yang Anda berikan, hasil kalkulasi BMR Anda adalah {hasilBMR} kalori per hari.
+                </p>
+              )}
+              <div className="flex-col bg-gray-100 rounded-2xl p-6">
+                <p className="text-center">
+                  Ini adalah jumlah kalori yang dibutuhkan tubuh Anda saat
+                  beristirahat untuk menjaga fungsi dasar seperti pernapasan, detak
+                  jantung, dan fungsi organ internal lainnya. Pastikan untuk
+                  memperhatikan kebutuhan tambahan kalori berdasarkan tingkat
+                  aktivitas fisik Anda untuk menentukan total kebutuhan kalori
+                  harian Anda.
+                </p>
+              </div>
+            </div>
+            <a
+              href="/KalkulatorKesehatan"
+              className="px-10 py-4 bg-[#4bb6be] text-white text-center sm:text-base text-xs rounded-b-2xl"
+            >
+              CEK KESEHATAN LAINNYA
+            </a>
           </div>
-        </div>
-        <a
-          href="/KalkulatorKesehatan"
-          className="px-10 py-4 bg-[#4bb6be] text-white text-center sm:text-base text-xs rounded-b-2xl"
-        >
-          CEK KESEHATAN LAINNYA
-        </a>
-      </div>
+        )
+
+      }
+
     </>
   );
 };
