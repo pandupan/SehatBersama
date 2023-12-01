@@ -8,6 +8,8 @@ const InputOutputAIR = () => {
     usia: "",
     berat: "",
   });
+  
+  const [kebutuhanAir, setKebutuhanAir] = useState(0);
 
   console.log(input);
 
@@ -29,7 +31,7 @@ const InputOutputAIR = () => {
 
     const hasilKebutuhanAir = (nilaiInput.berat ) * 0.033;
 
-    console.log(hasilKebutuhanAir)
+    setKebutuhanAir(parseFloat(hasilKebutuhanAir.toFixed(2)));
 
     setInput({
       usia: "",
@@ -110,7 +112,7 @@ const InputOutputAIR = () => {
       <div className="flex flex-col container  lg:py-40 sm:py-20 sm:mb-0 mb-10 sm:px-20">
         <div className="border-2 border-gray-100 rounded-t-2xl p-10 flex flex-col">
           <p className="sm:text-2xl border rounded-2xl py-2 px-4 mt-4 text-center font-semibold">
-            Anda disarankan untuk mengonsumsi sekitar 2.1 mL air setiap hari.
+            Anda disarankan untuk mengonsumsi sekitar {kebutuhanAir} Liter air setiap hari.
           </p>
           <div className="flex-col bg-gray-100 rounded-2xl p-6">
             <p className="text-center">
