@@ -72,7 +72,7 @@ const InputOutputIBM = () => {
 
   return (
     <>
-      <div className="flex flex-col h-[1100px] sm:mb-24">
+      <div className="flex flex-col h-[700px] sm:mb-24">
         <div className="mt-10 flex flex-col bg-[#a7e9e6] w-full pt-16 pb-8 lg:px-20 px-4  lg:gap-4 sm:gap-2">
           <h1 className="lg:text-3xl sm:text-xl  font-bold">
             Kalkulator Kesehatan
@@ -93,10 +93,10 @@ const InputOutputIBM = () => {
               dan mengecek apakah berat badan dan tinggi badanmu sudah ideal
               atau belum
             </p>
-            <h3 className="underline underline-offset-4 text-center font-bold sm:text-xl text-lg my-10">
+            {/* <h3 className="underline underline-offset-4 text-center font-bold sm:text-xl text-lg my-10">
               Pilih Jenis Kelamin
-            </h3>
-            <div className="flex flex-row justify-center items-center gap-10">
+            </h3> */}
+            {/* <div className="flex flex-row justify-center items-center gap-10">
               <div className="">
                 <button
                   title="pria"
@@ -127,7 +127,7 @@ const InputOutputIBM = () => {
                   </h1>
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <form onSubmit={handleSubmit}>
