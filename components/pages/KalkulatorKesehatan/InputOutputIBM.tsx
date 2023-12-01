@@ -72,7 +72,7 @@ const InputOutputIBM = () => {
 
   return (
     <>
-      <div className="flex flex-col h-[1000px] sm:mb-24">
+      <div className="flex flex-col h-[1100px] sm:mb-24">
         <div className="mt-10 flex flex-col bg-[#a7e9e6] w-full pt-16 pb-8 lg:px-20 px-4  lg:gap-4 sm:gap-2">
           <h1 className="lg:text-3xl sm:text-xl  font-bold">
             Kalkulator Kesehatan

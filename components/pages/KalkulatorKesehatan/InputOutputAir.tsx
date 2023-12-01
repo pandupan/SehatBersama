@@ -42,7 +42,7 @@ const InputOutputAIR = () => {
 
   return (
     <>
-      <div className="flex flex-col h-[800px] sm:mb-24">
+      <div className="flex flex-col h-[600px] sm:mb-24">
         <div className="mt-10 flex flex-col bg-[#a7e9e6] w-full pt-16 pb-8 lg:px-20 px-4  lg:gap-4 sm:gap-2">
           <h1 className="lg:text-3xl sm:text-xl  font-bold">
             Kalkulator Kesehatan
@@ -100,7 +100,7 @@ const InputOutputAIR = () => {
                 />
                 </div>
             </div>
-          <div>
+          <div className="flex justify-center my-4">
             <button type="submit" className="sm:px-10 sm:py-4 px-6 py-2 bg-[#4bb6be] rounded-2xl text-white sm:text-xl font-semibold">
               Masukan
             </button>

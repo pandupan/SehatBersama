@@ -178,7 +178,7 @@ const InputOutputBMR = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="flex justify-center my-4">
               <button
                 type="submit"
                 className="sm:px-10 sm:py-4 px-6 py-2 bg-[#4bb6be] rounded-2xl text-white sm:text-xl font-semibold"
