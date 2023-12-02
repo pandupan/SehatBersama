@@ -15,7 +15,7 @@ import "swiper/css/pagination";
 
 const HalamanInformasi = () => {
   return (
-    <div className=" to-white w-full h-[1000px] sm:pb-24 ">
+    <div className=" to-white w-full h-[700px] lg:h-[800px] sm:pb-24 ">
       <div className="flex flex-col  container ">
         <div className="flex flex-col mt-28  text-justify">
           <h1 className="text-center lg:text-4xl sm:text-2xl text-xl font-bold">
