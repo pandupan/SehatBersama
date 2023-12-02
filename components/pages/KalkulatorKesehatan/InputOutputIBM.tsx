@@ -72,7 +72,7 @@ const InputOutputIBM = () => {
 
   return (
     <>
-      <div className="flex flex-col h-[700px] sm:mb-24">
+      <div className="flex flex-col h-[800px] sm:mb-24">
         <div className="mt-10 flex flex-col bg-[#a7e9e6] w-full pt-16 pb-8 lg:px-20 px-4  lg:gap-4 sm:gap-2">
           <h1 className="lg:text-3xl sm:text-xl  font-bold">
             Kalkulator Kesehatan
@@ -194,7 +194,7 @@ const InputOutputIBM = () => {
         </div>
       </div>
       {nilaiBMI !== 0 && (
-        <div className="flex flex-col container  lg:py-40 sm:py-20 sm:mb-0 mb-10 sm:px-20">
+        <div className="flex flex-col container  lg:py-10 sm:py-10 sm:mb-0 mb-10 sm:px-20">
           <div className="border-2 border-gray-100 rounded-t-2xl lg:p-10 p-4 flex flex-col">
             <div className="flex flex-col sm:flex-row sm:gap-0 gap-4">
               <div className="flex flex-col">
