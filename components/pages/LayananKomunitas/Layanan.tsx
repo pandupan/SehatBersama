@@ -10,7 +10,7 @@ const Layanan = () => {
           <h1 className="text-center lg:text-5xl sm:text-3xl text-xl font-medium">TERSEDIA LAYANAN</h1>
         </div>
         <div className="relative w-full mt-10 flex justify-center items-center lg:gap-40 sm:gap-20 gap-4">
-          <a href="#" className="bg-[#34b1b1] hover:bg-[#257d7d] lg:h-[362px] lg:w-[300px] sm:h-[242px] sm:w-[200px] h-[260px] w-[200px] rounded-2xl flex flex-col p-6 items-center">
+          <a href="https://chat.whatsapp.com/Gfw40WedgxU427ZdA5TLsB" className="bg-[#34b1b1] hover:bg-[#257d7d] lg:h-[362px] lg:w-[300px] sm:h-[242px] sm:w-[200px] h-[260px] w-[200px] rounded-2xl flex flex-col p-6 items-center">
             <div>
               <div className="relative  lg:w-[200px] lg:h-[200px] sm:w-[100px] sm:h-[100px] w-[60px] h-[60px]">
               <div className="object-fit">
