@@ -15,5 +15,8 @@ export default withAuth(mainMiddleware,[
   "/LayananKonsultasi",
   "/AsupanAir",
   "/KalkulatorBMR",
-  "/KalkulatorIBM"
+  "/KalkulatorIBM",
+  "/KalkulatorKesehatan/KalkulatorIBM",
+  "/KalkulatorKesehatan/AsupanAir",
+  "/KalkulatorKesehatan/KalkulatorBMR"
 ])
