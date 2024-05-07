@@ -49,17 +49,17 @@ const Footer = () => {
             <div className="flex flex-row gap-3 justify-start">
               <FaLocationPin size={17} />
               <p className="text-xs sm:text-base font-light w-[180px] ">
-              Puskesmas Kahuripan, Jl. Siliwangi, Blk No.31, Kahuripan, Kec. Tawang, Kab. Tasikmalaya, Jawa Barat 46151
+              Jl. Purbaratu, Sukanagara, Kec. Purbaratu, Tasikmalaya, Jawa Barat 46196
               </p>
             </div>
             <div className="flex flex-row gap-3 items-center justify-start">
               <FaPhoneAlt size={12} />
-              <p className="text-xs sm:text-base font-light">(0265) 321323</p>
+              <p className="text-xs sm:text-base font-light">(0265) 339665</p>
             </div>
             <div className="flex flex-row gap-3">
               <GrMail size={17} />
               <p className="text-xs sm:text-base font-light">
-                pkmdtpkhuripan@gmail.com
+              pkmdtppurbaratu@gmail.com
               </p>
             </div>
           </div>

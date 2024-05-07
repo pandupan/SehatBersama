@@ -20,7 +20,7 @@ const page = () => {
             </div>
             <div>
               <span className="block font-bold text-sm sm:text-lg text-gray-600">
-                Puskesmas Kahuripan
+                Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
                 Selasa, 28 November 2023 06:20
