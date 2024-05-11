@@ -17,33 +17,6 @@ const authOption: NextAuthOptions = {
                 password : {label : "Password", type : "password"},
             },
             async authorize(credentials : any ){
-                // const user : any = {
-                //     id : 1,
-                //     fullname : 'pandu',
-                //     email : 'pandutest@gmail.com',
-                //     handphone : handphone,
-                //     role : "admin"
-                // }
-
-                // if (email === "pandutest@gmail.com" && password === "12345678") {
-                //     return user
-                // } else {
-                //     return null
-                // }
-
-                // const user : any = {
-                //     id : 1,
-                //     fullname : fullname,
-                //     email : email,
-                //     handphone : handphone,
-                //     password : password,
-                // };
-                // if(user){
-                //     // console.log(user);
-                //     return user;
-                // } else {
-                //     return null;
-                // }
 
                 const {email, password, fullname, handphone} = credentials as {
                     fullname : string;

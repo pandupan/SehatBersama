@@ -26,7 +26,7 @@ const RegisterPage = () => {
       },
       body: JSON.stringify(data),
     });
-    console.log(result);
+    // console.log(result);
 
     if (result.status === 200) {
       event.target.reset();

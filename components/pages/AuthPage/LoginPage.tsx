@@ -8,28 +8,32 @@ import { useRouter } from "next/navigation";
 
 
 const LoginPage = () => {
-  const { push } = useRouter();
+  const router = useRouter();
   const [isLoading, setIsLoading] = useState(false)
   const[error, setError] = useState("")
 
-  const handleLogin = async (e : any) => {
-    e.preventDefault()
-    try{
+  const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsLoading(true);
+    try {
       const res = await signIn("credentials", {
-        redirect : false,
-        email : e.target.email.value,
-        password : e.target.password.value,
-        callbackUrl : "/"
-      })
-      if(!res?.error){
-        push("/")
+        redirect: false,
+        email: e.currentTarget.email.value,
+        password: e.currentTarget.password.value,
+        callbackUrl: "/",
+      });
+      if (!res?.error) {
+        router.push("/");
       } else {
-        console.log(res.error)
+        setError(res.error);
       }
-    } catch (err){
-      console.log(err)
+    } catch (err) {
+      console.error(err);
+      setError("Login failed");
+    } finally {
+      setIsLoading(false);
     }
-  }
+  };
 
 
 

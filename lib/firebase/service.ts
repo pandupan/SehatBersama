@@ -12,10 +12,10 @@ export async function signUp(userData: {
     handphone : string,
     role? : string
   }) { 
-    console.log(userData.email)
-    console.log(userData.fullname)
-    console.log(userData.password)
-    console.log(userData.handphone)
+    // console.log(userData.email)
+    // console.log(userData.fullname)
+    // console.log(userData.password)
+    // console.log(userData.handphone)
     const q = query(
       collection(firestore, "users"), 
       where("email", "==", userData.email)

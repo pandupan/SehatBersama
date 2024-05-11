@@ -11,7 +11,7 @@ const InputOutputAIR = () => {
   
   const [kebutuhanAir, setKebutuhanAir] = useState(0);
 
-  console.log(input);
+  // console.log(input);
 
   const handleChange = (e: any) => {
     setInput({
@@ -27,7 +27,7 @@ const InputOutputAIR = () => {
       berat: parseInt(input.berat),
 
     };
-    console.log(nilaiInput);
+    // console.log(nilaiInput);
 
     const hasilKebutuhanAir = (nilaiInput.berat ) * 0.033;
 

@@ -10,7 +10,7 @@ const InputOutputBMR = () => {
     berat: "",
     gender: 0,
   });
-  console.log(input);
+  // console.log(input);
 
   const [hasilBMR, setHasilBMR] = useState(0);
 
@@ -29,7 +29,7 @@ const InputOutputBMR = () => {
       berat: parseInt(input.berat),
       gender: input.gender,
     };
-    console.log(nilaiInput);
+    // console.log(nilaiInput);
 
     function handleGender() {
       const gender = input.gender;
@@ -52,7 +52,7 @@ const InputOutputBMR = () => {
       }
     }
     const hasilBMR = handleGender();
-    console.log(hasilBMR);
+    // console.log(hasilBMR);
 
     setHasilBMR(parseFloat(hasilBMR.toFixed(2)));
 
