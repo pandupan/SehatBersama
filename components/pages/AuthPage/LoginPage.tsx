@@ -1,16 +1,27 @@
+/* eslint-disable react/jsx-no-undef */
 'use client';
-
-import React from "react";
-import Image from "next/image"; 
-import { useState } from 'react'
-import { signIn } from "next-auth/react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-
+import { signIn, useSession } from "next-auth/react";
+import Image from "next/image";
 
 const LoginPage = () => {
   const router = useRouter();
-  const [isLoading, setIsLoading] = useState(false)
-  const[error, setError] = useState("")
+  const { data: session } = useSession();
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [redirectUrl, setRedirectUrl] = useState("/"); // Default redirect URL
+
+  useEffect(() => {
+    // Cek apakah ada URL yang disimpan sebelumnya pada state session
+    if (session) {
+      const storedUrl = sessionStorage.getItem("redirectUrl");
+      if (storedUrl) {
+        setRedirectUrl(storedUrl);
+        sessionStorage.removeItem("redirectUrl"); // Hapus URL yang disimpan setelah menggunakannya
+      }
+    }
+  }, [session]);
 
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -20,10 +31,9 @@ const LoginPage = () => {
         redirect: false,
         email: e.currentTarget.email.value,
         password: e.currentTarget.password.value,
-        callbackUrl: "/",
       });
       if (!res?.error) {
-        router.push("/");
+        router.push(redirectUrl); // Arahkan pengguna ke redirectUrl setelah login berhasil
       } else {
         setError(res.error);
       }
@@ -34,10 +44,7 @@ const LoginPage = () => {
       setIsLoading(false);
     }
   };
-
-
-
-
+  
   return (
     <div className="mt-20 flex flex-row justify-center "> 
       <div className="flex flex-col px-20 ">
