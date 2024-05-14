@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 const HalamanInformasi = () => {
   return (
     <div className=" to-white w-full h-[700px] lg:h-[800px] sm:pb-24 ">
-      <div className="flex flex-col  container ">
+      <div className="flex flex-col container ">
         <div className="flex flex-col mt-28  text-justify">
           <h1 className="text-center lg:text-4xl sm:text-2xl text-xl font-bold">
             INFORMASI KESEHATAN
@@ -31,7 +31,7 @@ const HalamanInformasi = () => {
               Lihat Artikel Terbaru
             </h3>
           </div>
-          <div className="flex flex-row sm:gap-20 gap-2 rounded-2xl lg:px-10 sm:px-6 px-2 sm:py-4 py-2 bg-[#4bb6be]">
+          <div className="flex flex-wrap sm:gap-9 gap-2 rounded-2xl lg:px-10 sm:px-6 px-2 sm:py-4 py-2 bg-[#4bb6be]">
             <div className="flex flex-col gap-4">
               <a
                 href="/InformasiKesehatan/HidupSehat"
@@ -100,6 +100,14 @@ const HalamanInformasi = () => {
                 className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
               >
                 TEMPAT UMUM
+              </a>
+            </div>
+            <div className="flex flex-col gap-4">
+              <a
+                href="/InformasiKesehatan/PelayananKesehatan"
+                className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
+              >
+                PELAYANAN KESEHATAN
               </a>
             </div>
           </div>
