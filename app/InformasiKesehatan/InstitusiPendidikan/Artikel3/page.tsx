@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
@@ -67,7 +67,7 @@ const page = () => {
             Hilirisasi temuan penelitian Universitas Muhammadiyah Malang.
           </p>
           <p className="text-gray-600 text-justify">
-            Almas Syamma', Camelia Churil Aini, Fansisca Fitria Aini, Gita Tri
+            Almas Syamma&apos;, Camelia Churil Aini, Fansisca Fitria Aini, Gita Tri
             Kurnia Rahmah, dan Putri Citra Banowati adalah siswa dari program
             Farmasi Universitas Muhammadiyah Malang. Mereka semua dibimbing oleh
             Ibu Gina Harventy, SE.Ak., M.Si., CA, sebagai Dosen Pembimbing

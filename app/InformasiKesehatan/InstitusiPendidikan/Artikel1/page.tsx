@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
@@ -81,21 +81,21 @@ const page = () => {
           </h3>
           <p className="text-gray-600 text-justify">
             Mahasiswa dan Kepala Seksi Pengawasan dan Penegakkan Disiplin,
-            Mohamad Ma'ruf, melakukan inspeksi di area blok hunian anak.
+            Mohamad Ma&apos;ruf, melakukan inspeksi di area blok hunian anak.
             Pengecekkan ini mencakup kamar hunian, area cuci, toilet, dan area
-            santai dan kebugaran. Ma'ruf mengatakan bahwa dia ingin bertemu
+            santai dan kebugaran. Ma&apos;ruf mengatakan bahwa dia ingin bertemu
             dengan siswa untuk memastikan apakah anak binaan mampu menerapkan
             PHBS di lingkungan sekitar mereka.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Ma'ruf berpesan kepada anak binaannya
+            Ma&apos;ruf berpesan kepada anak binaannya
           </h3>
           <p className="text-gray-600 text-justify">
-            "Menjaga kesehatan dan kebersihan itu penting, jika bukan kalian
+          &apos;Menjaga kesehatan dan kebersihan itu penting, jika bukan kalian
             yang menjaga lantas siapa lagi. Teman yang berperilaku buruk tolong
-            diingatkan dengan memberikan contoh yang baik."
+            diingatkan dengan memberikan contoh yang baik.&apos;
           </p>
           <p className="text-gray-600 text-justify">
             I Komang Gede Ardiwahyudi menyatakan bahwa PHBS harus ditanamkan

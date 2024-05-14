@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
@@ -120,7 +120,7 @@ const page = () => {
             gaya hidup sehat dan bersih di lingkungan Pondok Pesantren.
           </p>
           <p className="text-gray-600 text-justify">
-            Salah seorang pengurus Pondok Pesantren, Mas Mu'afa mengatakan,
+            Salah seorang pengurus Pondok Pesantren, Mas Mu&apos;afa mengatakan,
             keberadaan TIMKES di Pondok Pesantren menjadi sangat penting karena
             TIMKES menjadi penggerak pertama warga Pondok dalam upaya mencegah
             dan menangani masalah kesehatan yang muncul di lingkungan Pondok
