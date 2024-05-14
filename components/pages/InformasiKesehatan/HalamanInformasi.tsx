@@ -74,6 +74,34 @@ const HalamanInformasi = () => {
                 GIZI DAN SUPLEMEN
               </a>
             </div>
+            <div className="flex flex-col gap-4">
+              <a
+                href="/InformasiKesehatan/RumahTangga"
+                className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
+              >
+                RUMAH TANGGA
+              </a>
+              <a
+                href="/InformasiKesehatan/InstitusiPendidikan"
+                className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
+              >
+                INSTITUSI PENDIDIKAN
+              </a>
+            </div>
+            <div className="flex flex-col gap-4">
+              <a
+                href="/InformasiKesehatan/TempatKerja"
+                className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
+              >
+                TEMPAT KERJA
+              </a>
+              <a
+                href="/InformasiKesehatan/TempatUmum"
+                className="sm:text-base text-xs font-semibold sm:font-bold text-white hover:text-[#207183]"
+              >
+                TEMPAT UMUM
+              </a>
+            </div>
           </div>
         </div>
         {/* CROUSEL */}
