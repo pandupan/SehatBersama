@@ -7,7 +7,8 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Pemerintah Berupaya Memenuhi Pelayanan Kesehatan Masyarakat Secara Berkesinambungan
+          Pemerintah Berupaya Memenuhi Pelayanan Kesehatan Masyarakat Secara
+          Berkesinambungan
         </h1>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -53,22 +54,61 @@ const page = () => {
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <p className="text-gray-600 text-justify">
-            Pemerintah terus berupaya membangun sistem Jaminan Kesehatan Nasional (JKN) agar dapat memenuhi pelayanan kesehatan masyarakat secara optimal dan berkesinambungan. Menurut Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan (Menko PMK) Muhadjir Effendy, pemerintah telah menyiapkan serangkaian kebijakan untuk memperbaiki ekosistem JKN secara menyeluruh. Kebijakan tersebut mencakup rasionalisasi manfaat program sesuai kebutuhan dasar kesehatan, penerapan satu kelas rawat yang standar, dan penyederhanaan tarif layanan.
+            Pemerintah terus berupaya membangun sistem Jaminan Kesehatan
+            Nasional (JKN) agar dapat memenuhi pelayanan kesehatan masyarakat
+            secara optimal dan berkesinambungan. Menurut Menteri Koordinator
+            Bidang Pembangunan Manusia dan Kebudayaan (Menko PMK) Muhadjir
+            Effendy, pemerintah telah menyiapkan serangkaian kebijakan untuk
+            memperbaiki ekosistem JKN secara menyeluruh. Kebijakan tersebut
+            mencakup rasionalisasi manfaat program sesuai kebutuhan dasar
+            kesehatan, penerapan satu kelas rawat yang standar, dan
+            penyederhanaan tarif layanan.
           </p>
           <p className="text-gray-600 text-justify">
-            Muhadjir menjelaskan bahwa perbaikan ekosistem JKN perlu dilakukan secara sistemik. Penguatan JKN sebagai skema asuransi sosial wajib menjadi prioritas utama. Seluruh penduduk yang menjadi peserta JKN diharapkan wajib membayar iuran, dengan pemerintah menanggung biaya bagi peserta miskin atau tidak mampu. Kebijakan ini bertujuan untuk menciptakan kepesertaan yang bersifat wajib dan dapat diandalkan.
+            Muhadjir menjelaskan bahwa perbaikan ekosistem JKN perlu dilakukan
+            secara sistemik. Penguatan JKN sebagai skema asuransi sosial wajib
+            menjadi prioritas utama. Seluruh penduduk yang menjadi peserta JKN
+            diharapkan wajib membayar iuran, dengan pemerintah menanggung biaya
+            bagi peserta miskin atau tidak mampu. Kebijakan ini bertujuan untuk
+            menciptakan kepesertaan yang bersifat wajib dan dapat diandalkan.
           </p>
           <p className="text-gray-600 text-justify">
-            Selain itu, manfaat yang dijamin dalam program JKN mencakup kebutuhan dasar dengan kelas rawat inap standar sesuai dengan UU 40/2004. Untuk memastikan keberlanjutan program, perlu dilakukan peninjauan iuran, manfaat, dan tarif layanan secara konsisten dan reguler dengan pendekatan aktuaria yang akuntabel. Peninjauan ini mempertimbangkan pemenuhan kebutuhan dasar kesehatan, kemampuan bayar peserta, inflasi kesehatan, dan potensi perbaikan program yang ada. Pemerintah selalu mencari keseimbangan agar iuran tetap terjangkau bagi peserta mandiri dan menalangi kekurangan sebagai tanggung jawab menjaga kelangsungan JKN.
+            Selain itu, manfaat yang dijamin dalam program JKN mencakup
+            kebutuhan dasar dengan kelas rawat inap standar sesuai dengan UU
+            40/2004. Untuk memastikan keberlanjutan program, perlu dilakukan
+            peninjauan iuran, manfaat, dan tarif layanan secara konsisten dan
+            reguler dengan pendekatan aktuaria yang akuntabel. Peninjauan ini
+            mempertimbangkan pemenuhan kebutuhan dasar kesehatan, kemampuan
+            bayar peserta, inflasi kesehatan, dan potensi perbaikan program yang
+            ada. Pemerintah selalu mencari keseimbangan agar iuran tetap
+            terjangkau bagi peserta mandiri dan menalangi kekurangan sebagai
+            tanggung jawab menjaga kelangsungan JKN.
           </p>
           <p className="text-gray-600 text-justify">
-            Muhadjir menekankan pentingnya prinsip gotong royong dalam JKN, di mana yang sehat membantu yang sakit, dan yang kaya membantu yang miskin. Sesuai ketentuan, besaran iuran harus direviu setiap dua tahun sekali. Namun, iuran JKN terakhir diperbarui pada tahun 2016, dan untuk iuran PBPU Kelas III belum pernah disesuaikan sejak tahun 2014. Oleh karena itu, penyesuaian besaran iuran BPJS Kesehatan untuk peserta mandiri telah diumumkan pemerintah, sebagaimana tertuang dalam Peraturan Presiden Nomor 64 Tahun 2020.
+            Muhadjir menekankan pentingnya prinsip gotong royong dalam JKN, di
+            mana yang sehat membantu yang sakit, dan yang kaya membantu yang
+            miskin. Sesuai ketentuan, besaran iuran harus direviu setiap dua
+            tahun sekali. Namun, iuran JKN terakhir diperbarui pada tahun 2016,
+            dan untuk iuran PBPU Kelas III belum pernah disesuaikan sejak tahun
+            2014. Oleh karena itu, penyesuaian besaran iuran BPJS Kesehatan
+            untuk peserta mandiri telah diumumkan pemerintah, sebagaimana
+            tertuang dalam Peraturan Presiden Nomor 64 Tahun 2020.
           </p>
           <p className="text-gray-600 text-justify">
-            Dalam rapat dengar pendapat (RDP) yang dihadiri oleh Menteri Kesehatan, Ketua DJSN, Ketua Dewan Pengawas, dan Direktur Utama BPJS Kesehatan, terjadi diskusi dinamis antara Komisi IX DPR-RI dengan Pemerintah. Rapat tersebut menghasilkan tujuh kesimpulan, di antaranya adalah mendesak Pemerintah untuk mempercepat perbaikan tata kelola sistem JKN sesuai amanat UUD 1945, UU SJSN, dan UU BPJS. Selain itu, dilakukan kajian formulasi baru terkait model pembiayaan dan sistem pembayaran kepada fasilitas kesehatan guna menciptakan ekosistem JKN yang sehat dan berkesinambungan.
+            Dalam rapat dengar pendapat (RDP) yang dihadiri oleh Menteri
+            Kesehatan, Ketua DJSN, Ketua Dewan Pengawas, dan Direktur Utama BPJS
+            Kesehatan, terjadi diskusi dinamis antara Komisi IX DPR-RI dengan
+            Pemerintah. Rapat tersebut menghasilkan tujuh kesimpulan, di
+            antaranya adalah mendesak Pemerintah untuk mempercepat perbaikan
+            tata kelola sistem JKN sesuai amanat UUD 1945, UU SJSN, dan UU BPJS.
+            Selain itu, dilakukan kajian formulasi baru terkait model pembiayaan
+            dan sistem pembayaran kepada fasilitas kesehatan guna menciptakan
+            ekosistem JKN yang sehat dan berkesinambungan.
           </p>
           <p className="text-gray-600 text-justify">
-            Dengan langkah-langkah tersebut, diharapkan sistem JKN dapat terus berkembang, memberikan pelayanan kesehatan yang lebih baik dan terjangkau bagi seluruh masyarakat Indonesia.
+            Dengan langkah-langkah tersebut, diharapkan sistem JKN dapat terus
+            berkembang, memberikan pelayanan kesehatan yang lebih baik dan
+            terjangkau bagi seluruh masyarakat Indonesia.
           </p>
         </div>
       </div>
