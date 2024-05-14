@@ -82,10 +82,10 @@ const page = () => {
             Universitas Muhammadiyah Malang (UMM).
           </p>
           <p className="text-gray-600 text-justify">
-            Menurutnya, "Sosialisasi dan pelatihan praktik PHBS ini bertujuan
+            Menurutnya, ;&quot;Sosialisasi dan pelatihan praktik PHBS ini bertujuan
             untuk meningkatkan kesadaran, pengetahuan, dan pemahaman warga
             Pondok Pesantren tentang cara mencegah penyakit yang disebabkan oleh
-            tidak melaksanakan PHBS."
+            tidak melaksanakan PHBS.;&quot;
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
@@ -106,7 +106,6 @@ const page = () => {
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            {" "}
             TIMKES menjadi penggerak pertama warga Pondok dalam upaya mencegah
             dan menangani masalah kesehatan yang muncul di lingkungan Pondok
             Pesantren Miftahul Huda 4.
