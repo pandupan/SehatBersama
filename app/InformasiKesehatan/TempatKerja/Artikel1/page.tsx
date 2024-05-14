@@ -1,3 +1,5 @@
+
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 const page = () => {
@@ -5,7 +7,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Memahami Penyebab Maag Kambuh dan Cara Mengatasinya
+        Ini Hubungan Kesehatan Mental dengan Lingkungan Kerja
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -22,7 +24,7 @@ const page = () => {
                 Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Sabtu, 11 November 2023 06:20
+              15 Februari 2024
               </span>
             </div>
           </div>
@@ -39,121 +41,56 @@ const page = () => {
       <div className="mt-4">
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
-            <Image
-              src="/image/penyakit1.png"
+            <img
+              src="https://i.ibb.co/bFf84n7/i-Stock-860065586.jpg"
               alt="article"
-              fill={true}
-              className="object-cover"
+              className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
             <b>Gambar 1</b>{" "}
             <span className="italic">
-              Ilustrasi seorang wanita yang mengalami maag kambuh
+              Ilustrasi
             </span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Apa penyebab maag kambuh?
+          Pengaruh Kesehatan Mental di Tempat Kerja
           </h3>
           <p className="text-gray-600 text-justify">
-            Cara terbaik untuk mencegah maag kambuh lagi adalah menghindari
-            berbagai hal yang dapat memicu kondisi ini. Berikut adalah beberapa
-            penyebab maag kambuh yang perlu kamu hindari: Makan terburu-buru ,
-            Stres berlebih dan kelelahan , Makan dalam jumlah yang banyak
-            sekaligus , Makanan yang asam dan pedas , Makanan berlemak atau
-            berminyak , Gemar mengonsumsi minuman beralkohol dan merokok ,
-            Menggunakan pakaian yang ketat karena dapat memicu makanan naik ke
-            kerongkongan , Minuman atau makanan yang mengandung kafein, seperti
-            kopi atau teh , Langsung tidur setelah makan , Makan sebelum
-            olahraga atau berolahraga dengan perut kenyang. mengonsumsi makanan
-            berat sebelum tidur juga dapat menjadi penyebab maag kambuh. Jadi,
-            usahakan untuk makan setidaknya 3 jam sebelum waktu tidurmu.
-            Contohnya, kamu dapat memberi batasan waktu makan malam, yaitu pada
-            jam 6 atau 7 malam. Dengan begini, kamu bisa tidur sekitar jam 10
-            malam.
+          Jakarta - Banyak orang menghabiskan sebagian besar waktunya di tempat kerja dari Senin hingga Jumat, dan terkadang akhir pekan mereka juga dihabiskan untuk bekerja meskipun dari rumah. Tekanan pekerjaan yang tinggi dapat menyebabkan stres yang berdampak pada kesehatan mental.
+Menjaga kesehatan mental di tempat kerja sangat penting untuk kelancaran pekerjaan. Jika seseorang mengalami gangguan mental, beban pekerjaan yang mereka tanggung mungkin tidak terselesaikan dengan baik. Berikut ini pembahasan tentang pentingnya menjaga kesehatan mental di tempat kerja.
+
+          </p>
+          <p className="text-gray-600 text-justify">
+          Lingkungan kerja memiliki dampak positif dan negatif pada kesehatan psikologis pekerjanya. Berbagai faktor seperti gaji, lingkungan kerja, dan interaksi dengan rekan kerja dapat memengaruhi kesehatan mental. Ketika faktor-faktor tersebut tidak berjalan dengan baik, tingkat stres akan meningkat. Beban kerja yang menumpuk dapat menurunkan produktivitas dan fokus. Oleh karena itu, penting untuk segera mencari solusi untuk mengatasi masalah tersebut.
+
+Cara menjaga kesehatan mental meliputi menghindari tekanan yang parah dan segera mencari solusi saat menghadapi masalah. Salah satu cara efektif adalah dengan mendiskusikan masalah dengan rekan kerja untuk menghindari dampak negatif pada kinerja tim.
+
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Gejala penyakit maag
+          Kerugian Akibat Dampak Negatif Kesehatan Mental di Tempat Kerja
+
           </h3>
           <p className="text-gray-600 text-justify">
-            Berikut sederet gejala maag kambuh yang perlu diwaspadai: Sakit
-            perut atau perut kembung , Nyeri ulu hati (heartburn) , Mual ,
-            Muntah , Merasa lebih cepat kenyang ketika sedang makan , Muncul
-            sensasi terbakar di perut atau esofagus (kerongkongan) , Muncul
-            penumpukan gas atau bersendawa. , Dalam beberapa kasus, maag juga
-            bisa disertai dengan gejala-gejala yang parah, seperti: , Muntah
-            yang terlihat berdarah atau teksturnya mirip ampas kopi , Penurunan
-            berat badan yang tak jelas penyebabnya , Feses berwarna hitam ,
-            Sulit menelan. Jika kamu mengalami berbagai gejala di atas,
-            segeralah datang ke dokter dan berkonsultasi.
+          Menjaga keseimbangan antara pekerjaan dan kehidupan pribadi adalah kunci untuk mempertahankan kesehatan mental di tempat kerja. Manajemen stres, pengelolaan waktu, dan keseimbangan antara pekerjaan dan kehidupan pribadi sangat penting. Gangguan kesehatan mental pada pekerja dapat menurunkan produktivitas, yang pada akhirnya menghambat kemajuan perusahaan. Oleh karena itu, perusahaan perlu segera menangani masalah kesehatan mental karyawan.
+
+Stres yang berlebihan dapat menyebabkan gangguan mental akut, yang berdampak pada kelelahan fisik dan emosional serta penurunan produktivitas. Perusahaan seharusnya menyediakan layanan konsultasi kesehatan bagi karyawan untuk menjaga kesehatan mental mereka. Dengan layanan tersebut, produktivitas karyawan dapat tetap maksimal. Jika tidak, perusahaan mungkin harus mencari karyawan baru, meskipun karyawan yang ada memiliki potensi yang baik.
+
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-          Cara mengatasi maag agar tidak kambuh 
-          </h3>
-          <h3 className="text-xl sm:text-2xl font-bold">
-          1. Menerapkan pola makan sehat
+          Cara Mengatasi Gangguan Kesehatan Mental di Tempat Kerja
           </h3>
           <p className="text-gray-600 text-justify">
-          Menjaga pola makan sehat bisa kamu lakukan dengan memerhatikan jenis makanan dan asupan gizi yang terdapat di dalamnya. Selain itu, hindari mengonsumsi makanan secara berlebihan dan terburu-buru.
+          Mengatasi gangguan kesehatan mental di tempat kerja sangat penting karena dapat memengaruhi kinerja tim. Prioritaskan keseimbangan antara waktu kerja dan waktu pribadi. Waktu untuk diri sendiri membuat seseorang lebih rileks dan dapat mengatasi stres serta insomnia. Beberapa kegiatan di luar kantor, seperti menjadi sukarelawan, meditasi, berjalan-jalan, dan menghabiskan waktu bersama teman serta keluarga, dapat membantu memulihkan kesehatan mental.
 
-Konsumsilah makanan yang kaya akan serat. Tujuannya adalah membantu membersihkan usus sehingga membuat pencernaan menjadi lebih lancar. 
-
-Beberapa contoh makanan berserat, di antaranya beras merah, oatmeal, ubi, buah bit, wortel, brokoli, dan buncis.
-          </p>
-          <p className="text-gray-600 text-justify">
-          Selain itu, kamu juga disarankan untuk mengonsumsi makanan yang tinggi pH, seperti pisang, kacang-kacangan, dan melon. Lalu, konsumsi juga makanan yang kaya air, seperti semangka, sup, timun, seledri, dan selada.
-
-Jika kamu ingin mengonsumsi daging sapi atau ayam, pastikan daging tersebut tidak mengandung banyak lemak.
-
-Tak hanya makanan, kamu juga perlu menghindari minuman penyebab maag kambuh dan menggantinya dengan yang lebih sehat. Minuman seperti teh chamomile, teh peppermint, jahe, akar licorice, adas, dan air lemon dapat kamu konsumsi.
           </p>
         </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-          2. Menjalani gaya hidup sehat
-          </h3>
-          <p className="text-gray-600 text-justify">
-          Seperti yang sudah disebutkan sebelumnya, merokok, minuman beralkohol, stres, dan makan sebelum tidur dapat membuat maag kamu kambuh.
-
-Oleh karena itu, mulailah untuk menghindari gaya hidup yang kurang baik tersebut. Selain dapat memicu maag, gaya hidup di atas juga berdampak buruk untuk kesehatan kamu secara menyeluruh.
-
-Sebisa mungkin, cobalah untuk meredakan kecemasan dan stres yang kamu alami guna mencegah maag kambuh. Kamu bisa melakukan yoga secara teratur untuk menghilangkan stres dan gejala gangguan pencernaan.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-          3. Mengonsumsi obat-obatan maag
-          </h3>
-          <p className="text-gray-600 text-justify">
-          Jika masih tetap kambuh, cobalah berkonsultasi ke dokter terkait konsumsi obat-obatan maag. 
-
-Terdapat beberapa obat yang mungkin diresepkan dokter agar maag tidak kambuh, salah satunya penghambat pompa proton yang mengurangi asam lambung. Obat ini biasanya direkomendasikan pada pasien maag yang mengalami nyeri ulu hati. 
-
-Selain itu, ada pula obat antagonis reseptor-H2 yang juga bisa mengurangi asam lambung. 
-
-Apa pun obat yang kamu konsumsi, pastikan kamu berkonsultasi dulu dengan dokter untuk mengetahui dosis dan anjuran konsumsi yang tepat. 
-
-Penyebab maag kambuh tidak melulu soal apa yang kamu konsumsi. Gaya hidup, stres, dan kelelahan pun dapat menjadi pemicu kondisi ini. Oleh karena itu, cobalah untuk mulai menghindarinya, dan mulailah menerapkan pola makan serta gaya hidup sehat.
-          </p>
-        </div>
-
-        {/* <div>
-          <h4 className="font-bold">Tag:</h4>
-          <div className="flex flex-wrap gap-2 items-center mt-2 text-xs sm:text-base">
-            <span className="block py-1 px-2 rounded bg-primary text-white">
-              Gizi
-            </span>
-            <span className="block py-1 px-2 rounded bg-primary text-white">
-              Tips & Trick
-            </span>
-          </div>
-        </div> */}
       </div>
     </div>
   );

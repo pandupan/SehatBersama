@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 const page = () => {
@@ -5,7 +6,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Penyebab Napas Pendek dan Cara Mengatasinya
+          PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Tempat Kerja
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -14,7 +15,7 @@ const page = () => {
                 src="/image/profile.jpeg"
                 alt="logo"
                 fill={true}
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div>
@@ -22,7 +23,7 @@ const page = () => {
                 Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Minggu, 11 Oktober 2023 06:20
+                15 Februari 2024
               </span>
             </div>
           </div>
@@ -39,101 +40,124 @@ const page = () => {
       <div className="mt-4">
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
-            <Image
-              src="/image/penyakit4.png"
+            <img
+              src="https://i.ibb.co/fHM37Gq/photo-1560264280-88b68371db39.jpg "
               alt="article"
-              fill={true}
-              className="object-cover"
+              className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
-            <b>Gambar 1</b>{" "}
-            <span className="italic">
-              Penyakit jantung bisa membuat napas jadi pendek-pendek
-            </span>
+            <b>Gambar 1</b> <span className="italic">Ilustrasi</span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Penyakit jantung penyebab napas pendek
-          </h3>
           <p className="text-gray-600 text-justify">
-            Mengalami napas pendek terus-menerus bisa jadi merupakan gejala dari
-            penyakit jantung. Beberapa penyakit jantung yang bisa menyebabkan
-            napas pendek antara lain adalah:
+            PHBS (Perilaku Hidup Bersih dan Sehat) di Tempat Kerja adalah upaya
+            untuk memberdayakan karyawan agar mereka mengetahui, mau, dan mampu
+            mempraktikkan PHBS serta berperan aktif dalam menciptakan lingkungan
+            kerja yang sehat. Implementasi PHBS di tempat kerja penting untuk
+            menjaga, memelihara, dan mempertahankan kesehatan karyawan sehingga
+            tetap sehat dan produktif.
+          </p>
+          <p className="text-gray-600 text-justify">
+            Pengertian dan Latar Belakang: Tempat kerja, seperti kantor dan
+            pabrik, mencakup lingkungan fisik, kimia, biologi, ergonomi, dan
+            psikososial. Implementasi PHBS di tempat kerja diperlukan untuk
+            menjaga kesehatan karyawan agar tetap sehat dan produktif. Memahami
+            pentingnya penerapan PHBS di tempat kerja untuk meningkatkan derajat
+            kesehatan masyarakat, khususnya bagi karyawan, maka perlu dilakukan
+            sosialisasi yang sistematis dan masif. PHBS di tempat kerja adalah
+            salah satu dari lima tatanan PHBS.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">1. Gagal jantung</h3>
-          <p className="text-gray-600 text-justify">
-            Gagal jantung, atau kadang-kadang disebut dengan gagal jantung
-            kongestif adalah kondisi saat jantung tidak cukup kuat memompa darah
-            dengan baik sehingga tidak dapat memenuhi kebutuhan tubuh. Selain
-            napas pendek, gagal jantung juga ditandai dengan rasa lelah,
-            pembengkakan di pergelangan kaki, telapak kaki, dan bagian tengah
-            tubuh.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">2. Takikardia</h3>
-          <p className="text-gray-600 text-justify">
-            Takikardia adalah kondisi detak jantung yang sangat cepat, biasanya
-            lebih dari 100 detak per menit pada orang dewasa. Padahal, frekuensi
-            detak jantung yang normal adalah 60 kali per menit untuk orang
-            dewasa. Salah satu jenis takikardia yang dapat menyebabkan napas
-            pendek adalah atrial tachycardia atau SVT. Ini adalah kondisi saat
-            sinyal listrik jantung tidak menyala dengan baik dan harus segera
-            mendapatkan pertolongan medis.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">3. Angina</h3>
-          <p className="text-gray-600 text-justify">
-            Sebenarnya, angina bukanlah penyakit, melainkan suatu gejala berupa
-            rasa sakit atau perasaan tidak nyaman ketika aliran darah ke jantung
-            berkurang. Saat terjadi, angina biasanya disertai dengan gangguan
-            napas seperti napas pendek dan keringat yang keluar berlebihan.
-            Angina bisa menjadi tanda adanya masalah jantung yang memerlukan
-            penanganan medis, seperti misalnya penyakit jantung koroner.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">4. Serangan jantung</h3>
-          <p className="text-gray-600 text-justify">
-            Serangan jantung terjadi saat sesuatu menyumbat aliran darah ke
-            jantung, sehingga jantung tidak mendapatkan oksigen yang
-            dibutuhkannya. Ini adalah kondisi darurat medis yang perlu ditangani
-            dengan cepat.
-          </p>
-          <p className="text-gray-600 text-justify">
-            Napas pendek adalah salah satu gejala serangan jantung. Selain itu,
-            orang yang sedang mengalami serangan jantung juga akan merasakan
-            nyeri di bagian dada dan bawah tulang dada, serta lengan. Rasa nyeri
-            juga bisa menyebar ke rahang, tenggorokan, dan punggung.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">5. Fibrilasi atrium</h3>
-          <p className="text-gray-600 text-justify">
-            Fibrilasi atrium adalah kondisi ketika impuls listrik jantung kacau,
-            sehingga menyebabkan detak jantung tidak teratur atau berdebar-debar
-            Selain jantung berdebar kencang, AF juga dapat disertai gejala napas
-            pendek, nyeri dada, kelelahan, pusing atau merasa ingin pingsan, dan
-            merasa kesulitan untuk berolahraga.
-          </p>
-        </div>
-
-        {/* <div>
-          <h4 className="font-bold">Tag:</h4>
-          <div className="flex flex-wrap gap-2 items-center mt-2 text-xs sm:text-base">
-            <span className="block py-1 px-2 rounded bg-primary text-white">
-              Gizi
-            </span>
-            <span className="block py-1 px-2 rounded bg-primary text-white">
-              Tips & Trick
-            </span>
+          <div>
+            <strong>Tujuan PHBS di Tempat Kerja:</strong>
+            <ul className="list-disc list-inside">
+              <li>
+                Mengembangkan perilaku hidup bersih dan sehat di tempat kerja.
+              </li>
+              <li>Menurunkan angka absensi karyawan.</li>
+              <li>
+                Menurunkan angka penyakit akibat kerja dan lingkungan kerja.
+              </li>
+              <li>
+                Menciptakan lingkungan kerja yang sehat, mendukung, dan aman.
+              </li>
+              <li>
+                Membantu berkembangnya gaya kerja dan gaya hidup yang sehat.
+              </li>
+              <li>
+                Memberikan dampak positif terhadap lingkungan kerja dan
+                masyarakat.
+              </li>
+            </ul>
           </div>
-        </div> */}
+
+          <p>
+            <strong>Manfaat PHBS di Tempat Kerja:</strong> Manfaat penerapan
+            PHBS mencakup peningkatan kesehatan karyawan sehingga tidak mudah
+            sakit, peningkatan produktivitas yang berdampak pada peningkatan
+            penghasilan dan ekonomi keluarga, serta pengeluaran biaya rumah
+            tangga yang lebih difokuskan pada peningkatan taraf hidup daripada
+            biaya pengobatan. Bagi perusahaan, manfaatnya termasuk peningkatan
+            produktivitas kerja, penurunan biaya kesehatan, dan peningkatan
+            citra positif tempat kerja.
+          </p>
+
+          <div>
+            <strong>Indikator PHBS di Tempat Kerja:</strong>
+            <ul className="list-disc list-inside">
+              <li>
+                Menggunakan Alat Pelindung Diri (APD) sesuai jenis pekerjaan.
+              </li>
+              <li>Tidak merokok/ada kebijakan larangan merokok.</li>
+              <li>Olahraga teratur/aktivitas fisik.</li>
+              <li>
+                Mencuci tangan dengan air bersih dan sabun sebelum makan dan
+                sesudah buang air besar.
+              </li>
+              <li>Menggunakan jamban sehat saat buang air kecil dan besar.</li>
+              <li>Membuang sampah di tempat sampah.</li>
+              <li>Memberantas jentik nyamuk di tempat kerja.</li>
+              <li>Mengonsumsi makanan dan minuman sehat.</li>
+              <li>
+                Bebas dari NAPZA (Narkotika, Obat-obatan, Psikotropika, dan Zat
+                Adiktif lainnya).
+              </li>
+              <li>Tidak meludah sembarangan.</li>
+            </ul>
+          </div>
+
+          <div>
+            <strong>
+              Menurut flyer dari Kementerian Kesehatan, beberapa perilaku PHBS
+              yang harus dipraktikkan di tempat kerja meliputi:
+            </strong>
+            <ul className="list-disc list-inside">
+              <li>Mengurangi penggunaan plastik/styrofoam.</li>
+              <li>Memanfaatkan kertas bekas.</li>
+              <li>
+                Mematikan komputer dan peralatan listrik jika tidak digunakan.
+              </li>
+              <li>
+                Membuang sampah pada tempatnya dan memisahkan antara sampah
+                basah, kering, dan berbahaya.
+              </li>
+              <li>
+                Meminimalkan penggunaan kendaraan pribadi ke kantor atau
+                memaksimalkan penumpang dalam satu mobil.
+              </li>
+              <li>Tidak merokok.</li>
+              <li>Beraktivitas fisik setidaknya 30 menit setiap hari.</li>
+              <li>Mencuci tangan menggunakan sabun sesering mungkin.</li>
+              <li>
+                Mengonsumsi makanan bergizi seimbang, serta makan buah dan sayur
+                3-5 porsi sehari.
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 const page = () => {
@@ -5,7 +6,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-        Sakit Gigi Tak Kunjung Sembuh, Ini Penyebab dan Cara Mengatasinya
+          Perilaku Hidup Bersih dan Sehat (PHBS) di Tempat Kerja
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -22,7 +23,7 @@ const page = () => {
                 Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Selasa, 20 November 2023 10:20
+                15 Februari 2024
               </span>
             </div>
           </div>
@@ -39,91 +40,132 @@ const page = () => {
       <div className="mt-4">
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
-            <Image
-              src="/image/penyakit3.png"
+            <img
+              src="https://i.ibb.co/Gdjq3Pv/dr-Hesty-1.jpg"
               alt="article"
-              fill={true}
-              className="object-cover"
+              className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
-            <b>Gambar 1</b> <span className="italic">Sakit gigi tak kunjung sembuh bisa terjadi karena infeksi</span>
+            <b>Gambar 1</b> <span className="italic">Ilustrasi</span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">Penyebab sakit gigi berkepanjangan</h3>
           <p className="text-gray-600 text-justify">
-          Saat sakit gigi yang kamu rasakan tidak kunjung sembuh, maka tandanya ada infeksi dan peradangan yang sedang berlangsung di situ. Infeksi yang ada membuat saraf gigi jadi rusak, bahkan memicu terbentuknya abses di ujung akar gigi.
-
-Kondisi ini sebenarnya diawali oleh lubang kecil yang tidak dirawat dan lama kelamaan jadi makin besar.  Ketika lubang makin besar, maka kerusakan yang terjadi juga makin dalam. 
+          Perilaku Hidup Bersih dan Sehat (PHBS) adalah sebuah upaya untuk memberdayakan masyarakat agar mereka mengetahui, mau, dan mampu mempraktikkan perilaku hidup bersih dan sehat serta berpartisipasi aktif dalam gerakan kesehatan masyarakat.
           </p>
           <p className="text-gray-600 text-justify">
-          Di bagian dalam gigi terdapat pulpa yang mengandung jaringan, saraf, dan pembuluh darah. Saat gigi berlubang atau retak, udara dan kuman dapat masuk ke dalam gigi, lalu mengiritasi dan menginfeksi saraf di pulpa yang sensitif. Inilah yang menyebabkan sakit gigi.
-
-Kalau sudah begini, biasanya sakit gigi yang dirasakan tumpul, tapi konsisten. Saat peradangan sedang parah, rasa sakit gigi bisa menyebar ke area lain termasuk rahang dan kepala. Pada saat-saat tertentu, sakit gigi bisa terasa tajam tapi hal ini jarang terjadi.  
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">Cara mengatasi sakit gigi berkepanjangan</h3>
-          <p className="text-gray-600 text-justify">
-          Penanganan sakit gigi berkepanjangan bergantung pada kondisi masing-masing kasus. Dokter akan melakukan pemeriksaan kondisi gigi sebelum merekomendasikan jenis perawatan untuk sakit gigi tak kunjung sembuh.
-
-Beberapa pilihan perawatan untuk sakit gigi tak kunjung sembuh meliputi:
+            Lingkungan kerja memiliki dampak positif dan negatif pada kesehatan
+            psikologis pekerjanya. Berbagai faktor seperti gaji, lingkungan
+            kerja, dan interaksi dengan rekan kerja dapat memengaruhi kesehatan
+            mental. Ketika faktor-faktor tersebut tidak berjalan dengan baik,
+            tingkat stres akan meningkat. Beban kerja yang menumpuk dapat
+            menurunkan produktivitas dan fokus. Oleh karena itu, penting untuk
+            segera mencari solusi untuk mengatasi masalah tersebut. Cara menjaga
+            kesehatan mental meliputi menghindari tekanan yang parah dan segera
+            mencari solusi saat menghadapi masalah. Salah satu cara efektif
+            adalah dengan mendiskusikan masalah dengan rekan kerja untuk
+            menghindari dampak negatif pada kinerja tim.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-          1. Obat sakit gigi
-          </h3>
           <p className="text-gray-600 text-justify">
-          Obat pereda nyeri dan antibiotik dapat meringankan gejala sakit gigi dan menghilangkan infeksi. Namun, efek dari obat sakit gigi hanya bersifat sementara dan rasa nyeri yang menyiksa bisa kambuh lagi jika penyebab utamanya tidak diatasi hingga tuntas.
+          Ruang Lingkup PHBS:
+1. Perilaku Hidup Bersih dan Sehat di Rumah Tangga
+2. Perilaku Hidup Bersih dan Sehat di Institusi Kesehatan
+3. Perilaku Hidup Bersih dan Sehat di Tempat Umum
+4. Perilaku Hidup Bersih dan Sehat di Sekolah
+5. Perilaku Hidup Bersih dan Sehat di Tempat Kerja
+
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-          2. Tambal gigi
-          </h3>
           <p className="text-gray-600 text-justify">
-          Penambalan gigi adalah cara paling efektif untuk meredakan sakit gigi yang tidak kunjung sembuh. Dengan catatan, lubangnya belum terlalu besar hingga merusak saraf. 
+          Sebanyak 89.7% populasi usia produktif (15-55 tahun) adalah pekerja aktif. Dari jumlah tersebut, 44% bekerja di sektor pertanian, 19.9% di sektor perdagangan, 12.3% di sektor industri, 5.8% di sektor transportasi, dan sisanya di sektor lain. Sektor dengan jumlah tenaga kerja paling sedikit adalah sektor listrik, air, dan gas (0.2%) serta sektor pertambangan (0.9%). Karena banyaknya industri kecil dan usaha sektor informal, perhatian dan penanganan kesehatan serta keselamatan kerja menjadi penting untuk menghindari penyakit dan kecelakaan kerja yang dapat mempengaruhi produktivitas.
+
+          </p>
+          <p className="text-gray-600 text-justify">
+          PHBS di tempat kerja bertujuan untuk memberdayakan pekerja agar mereka tahu, mau, dan mampu mempraktikkan hidup bersih dan sehat serta berperan dalam menciptakan Tempat Kerja Sehat.
+
           </p>
         </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-          3. Perawatan saluran akar
-          </h3>
-          <p className="text-gray-600 text-justify">
-          Kalau lubang gigi sudah sangat besar dan saraf gigi sudah rusak, maka solusi untuk meredakan nyeri berkepanjangan yang kamu rasakan adalah dengan perawatan saluran akar. 
+        <div className="text-gray-600 text-justify space-y-4">
+  <p>
+    <strong>Tujuan PHBS di Tempat Kerja:</strong>
+    <ul className="list-disc list-inside">
+      <li>Mengembangkan perilaku hidup bersih dan sehat di tempat kerja</li>
+      <li>Meningkatkan produktivitas kerja</li>
+      <li>Menciptakan lingkungan kerja yang sehat</li>
+      <li>Menurunkan angka absensi kerja</li>
+      <li>Menurunkan angka penyakit akibat kerja dan lingkungan kerja</li>
+      <li>Memberikan dampak positif terhadap lingkungan kerja dan masyarakat</li>
+    </ul>
+  </p>
+  
+  <p>
+    <strong>Perilaku Hidup Bersih dan Sehat di Tempat Kerja antara lain:</strong>
+    <ul className="list-disc list-inside">
+      <li>Tidak merokok di tempat kerja</li>
+      <li>Membeli dan mengonsumsi makanan yang sehat di tempat kerja</li>
+      <li>Melakukan olahraga secara teratur atau aktivitas fisik</li>
+      <li>Mencuci tangan dengan air bersih dan sabun sebelum makan dan setelah buang air</li>
+      <li>Memberantas jentik nyamuk di tempat kerja</li>
+      <li>Menggunakan air bersih</li>
+      <li>Menggunakan jamban yang bersih</li>
+      <li>Membuang sampah pada tempatnya</li>
+      <li>Menggunakan Alat Pelindung Diri (APD) sesuai jenis pekerjaan</li>
+    </ul>
+  </p>
 
-Setelah perawatan selesai, dokter gigi akan menambal permanen gigi sehingga bentuknya bisa kembali normal. Namun kalau kerusakan bagian mahkotanya sudah sangat besar tapi akarnya masih kuat, maka bisa dipasangkan crown gigi, inlay, atau onlay. 
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-          4. Cabut gigi
-          </h3>
-          <p className="text-gray-600 text-justify">
-          Cabut gigi adalah cara untuk mengatasi gigi yang sudah rusak parah, sehingga tidak mungkin lagi untuk dirawat saluran akarnya. 
+  <p>
+    <strong>Manfaat PHBS di Tempat Kerja:</strong>
+    <ul className="list-disc list-inside">
+      <li>
+        <strong>Bagi Pekerja:</strong>
+        <ul className="list-disc list-inside ml-4">
+          <li>Peningkatan kesehatan dan penurunan risiko sakit</li>
+          <li>Meningkatnya produktivitas yang berdampak pada peningkatan penghasilan dan ekonomi keluarga</li>
+          <li>Pengeluaran rumah tangga bisa difokuskan untuk peningkatan taraf hidup, bukan untuk biaya pengobatan</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Bagi Masyarakat:</strong>
+        <ul className="list-disc list-inside ml-4">
+          <li>Lingkungan tetap sehat meskipun berada di sekitar tempat kerja</li>
+          <li>Dapat mencontoh perilaku hidup bersih dan sehat dari tempat kerja setempat</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Bagi Tempat Kerja:</strong>
+        <ul className="list-disc list-inside ml-4">
+          <li>Peningkatan produktivitas kerja yang berdampak positif pada pencapaian target dan tujuan</li>
+          <li>Penurunan biaya Kesehatan</li>
+          <li>Peningkatan citra positif tempat kerja</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Bagi Pemerintah Provinsi dan Kabupaten/Kota:</strong>
+        <ul className="list-disc list-inside ml-4">
+          <li>Peningkatan tempat kerja sehat menunjukkan kinerja dan citra pemerintah yang baik</li>
+          <li>Anggaran dapat dialihkan untuk peningkatan kesehatan, bukan untuk penanggulangan masalah kesehatan</li>
+          <li>Dapat dijadikan pusat pembelajaran bagi daerah lain dalam pembinaan PHBS di Rumah Tangga</li>
+        </ul>
+      </li>
+    </ul>
+  </p>
 
-Infeksi gigi parah yang tidak diobati, dapat menyebar ke area lain, termasuk tulang rahang, wajah, tenggorokan, dan juga kepala. Kondisi ini bisa berakibat fatal bahkan mungkin mengancam jiwa.
+  <p>
+    <strong>Ruang Lingkup PHBS:</strong>
+    <ol className="list-decimal list-inside">
+      <li>Perilaku Hidup Bersih dan Sehat di Rumah Tangga</li>
+      <li>Perilaku Hidup Bersih dan Sehat di Institusi Kesehatan</li>
+      <li>Perilaku Hidup Bersih dan Sehat di Tempat Umum</li>
+      <li>Perilaku Hidup Bersih dan Sehat di Sekolah</li>
+      <li>Perilaku Hidup Bersih dan Sehat di Tempat Kerja</li>
+    </ol>
+  </p>
+</div>
 
-Segera kunjungi dokter jika sakit gigi disertai dengan demam, berlangsung lebih dari satu hari, menyebabkan masalah menggigit atau mengunyah, pembengkakan, gusi merah, kesulitan menelan, atau disertai rasa dan bau tidak enak.
-
-Demikian juga jika gigi patah atau tanggal, segera kunjungi dokter gigi sebelum menyebabkan sakit gigi tak kunjung sembuh.
-          </p>
-        </div>
-      
-
-        {/* <div>
-          <h4 className="font-bold">Tag:</h4>
-          <div className="flex flex-wrap gap-2 items-center mt-2 text-xs sm:text-base">
-            <span className="block py-1 px-2 rounded bg-primary text-white">
-              Gizi
-            </span>
-            <span className="block py-1 px-2 rounded bg-primary text-white">
-              Tips & Trick
-            </span>
-          </div>
-        </div> */}
       </div>
     </div>
   );

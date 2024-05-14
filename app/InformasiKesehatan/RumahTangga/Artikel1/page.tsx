@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 const page = () => {
@@ -5,7 +6,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Memahami Penyebab Maag Kambuh dan Cara Mengatasinya
+        PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Rumah Tangga
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -37,111 +38,97 @@ const page = () => {
         </div>
       </div>
       <div className="mt-4">
-        <div>
+      <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
-            <Image
-              src="/image/penyakit1.png"
+            <img
+              src="https://i.ibb.co/Zhnp397/phbs-tatanan-rt.jpg"
               alt="article"
-              fill={true}
-              className="object-cover"
+              className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
             <b>Gambar 1</b>{" "}
             <span className="italic">
-              Ilustrasi seorang wanita yang mengalami maag kambuh
+              Ilustrasi
             </span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Apa penyebab maag kambuh?
+          Latar Belakang PHBS di Tatanan Rumah Tangga
           </h3>
           <p className="text-gray-600 text-justify">
-            Cara terbaik untuk mencegah maag kambuh lagi adalah menghindari
-            berbagai hal yang dapat memicu kondisi ini. Berikut adalah beberapa
-            penyebab maag kambuh yang perlu kamu hindari: Makan terburu-buru ,
-            Stres berlebih dan kelelahan , Makan dalam jumlah yang banyak
-            sekaligus , Makanan yang asam dan pedas , Makanan berlemak atau
-            berminyak , Gemar mengonsumsi minuman beralkohol dan merokok ,
-            Menggunakan pakaian yang ketat karena dapat memicu makanan naik ke
-            kerongkongan , Minuman atau makanan yang mengandung kafein, seperti
-            kopi atau teh , Langsung tidur setelah makan , Makan sebelum
-            olahraga atau berolahraga dengan perut kenyang. mengonsumsi makanan
-            berat sebelum tidur juga dapat menjadi penyebab maag kambuh. Jadi,
-            usahakan untuk makan setidaknya 3 jam sebelum waktu tidurmu.
-            Contohnya, kamu dapat memberi batasan waktu makan malam, yaitu pada
-            jam 6 atau 7 malam. Dengan begini, kamu bisa tidur sekitar jam 10
-            malam.
+          PHBS (perilaku Hidup Bersi dan Sehat) di Tatanan Rumah Tangga adalah semua perilaku kebersihan dan kesehatan yang dilakukan atas kesadaran masing masing sehingga setiap anggota keluarga atau keluarga dapat menolong dirinya sendiri di bidang kesehatan dan ikut berperan aktif dalam kegiatan-kegiatan kesehatan di masyarakat.
+
+PHBS di Tatanan Rumah Tangga adalah upaya untuk menyadarkan keluarga dan masing masing anggota keuarga agar memilki kemaunan dan kemampuan dalam mempraktikkan PHBS.Sehingga keluarga dan seluruh anggota keluarga dapat memelihara dan meningkatkan kesehatannya, mencegah resiko terjadinya penyakit dan melindungi diri dari ancaman penyakit serta berperan aktif dalam gerakan kesehatan masyarakat. Rumah tangga atau keluarga yang sehat dapat diwujudkan dengan mengimplementasikan PHBS dan menciptakan dukungan lingkungan yang sehat.
+
+Rumah tangga atau keluarga yang sehat merupakan aset utama pembangunan yang perlu dipelihara terus menerus, ditingkakan dan dilindungi kesehatannya. Sehingga perlu dilakukan upaya upaya untuk meningkatkan pengetahuan, kemauan dan kemampuan anggota rumah tangga atau anggota keluarga untuk melaksanakan PHBS, dan ikut berperan aktif dalam gerakan PHBS di masyarakat.
+
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <p className="text-gray-600 text-justify">
+          Bahwa rumah tangga atau keluarga sehat merupakan aset atau modal utama pembangunan di masa depan yang perlu dijaga, ditingkakan dan dilindungi kesehatannya. Beberapa anggota rumah tangga mempunyai masa rawan terkena gangguan berbagai penyakit. Angka kesakitan dan kematian penyakit infeksi dan non infeksi dapat dicegah dengan PHBS.
+
+PHBS itu jumlahnya bisa banyak sekali, bisa ratusan; misalnya tentang Gizi: makan beraneka ragam makanan, minum Tablet Tambah Darah, mengkonsumsi Garam Beryodium, memberi bayi dan balita Kapsul Vitamin A; dst. Namun setiap rumah tangga dianjurkan untuk melaksanakan semua perilaku kesehatan; untuk manfaat yang tidak ternilai; baik bagi rumah tangga itu sendiri, lingkungan, dan bahkan nasional.
+
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Gejala penyakit maag
+          Manfaat PHBS di Tatanan Rumah Tangga
           </h3>
-          <p className="text-gray-600 text-justify">
-            Berikut sederet gejala maag kambuh yang perlu diwaspadai: Sakit
-            perut atau perut kembung , Nyeri ulu hati (heartburn) , Mual ,
-            Muntah , Merasa lebih cepat kenyang ketika sedang makan , Muncul
-            sensasi terbakar di perut atau esofagus (kerongkongan) , Muncul
-            penumpukan gas atau bersendawa. , Dalam beberapa kasus, maag juga
-            bisa disertai dengan gejala-gejala yang parah, seperti: , Muntah
-            yang terlihat berdarah atau teksturnya mirip ampas kopi , Penurunan
-            berat badan yang tak jelas penyebabnya , Feses berwarna hitam ,
-            Sulit menelan. Jika kamu mengalami berbagai gejala di atas,
-            segeralah datang ke dokter dan berkonsultasi.
+          <p className=" font-bold">
+          1. Setiap anggota keluarga menjadi sehat dan tidak mudah sakit.
+          </p>
+          <p className=" font-bold">
+          2. Anak tumbuh sehat dan cerdas.
+          </p>
+          <p className=" font-bold">
+          3. Anggota keluarga giat bekerja.
+          </p>
+          <p className=" font-bold">
+          4. Pengeluaran biaya rumah tangga dapat ditujukan untuk memenuhi gizi keluarga, pendidikan dan modal usaha untuk peningkatan pendapatan keluarga.
           </p>
         </div>
+        <h3 className="font-bold">Rumah Tangga Ber-PHBS adalah rumah tangga yang melakukan 10 PHBS di Rumah Tangga, yaitu :</h3>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-          Cara mengatasi maag agar tidak kambuh 
-          </h3>
-          <h3 className="text-xl sm:text-2xl font-bold">
-          1. Menerapkan pola makan sehat
-          </h3>
-          <p className="text-gray-600 text-justify">
-          Menjaga pola makan sehat bisa kamu lakukan dengan memerhatikan jenis makanan dan asupan gizi yang terdapat di dalamnya. Selain itu, hindari mengonsumsi makanan secara berlebihan dan terburu-buru.
-
-Konsumsilah makanan yang kaya akan serat. Tujuannya adalah membantu membersihkan usus sehingga membuat pencernaan menjadi lebih lancar. 
-
-Beberapa contoh makanan berserat, di antaranya beras merah, oatmeal, ubi, buah bit, wortel, brokoli, dan buncis.
+          <p className=" font-bold">
+          1. Pertolongan persalinan oleh tenaga kesehatan.
           </p>
-          <p className="text-gray-600 text-justify">
-          Selain itu, kamu juga disarankan untuk mengonsumsi makanan yang tinggi pH, seperti pisang, kacang-kacangan, dan melon. Lalu, konsumsi juga makanan yang kaya air, seperti semangka, sup, timun, seledri, dan selada.
-
-Jika kamu ingin mengonsumsi daging sapi atau ayam, pastikan daging tersebut tidak mengandung banyak lemak.
-
-Tak hanya makanan, kamu juga perlu menghindari minuman penyebab maag kambuh dan menggantinya dengan yang lebih sehat. Minuman seperti teh chamomile, teh peppermint, jahe, akar licorice, adas, dan air lemon dapat kamu konsumsi.
+          <p className=" font-bold">
+          2. Memberi bayi ASI Eksklusif.
           </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-          2. Menjalani gaya hidup sehat
-          </h3>
-          <p className="text-gray-600 text-justify">
-          Seperti yang sudah disebutkan sebelumnya, merokok, minuman beralkohol, stres, dan makan sebelum tidur dapat membuat maag kamu kambuh.
-
-Oleh karena itu, mulailah untuk menghindari gaya hidup yang kurang baik tersebut. Selain dapat memicu maag, gaya hidup di atas juga berdampak buruk untuk kesehatan kamu secara menyeluruh.
-
-Sebisa mungkin, cobalah untuk meredakan kecemasan dan stres yang kamu alami guna mencegah maag kambuh. Kamu bisa melakukan yoga secara teratur untuk menghilangkan stres dan gejala gangguan pencernaan.
+          <p className=" font-bold">
+          3. Menimbang balita setiap bulan.
+          </p>
+          <p className=" font-bold">
+          4. Menggunakan air bersih.
+          </p>
+          <p className=" font-bold">
+          5. Mencuci tangan dengan air bersih dan sabun.
+          </p>
+          <p className=" font-bold">
+          6. Menggunakan jamban sehat.
+          </p>
+          <p className=" font-bold">
+          7. Memberantas jentik di rumah sekali seminggu.
+          </p>
+          <p className=" font-bold">
+          8. Makan buah dan sayur setiap hari.
+          </p>
+          <p className=" font-bold">
+          9. Melakukan Aktivitas Fisik setiap hari.
+          </p>
+          <p className=" font-bold">
+          10. Tidak merokok di dalam rumah.
           </p>
         </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-          3. Mengonsumsi obat-obatan maag
-          </h3>
-          <p className="text-gray-600 text-justify">
-          Jika masih tetap kambuh, cobalah berkonsultasi ke dokter terkait konsumsi obat-obatan maag. 
+        <p>PHBS Tatanan Rumah Tangga harus dapat diketahui, dimengerti dan dipraktekkan oleh keluarga, anggota keluarga, serta lingkungan dimana setiap keluarga tinggal. Dalam kondisi ini peran anggota keluarga, masyarakat, tokoh masyarakat, pemerintah daerah sangat berpengaruh termasuk dalam tersedianya fasilitas serta adanya kebijakan yang mendukung.
 
-Terdapat beberapa obat yang mungkin diresepkan dokter agar maag tidak kambuh, salah satunya penghambat pompa proton yang mengurangi asam lambung. Obat ini biasanya direkomendasikan pada pasien maag yang mengalami nyeri ulu hati. 
+</p>
 
-Selain itu, ada pula obat antagonis reseptor-H2 yang juga bisa mengurangi asam lambung. 
 
-Apa pun obat yang kamu konsumsi, pastikan kamu berkonsultasi dulu dengan dokter untuk mengetahui dosis dan anjuran konsumsi yang tepat. 
-
-Penyebab maag kambuh tidak melulu soal apa yang kamu konsumsi. Gaya hidup, stres, dan kelelahan pun dapat menjadi pemicu kondisi ini. Oleh karena itu, cobalah untuk mulai menghindarinya, dan mulailah menerapkan pola makan serta gaya hidup sehat.
-          </p>
-        </div>
 
         {/* <div>
           <h4 className="font-bold">Tag:</h4>
