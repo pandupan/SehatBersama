@@ -8,40 +8,33 @@ const page = () => {
         <div className="flex items-center justify-center sm:items-stretch sm:justify-stretch">
           <div className="relative xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]">
             <div className="object-fit">
-              <Image
-                src="/image/penyakit0.png"
+            <img
+                src="https://i.ibb.co/JQZm5Qm/photo-1628235172251-6b87dab144b3.jpg"
                 alt="phbs"
-                fill={true}
-                className="rounded-xl"
+                className="object-cover items-center rounded-xl xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]"
               />
             </div>
           </div>
         </div>
         <div className="flex flex-col xl:gap-6 lg:gap-2 gap-[2px] px-4 sm:px-0">
-          <h3 className="text-white font-semibold lg:text-base text-xs ">
-            PENYAKIT
-          </h3>
+          <h3 className="text-white font-semibold lg:text-base text-xs ">TEMPAT UMUM</h3>
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
-            5 Cara Merawat Luka Diabetes agar Cepat Kering
+          6 Langkah Mencuci Tangan yang Benar Agar Tetap Bersih
           </h1>
           <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
-            Cara merawat luka diabetes agar cepat kering adalah dengan
-            membungkusnya menggunakan perban steril, lalu menghindari tekanan
-            pada area luka. Luka juga perlu segera dirawat dan rutin
-            dibersihkan. Diabetes dapat menyebabkan imun tubuh melemah. Kondisi
-            ini menyebabkan luka sekecil apa pun jadi lebih lama sembuh dan
-            lebih rentan mengalami komplikasi. Karena luka diabetes sulit
-            sembuh, maka diperlukan langkah khusus untuk merawatnya agar tidak
-            sampai infeksi. Ada beberapa cara merawat luka diabetes agar cepat
-            kering, antara lain harus rutin mengganti perban atau penutup luka
-            dan menghindari tekanan berlebihan pada luka. Berikut penjelasannya.
+          Cuci tangan adalah praktik penting dalam menjaga kebersihan dan
+            kesehatan tubuh, membantu mengurangi risiko infeksi atau penyakit
+            yang dapat ditularkan melalui tangan. Mencuci tangan dengan sabun
+            dan air bersih membantu menghilangkan virus, kuman, dan bakteri yang
+            mungkin menempel pada tangan setelah menyentuh permukaan yang
+            terkontaminasi.
           </p>
           <div>
             <h3 className="flex justify-start lg:text-base text-xs">
-              14 November 2023
+            29 November 2023
             </h3>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel"
+              href="/InformasiKesehatan/TempatUmum/Artikel"
               className="text-gray-500 hover:text-blue-500 lg:text-base text-xs "
             >
               Baca Selengkapnya ...
@@ -57,27 +50,25 @@ const page = () => {
       {/* ARTIKEL 1 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT UMUM</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Memahami Penyebab Maag Kambuh dan Cara Mengatasinya
+          10 Tips Perilaku Hidup Bersih dan Sehat (PHBS) Sehari-hari
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Penyebab maag kambuh bermacam-macam, seperti makan terburu-buru,
-            stres berlebihan dan kelelahan, makan dalam jumlah yang banyak
-            sekaligus, hingga suka minum alkohol dan merokok. Untuk mencegah
-            maag kambuh kembali, kamu perlu menerapkan pola makan sehat dan
-            menjalani gaya hidup sehat. Mual dan nyeri pada bagian perut dapat
-            mengindikasikan kondisi maag yang kambuh. Jika sudah begini, makan
-            pun jadi tak nyaman dan aktivitas sehari-hari juga mungkin
-            terganggu. Agar kondisi ini bisa ditangani dengan tepat, mari kenali
-            apa penyebab maag kambuh berikut ini.
+          Apakah Anda yakin sudah menjalani pola hidup bersih dan sehat?
+            Meskipun terdengar sepele, praktik Perilaku Hidup Bersih dan Sehat
+            (PHBS) seringkali masih diabaikan oleh banyak orang. Padahal,
+            menerapkan kebiasaan ini tidak hanya melindungi diri sendiri dari
+            penyakit, tetapi juga menjaga kesehatan orang-orang di sekitar kita.
+            Untuk itu, penting memahami arti sebenarnya dari PHBS melalui ulasan
+            berikut ini.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            12 November 2023
+          04 April 2024
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel1"
+              href="/InformasiKesehatan/TempatUmum/Artikel1"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -88,11 +79,10 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src="/image/penyakit1.png"
+                <img
+                  src="https://i.ibb.co/64cJ6XC/dan-gold-4-jh-DO54-BYg-unsplash.jpg"
                   className="object-cover"
                   alt="artikel1"
-                  fill={true}
                 />
               </div>
             </div>
@@ -102,9 +92,9 @@ const page = () => {
       {/* ARTIKEL 2 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT UMUM</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Penyebab Sendi Geser dan Cara Menanganinya dengan Tepat
+          Ini Aturan Hukum Merokok di Tempat Umum, Melanggar Bisa Dipidana!
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
             Sendi geser adalah keadaan di mana tulang bergeser dari tempat
@@ -113,11 +103,11 @@ const page = () => {
             reposisi, imobilisasi, hingga operasi.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            11 November 2023
+          23 Februari 2024
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel2"
+              href="/InformasiKesehatan/TempatUmum/Artikel2"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -128,10 +118,9 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src="/image/penyakit2.png"
+                <img
+                  src="https://i.ibb.co/cczLMXL/hipwee-SAVE-20210427-171636-640x422.jpg"
                   alt="artikel1"
-                  fill={true}
                   className="object-cover"
                 />
               </div>
@@ -142,27 +131,29 @@ const page = () => {
       {/* ARTIKEL 3 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT UMUM</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Sakit Gigi Tak Kunjung Sembuh, Ini Penyebab dan Cara Mengatasinya
+          Ini Lengkap Keputusan Menkes Soal Protokol Kesehatan di Tempat Umum
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Sakit gigi tak kunjung sembuh bisa disebabkan oleh infeksi di gigi.
-            Jika gigi tidak segera dirawat ke dokter gigi, maka rasa sakit bisa
-            terus timbul meski bisa mereda sementara saat minum obat sakit gigi.
-            Sakit gigi bisa cuma dirasakan sebentar, tapi bisa juga dirasakan
-            terus menerus. Sakit gigi yang tidak kunjung sembuh ini tentu
-            mengganggu, jadi kamu perlu tahu juga cara mengatasinya. Biasanya,
-            jika rasa nyeri tidak kunjung hilang meski kamu sudah minum obat,
-            itu tandanya tindakan perawatan dari dokter perlu segera kamu
-            dapatkan.
+          Menteri Kesehatan, Terawan Agus Putranto, telah mengeluarkan
+            peraturan terkait protokol kesehatan bagi masyarakat yang berlaku di
+            tempat umum, sebagai langkah preventif untuk menghambat penyebaran
+            virus Corona (COVID-19). Panduan ini diatur dalam Keputusan Menteri
+            Kesehatan nomor HK.01.07/MENKES/382/2020 tentang Protokol Kesehatan
+            bagi Masyarakat di Tempat dan Fasilitas Umum, yang disahkan pada 19
+            Juni 2020. Tempat umum yang termasuk dalam lingkup aturan ini
+            meliputi mal, pertokoan, hotel, rumah makan, fasilitas olahraga,
+            moda transportasi, lokasi wisata, layanan kecantikan, sektor ekonomi
+            kreatif, aktivitas keagamaan di tempat ibadah, serta penyelenggaraan
+            acara
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            10 November 2023
+          19 Juni 2020
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel3"
+              href="/InformasiKesehatan/TempatUmum/Artikel3"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -173,10 +164,9 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src="/image/penyakit3.png"
+                <img
+                  src="https://i.ibb.co/fNxDvWx/menkes-terawan-agus-putranto-6-169.jpg"
                   alt="artikel1"
-                  fill={true}
                   className="object-cover"
                 />
               </div>
@@ -187,27 +177,24 @@ const page = () => {
       {/* ARTIKEL 4 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT UMUM</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Penyebab Napas Pendek dan Cara Mengatasinya
+          Regulasi Larangan Merokok di Tempat Umum: Langkah Penting untuk
+          Menjaga Kesehatan Jantung
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Penyakit jantung bisa menyebabkan napas jadi pendek-pendek. Saat
-            seseorang mengalami gangguan jantung, jantung tidak cukup kuat
-            memompa darah dengan baik, sehingga fungsi pernapasan tidak
-            maksimal. Napas pendek normal jika dialami oleh orang yang baru saja
-            melakukan olahraga intens, mengalami perubahan suhu secara drastis,
-            atau berada di ketinggian. Namun, jika kamu mengalaminya hampir
-            setiap saat, bahkan saat beraktivitas ringan atau sedang
-            beristirahat, bisa jadi ada gangguan kesehatan yang perlu
-            diwaspadai.
+          Rokok adalah salah satu faktor risiko utama penyakit jantung, yang
+            menjadi penyebab kematian nomor satu di seluruh dunia. Dengan
+            menyebabkan berbagai jenis penyakit jantung, seperti penyakit
+            jantung koroner, gagal jantung, serangan jantung, dan stroke,
+            merokok sangat berbahaya bagi kesehatan jantung.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            18 November 2023
+          30 September 2023
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel4"
+              href="/InformasiKesehatan/TempatUmum/Artikel4"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -218,10 +205,9 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src="/image/penyakit4.png"
+                <img
+                  src="https://i.ibb.co/BgTM850/dampak-rokok-terhadap-kesehatan-jantung.webp"
                   alt="artikel1"
-                  fill={true}
                   className="object-cover"
                 />
               </div>

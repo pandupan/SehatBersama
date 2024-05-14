@@ -1,5 +1,3 @@
-
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 const page = () => {
@@ -31,7 +29,7 @@ const page = () => {
           </div>
           <div className="my-auto">
             <a
-              href="/InformasiKesehatan/KesehatanMental"
+              href="/InformasiKesehatan/InstitusiPendidikan"
               className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2"
             >
               Kembali
@@ -81,21 +79,21 @@ const page = () => {
           </h3>
           <p className="text-gray-600 text-justify">
             Mahasiswa dan Kepala Seksi Pengawasan dan Penegakkan Disiplin,
-            Mohamad Ma&apos;ruf, melakukan inspeksi di area blok hunian anak.
+            Mohamad Ma'ruf, melakukan inspeksi di area blok hunian anak.
             Pengecekkan ini mencakup kamar hunian, area cuci, toilet, dan area
-            santai dan kebugaran. Ma&apos;ruf mengatakan bahwa dia ingin bertemu
+            santai dan kebugaran. Ma'ruf mengatakan bahwa dia ingin bertemu
             dengan siswa untuk memastikan apakah anak binaan mampu menerapkan
             PHBS di lingkungan sekitar mereka.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Ma&apos;ruf berpesan kepada anak binaannya
+            Ma'ruf berpesan kepada anak binaannya
           </h3>
           <p className="text-gray-600 text-justify">
-          &apos;Menjaga kesehatan dan kebersihan itu penting, jika bukan kalian
+            ;&quot;Menjaga kesehatan dan kebersihan itu penting, jika bukan kalian
             yang menjaga lantas siapa lagi. Teman yang berperilaku buruk tolong
-            diingatkan dengan memberikan contoh yang baik.&apos;
+            diingatkan dengan memberikan contoh yang baik.;&quot;
           </p>
           <p className="text-gray-600 text-justify">
             I Komang Gede Ardiwahyudi menyatakan bahwa PHBS harus ditanamkan

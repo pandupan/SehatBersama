@@ -29,7 +29,7 @@ const page = () => {
           </div>
           <div className="my-auto">
             <a
-              href="/InformasiKesehatan/KesehatanMental"
+              href="/InformasiKesehatan/InstitusiPendidikan"
               className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2"
             >
               Kembali
@@ -112,10 +112,10 @@ const page = () => {
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Program "#HabiskanMakanmu: Aksi Zero Food Waste"
+            Program ;&quot;#HabiskanMakanmu: Aksi Zero Food Waste;&quot;
           </h3>
           <p className="text-gray-600 text-justify">
-            Selain itu, program "#HabiskanMakanmu: Aksi Zero Food Waste"
+            Selain itu, program ;&quot;#HabiskanMakanmu: Aksi Zero Food Waste;&quot;
             membantu siswa sekolah dasar Desa Jatilawang menerapkan Perilaku
             Hidup Bersih dan Sehat (PHBS) di sekolah mereka. Program ini
             mengajak siswa untuk menghabiskan jajanan yang mereka beli atau

@@ -8,40 +8,36 @@ const page = () => {
         <div className="flex items-center justify-center sm:items-stretch sm:justify-stretch">
           <div className="relative xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]">
             <div className="object-fit">
-              <Image
-                src="/image/penyakit0.png"
+            <img
+                src="https://i.ibb.co/bFf84n7/i-Stock-860065586.jpg"
                 alt="phbs"
-                fill={true}
-                className="rounded-xl"
+                className="object-cover items-center rounded-xl xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]"
               />
             </div>
           </div>
         </div>
         <div className="flex flex-col xl:gap-6 lg:gap-2 gap-[2px] px-4 sm:px-0">
-          <h3 className="text-white font-semibold lg:text-base text-xs ">
-            PENYAKIT
-          </h3>
+          <h3 className="text-white font-semibold lg:text-base text-xs ">TEMPAT KERJA</h3>
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
-            5 Cara Merawat Luka Diabetes agar Cepat Kering
+          Ini Hubungan Kesehatan Mental dengan Lingkungan Kerja
           </h1>
           <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
-            Cara merawat luka diabetes agar cepat kering adalah dengan
-            membungkusnya menggunakan perban steril, lalu menghindari tekanan
-            pada area luka. Luka juga perlu segera dirawat dan rutin
-            dibersihkan. Diabetes dapat menyebabkan imun tubuh melemah. Kondisi
-            ini menyebabkan luka sekecil apa pun jadi lebih lama sembuh dan
-            lebih rentan mengalami komplikasi. Karena luka diabetes sulit
-            sembuh, maka diperlukan langkah khusus untuk merawatnya agar tidak
-            sampai infeksi. Ada beberapa cara merawat luka diabetes agar cepat
-            kering, antara lain harus rutin mengganti perban atau penutup luka
-            dan menghindari tekanan berlebihan pada luka. Berikut penjelasannya.
+          Jakarta - Banyak orang menghabiskan sebagian besar waktunya di
+            tempat kerja dari Senin hingga Jumat, dan terkadang akhir pekan
+            mereka juga dihabiskan untuk bekerja meskipun dari rumah. Tekanan
+            pekerjaan yang tinggi dapat menyebabkan stres yang berdampak pada
+            kesehatan mental. Menjaga kesehatan mental di tempat kerja sangat
+            penting untuk kelancaran pekerjaan. Jika seseorang mengalami
+            gangguan mental, beban pekerjaan yang mereka tanggung mungkin tidak
+            terselesaikan dengan baik. Berikut ini pembahasan tentang pentingnya
+            menjaga kesehatan mental di tempat kerja.
           </p>
           <div>
             <h3 className="flex justify-start lg:text-base text-xs">
-              14 November 2023
+            15 Februari 2024
             </h3>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel"
+              href="/InformasiKesehatan/TempatKerja/Artikel1"
               className="text-gray-500 hover:text-blue-500 lg:text-base text-xs "
             >
               Baca Selengkapnya ...
@@ -57,27 +53,33 @@ const page = () => {
       {/* ARTIKEL 1 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT KERJA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Memahami Penyebab Maag Kambuh dan Cara Mengatasinya
+          Menjaga Kesehatan Mental di Lingkungan Kerja
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Penyebab maag kambuh bermacam-macam, seperti makan terburu-buru,
-            stres berlebihan dan kelelahan, makan dalam jumlah yang banyak
-            sekaligus, hingga suka minum alkohol dan merokok. Untuk mencegah
-            maag kambuh kembali, kamu perlu menerapkan pola makan sehat dan
-            menjalani gaya hidup sehat. Mual dan nyeri pada bagian perut dapat
-            mengindikasikan kondisi maag yang kambuh. Jika sudah begini, makan
-            pun jadi tak nyaman dan aktivitas sehari-hari juga mungkin
-            terganggu. Agar kondisi ini bisa ditangani dengan tepat, mari kenali
-            apa penyebab maag kambuh berikut ini.
+          Beban kerja yang berlebihan bisa berdampak signifikan pada
+            seseorang, baik secara fisik maupun mental. Perasaan stres yang
+            muncul akibat beban kerja yang terlalu berat merupakan hal umum,
+            tetapi jika dibiarkan, dapat menyebabkan masalah kesehatan mental
+            seperti depresi dan kecemasan. Stres berlebihan tidak hanya
+            memunculkan emosi negatif tetapi juga menurunkan produktivitas dan
+            mengganggu konsentrasi dalam menyelesaikan pekerjaan. Menjaga
+            kesehatan mental sangat penting, karena dampaknya sama seriusnya
+            dengan dampak fisik. Setiap orang perlu mengetahui cara efektif
+            untuk menjaga kesehatan mental saat menghadapi stres berlebihan di
+            tempat kerja. Sebagai tempat di mana banyak individu menghabiskan
+            sebagian besar waktunya, perusahaan atau organisasi harus
+            memperhatikan lingkungan kerja yang mendukung kesehatan mental
+            karyawan. Berikut beberapa cara yang bisa dilakukan karyawan untuk
+            menjaga kesehatan mental di tempat kerja:
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            12 November 2023
+          15 Februari 2024
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel1"
+              href="/InformasiKesehatan/TempatKerja/Artikel2"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -88,11 +90,10 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src="/image/penyakit1.png"
+                <img
+                  src="https://i.ibb.co/RP0DPV2/nik-shuliahin-Bu-NWp1b-L0nc-unsplash.jpg"
                   className="object-cover"
                   alt="artikel1"
-                  fill={true}
                 />
               </div>
             </div>
@@ -102,22 +103,29 @@ const page = () => {
       {/* ARTIKEL 2 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT KERJA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Penyebab Sendi Geser dan Cara Menanganinya dengan Tepat
+          Perilaku Hidup Bersih dan Sehat (PHBS) di Tempat Kerja
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Sendi geser adalah keadaan di mana tulang bergeser dari tempat
-            perlekatannya pada sendi yang disebabkan dari kecelakaan, olahraga,
-            faktor usia dan faktor keturunan. Kondisi ini bisa diatasi dengan
-            reposisi, imobilisasi, hingga operasi.
+          Lingkungan kerja memiliki dampak positif dan negatif pada kesehatan
+            psikologis pekerjanya. Berbagai faktor seperti gaji, lingkungan
+            kerja, dan interaksi dengan rekan kerja dapat memengaruhi kesehatan
+            mental. Ketika faktor-faktor tersebut tidak berjalan dengan baik,
+            tingkat stres akan meningkat. Beban kerja yang menumpuk dapat
+            menurunkan produktivitas dan fokus. Oleh karena itu, penting untuk
+            segera mencari solusi untuk mengatasi masalah tersebut. Cara menjaga
+            kesehatan mental meliputi menghindari tekanan yang parah dan segera
+            mencari solusi saat menghadapi masalah. Salah satu cara efektif
+            adalah dengan mendiskusikan masalah dengan rekan kerja untuk
+            menghindari dampak negatif pada kinerja tim.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            11 November 2023
+          15 Februari 2024
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel2"
+              href="/InformasiKesehatan/TempatKerja/Artikel3"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -128,10 +136,9 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src="/image/penyakit2.png"
+                <img
+                  src="https://i.ibb.co/Gdjq3Pv/dr-Hesty-1.jpg"
                   alt="artikel1"
-                  fill={true}
                   className="object-cover"
                 />
               </div>
@@ -142,27 +149,24 @@ const page = () => {
       {/* ARTIKEL 3 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT KERJA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Sakit Gigi Tak Kunjung Sembuh, Ini Penyebab dan Cara Mengatasinya
+          PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Tempat Kerja
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Sakit gigi tak kunjung sembuh bisa disebabkan oleh infeksi di gigi.
-            Jika gigi tidak segera dirawat ke dokter gigi, maka rasa sakit bisa
-            terus timbul meski bisa mereda sementara saat minum obat sakit gigi.
-            Sakit gigi bisa cuma dirasakan sebentar, tapi bisa juga dirasakan
-            terus menerus. Sakit gigi yang tidak kunjung sembuh ini tentu
-            mengganggu, jadi kamu perlu tahu juga cara mengatasinya. Biasanya,
-            jika rasa nyeri tidak kunjung hilang meski kamu sudah minum obat,
-            itu tandanya tindakan perawatan dari dokter perlu segera kamu
-            dapatkan.
+          PHBS (Perilaku Hidup Bersih dan Sehat) di Tempat Kerja adalah upaya
+            untuk memberdayakan karyawan agar mereka mengetahui, mau, dan mampu
+            mempraktikkan PHBS serta berperan aktif dalam menciptakan lingkungan
+            kerja yang sehat. Implementasi PHBS di tempat kerja penting untuk
+            menjaga, memelihara, dan mempertahankan kesehatan karyawan sehingga
+            tetap sehat dan produktif.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            10 November 2023
+          15 Februari 2024
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel3"
+              href="/InformasiKesehatan/TempatKerja/Artikel4"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -173,10 +177,9 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src="/image/penyakit3.png"
+                <img
+                  src="https://i.ibb.co/fHM37Gq/photo-1560264280-88b68371db39.jpg"
                   alt="artikel1"
-                  fill={true}
                   className="object-cover"
                 />
               </div>
@@ -185,9 +188,9 @@ const page = () => {
         </div>
       </div>
       {/* ARTIKEL 4 */}
-      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+      {/* <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT KERJA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
             Penyebab Napas Pendek dan Cara Mengatasinya
           </h3>
@@ -207,7 +210,7 @@ const page = () => {
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel4"
+              href="/InformasiKesehatan/TempatKerja/Artikel4"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -228,7 +231,8 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
       {/* <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
         <button title="leftbig" className="sm:flex hidden">
           <AiOutlineLeft size={40} />

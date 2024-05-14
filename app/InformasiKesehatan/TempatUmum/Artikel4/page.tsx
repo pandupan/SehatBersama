@@ -5,7 +5,8 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Penyebab Napas Pendek dan Cara Mengatasinya
+          Regulasi Larangan Merokok di Tempat Umum: Langkah Penting untuk
+          Menjaga Kesehatan Jantung
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -22,13 +23,13 @@ const page = () => {
                 Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Minggu, 11 Oktober 2023 06:20
+                Sabtu, 30 September 2023
               </span>
             </div>
           </div>
           <div className="my-auto">
-            <a
-              href="/InformasiKesehatan/KesehatanMental"
+          <a
+              href="/InformasiKesehatan/TempatUmum"
               className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2"
             >
               Kembali
@@ -39,90 +40,123 @@ const page = () => {
       <div className="mt-4">
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
-            <Image
-              src="/image/penyakit4.png"
+            <img
+              src="https://i.ibb.co/BgTM850/dampak-rokok-terhadap-kesehatan-jantung.webp"
               alt="article"
-              fill={true}
-              className="object-cover"
+              className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
             <b>Gambar 1</b>{" "}
             <span className="italic">
-              Penyakit jantung bisa membuat napas jadi pendek-pendek
+              Ilustrasi Rokok dan Jantung
             </span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Penyakit jantung penyebab napas pendek
+            Rokok adalah salah satu faktor risiko utama penyakit jantung
           </h3>
           <p className="text-gray-600 text-justify">
-            Mengalami napas pendek terus-menerus bisa jadi merupakan gejala dari
-            penyakit jantung. Beberapa penyakit jantung yang bisa menyebabkan
-            napas pendek antara lain adalah:
+            Rokok adalah salah satu faktor risiko utama penyakit jantung, yang
+            menjadi penyebab kematian nomor satu di seluruh dunia. Dengan
+            menyebabkan berbagai jenis penyakit jantung, seperti penyakit
+            jantung koroner, gagal jantung, serangan jantung, dan stroke,
+            merokok sangat berbahaya bagi kesehatan jantung.
+          </p>
+          <p className="text-gray-600 text-justify">
+            Menyadari bahaya rokok terhadap kesehatan jantung, penting untuk
+            mengimplementasikan regulasi yang ketat tentang larangan merokok di
+            tempat umum di seluruh Indonesia. Regulasi ini bertujuan untuk
+            melindungi masyarakat dari paparan asap rokok, baik dari perokok
+            aktif maupun pasif.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">1. Gagal jantung</h3>
+          <h3 className="text-xl sm:text-2xl font-bold">
+            Berikut beberapa faktor yang mendukung perlunya regulasi larangan
+            merokok di tempat umum:
+          </h3>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-xl sm:text-2xl font-bold">
+            1. Kandungan Kimia Berbahaya:
+          </h3>
           <p className="text-gray-600 text-justify">
-            Gagal jantung, atau kadang-kadang disebut dengan gagal jantung
-            kongestif adalah kondisi saat jantung tidak cukup kuat memompa darah
-            dengan baik sehingga tidak dapat memenuhi kebutuhan tubuh. Selain
-            napas pendek, gagal jantung juga ditandai dengan rasa lelah,
-            pembengkakan di pergelangan kaki, telapak kaki, dan bagian tengah
-            tubuh.
+            Asap rokok mengandung lebih dari 7.000 bahan kimia, termasuk
+            nikotin, tar, karbon monoksida, dan logam berat, yang dapat merusak
+            pembuluh darah dan jantung, serta meningkatkan risiko penyakit
+            jantung.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">2. Takikardia</h3>
+          <h3 className="text-xl sm:text-2xl font-bold">
+            2. Dampak Kesehatan:
+          </h3>
           <p className="text-gray-600 text-justify">
-            Takikardia adalah kondisi detak jantung yang sangat cepat, biasanya
-            lebih dari 100 detak per menit pada orang dewasa. Padahal, frekuensi
-            detak jantung yang normal adalah 60 kali per menit untuk orang
-            dewasa. Salah satu jenis takikardia yang dapat menyebabkan napas
-            pendek adalah atrial tachycardia atau SVT. Ini adalah kondisi saat
-            sinyal listrik jantung tidak menyala dengan baik dan harus segera
-            mendapatkan pertolongan medis.
+            Paparan asap rokok dapat menyebabkan berbagai masalah kesehatan,
+            termasuk penyakit jantung, kanker, stroke, dan penyakit paru-paru
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">3. Angina</h3>
+          <h3 className="text-xl sm:text-2xl font-bold">
+            3. Keefektifan Regulasi:
+          </h3>
           <p className="text-gray-600 text-justify">
-            Sebenarnya, angina bukanlah penyakit, melainkan suatu gejala berupa
-            rasa sakit atau perasaan tidak nyaman ketika aliran darah ke jantung
-            berkurang. Saat terjadi, angina biasanya disertai dengan gangguan
-            napas seperti napas pendek dan keringat yang keluar berlebihan.
-            Angina bisa menjadi tanda adanya masalah jantung yang memerlukan
-            penanganan medis, seperti misalnya penyakit jantung koroner.
+            Regulasi larangan merokok di tempat umum telah terbukti efektif
+            dalam mengurangi paparan asap rokok dan meningkatkan kesehatan
+            masyarakat.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">4. Serangan jantung</h3>
+          <h3 className="text-xl sm:text-2xl font-bold">
+            Manfaat dari regulasi larangan merokok di tempat umum meliputi:
+          </h3>
           <p className="text-gray-600 text-justify">
-            Serangan jantung terjadi saat sesuatu menyumbat aliran darah ke
-            jantung, sehingga jantung tidak mendapatkan oksigen yang
-            dibutuhkannya. Ini adalah kondisi darurat medis yang perlu ditangani
-            dengan cepat.
+            - Melindungi Kesehatan Masyarakat: Mencegah paparan asap rokok bagi
+            perokok aktif maupun pasif.
           </p>
           <p className="text-gray-600 text-justify">
-            Napas pendek adalah salah satu gejala serangan jantung. Selain itu,
-            orang yang sedang mengalami serangan jantung juga akan merasakan
-            nyeri di bagian dada dan bawah tulang dada, serta lengan. Rasa nyeri
-            juga bisa menyebar ke rahang, tenggorokan, dan punggung.
+            - Menurunkan Risiko Penyakit: Mengurangi risiko penyakit jantung,
+            kanker, stroke, dan penyakit paru-paru.
+          </p>
+          <p className="text-gray-600 text-justify">
+            - Meningkatkan Kualitas Udara: Menjadikan udara di tempat umum lebih
+            bersih dan sehat.
+          </p>
+          <p className="text-gray-600 text-justify">
+            - Menciptakan Lingkungan yang Nyaman: Memberikan lingkungan yang
+            lebih nyaman bagi semua orang.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">5. Fibrilasi atrium</h3>
+          <h3 className="text-xl sm:text-2xl font-bold">
+            Menciptakan lingkungan yang lebih sehat dan bebas dari asap rokok
+          </h3>
           <p className="text-gray-600 text-justify">
-            Fibrilasi atrium adalah kondisi ketika impuls listrik jantung kacau,
-            sehingga menyebabkan detak jantung tidak teratur atau berdebar-debar
-            Selain jantung berdebar kencang, AF juga dapat disertai gejala napas
-            pendek, nyeri dada, kelelahan, pusing atau merasa ingin pingsan, dan
-            merasa kesulitan untuk berolahraga.
+            Dengan menerapkan regulasi larangan merokok di tempat umum yang kuat
+            dan efektif, diharapkan dapat menciptakan lingkungan yang lebih
+            sehat dan bebas dari asap rokok. Beberapa rekomendasi untuk
+            memperkuat regulasi tersebut antara lain:
+          </p>
+          <p className="text-gray-600 text-justify">
+            - Sanksi yang Tegas: Menetapkan sanksi yang tegas bagi pelanggar
+            regulasi.
+          </p>
+          <p className="text-gray-600 text-justify">
+            - Sosialisasi dan Edukasi: Meningkatkan sosialisasi dan edukasi
+            tentang bahaya rokok.
+          </p>
+          <p className="text-gray-600 text-justify">
+            - Dukungan Penelitian: Mendukung penelitian tentang dampak regulasi
+            larangan merokok.
+          </p>
+          <p className="text-gray-600 text-justify">
+            Dengan langkah-langkah tersebut, diharapkan dapat menciptakan
+            Indonesia yang lebih sehat dan bebas dari asap rokok, serta
+            mengurangi risiko penyakit jantung secara signifikan.
           </p>
         </div>
-
         {/* <div>
           <h4 className="font-bold">Tag:</h4>
           <div className="flex flex-wrap gap-2 items-center mt-2 text-xs sm:text-base">

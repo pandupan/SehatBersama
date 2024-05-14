@@ -8,40 +8,46 @@ const page = () => {
         <div className="flex items-center justify-center sm:items-stretch sm:justify-stretch">
           <div className="relative xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]">
             <div className="object-fit">
-              <Image
-                src="/image/penyakit0.png"
+            <img
+                src="https://i.ibb.co/YyJCk4B/gambar-1-65ccd609de948f69127071f2.jpg"
                 alt="phbs"
-                fill={true}
-                className="rounded-xl"
+                className="object-cover items-center rounded-xl xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]"
               />
             </div>
           </div>
         </div>
         <div className="flex flex-col xl:gap-6 lg:gap-2 gap-[2px] px-4 sm:px-0">
-          <h3 className="text-white font-semibold lg:text-base text-xs ">
-            PENYAKIT
-          </h3>
+          <h3 className="text-white font-semibold lg:text-base text-xs ">RUMAH TANGGA</h3>
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
-            5 Cara Merawat Luka Diabetes agar Cepat Kering
+          PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Rumah Tangga
           </h1>
           <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
-            Cara merawat luka diabetes agar cepat kering adalah dengan
-            membungkusnya menggunakan perban steril, lalu menghindari tekanan
-            pada area luka. Luka juga perlu segera dirawat dan rutin
-            dibersihkan. Diabetes dapat menyebabkan imun tubuh melemah. Kondisi
-            ini menyebabkan luka sekecil apa pun jadi lebih lama sembuh dan
-            lebih rentan mengalami komplikasi. Karena luka diabetes sulit
-            sembuh, maka diperlukan langkah khusus untuk merawatnya agar tidak
-            sampai infeksi. Ada beberapa cara merawat luka diabetes agar cepat
-            kering, antara lain harus rutin mengganti perban atau penutup luka
-            dan menghindari tekanan berlebihan pada luka. Berikut penjelasannya.
+          PHBS (perilaku Hidup Bersi dan Sehat) di Tatanan Rumah Tangga adalah
+            semua perilaku kebersihan dan kesehatan yang dilakukan atas
+            kesadaran masing masing sehingga setiap anggota keluarga atau
+            keluarga dapat menolong dirinya sendiri di bidang kesehatan dan ikut
+            berperan aktif dalam kegiatan-kegiatan kesehatan di masyarakat. PHBS
+            di Tatanan Rumah Tangga adalah upaya untuk menyadarkan keluarga dan
+            masing masing anggota keuarga agar memilki kemaunan dan kemampuan
+            dalam mempraktikkan PHBS.Sehingga keluarga dan seluruh anggota
+            keluarga dapat memelihara dan meningkatkan kesehatannya, mencegah
+            resiko terjadinya penyakit dan melindungi diri dari ancaman penyakit
+            serta berperan aktif dalam gerakan kesehatan masyarakat. Rumah
+            tangga atau keluarga yang sehat dapat diwujudkan dengan
+            mengimplementasikan PHBS dan menciptakan dukungan lingkungan yang
+            sehat. Rumah tangga atau keluarga yang sehat merupakan aset utama
+            pembangunan yang perlu dipelihara terus menerus, ditingkakan dan
+            dilindungi kesehatannya. Sehingga perlu dilakukan upaya upaya untuk
+            meningkatkan pengetahuan, kemauan dan kemampuan anggota rumah tangga
+            atau anggota keluarga untuk melaksanakan PHBS, dan ikut berperan
+            aktif dalam gerakan PHBS di masyarakat.
           </p>
           <div>
             <h3 className="flex justify-start lg:text-base text-xs">
-              14 November 2023
+            11 November 2023
             </h3>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel"
+              href="/InformasiKesehatan/RumahTangga/Artikel1"
               className="text-gray-500 hover:text-blue-500 lg:text-base text-xs "
             >
               Baca Selengkapnya ...
@@ -57,27 +63,27 @@ const page = () => {
       {/* ARTIKEL 1 */}
       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Memahami Penyebab Maag Kambuh dan Cara Mengatasinya
+          Apa Itu Perilaku Hidup Bersih dan Sehat (PHBS) serta Contohnya
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Penyebab maag kambuh bermacam-macam, seperti makan terburu-buru,
-            stres berlebihan dan kelelahan, makan dalam jumlah yang banyak
-            sekaligus, hingga suka minum alkohol dan merokok. Untuk mencegah
-            maag kambuh kembali, kamu perlu menerapkan pola makan sehat dan
-            menjalani gaya hidup sehat. Mual dan nyeri pada bagian perut dapat
-            mengindikasikan kondisi maag yang kambuh. Jika sudah begini, makan
-            pun jadi tak nyaman dan aktivitas sehari-hari juga mungkin
-            terganggu. Agar kondisi ini bisa ditangani dengan tepat, mari kenali
-            apa penyebab maag kambuh berikut ini.
+          Perilaku Hidup Bersih dan Sehat (PHBS) merupakan upaya untuk
+            menularkan pengalaman mengenai perilaku hidup sehat melalui
+            individu, kelompok, atau pun masyarakat luas dengan jalur-jalur
+            komunikasi sebagai media berbagi informasi. PHBS merupakan langkah
+            awal menuju peningkatan kualitas kesehatan masyarakat. Program ini
+            dapat diterapkan di berbagai lingkungan seperti sekolah dan rumah
+            tangga. Salah satu contoh PHBS di lingkungan sekolah ialah membuang
+            sampah pada tempatnya dan mencuci tangan dengan sabun sebelum serta
+            sesudah makan.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            12 November 2023
+          15 Februari 2024
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel1"
+              href="/InformasiKesehatan/RumahTangga/Artikel2"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -88,11 +94,10 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src="/image/penyakit1.png"
+                <img
+                  src="https://i.ibb.co/yF4fxKt/hari-cuci-tangan-pakai-sabun-sedunia-di-bogor-antarafoto-ratio-16x9.jpg"
                   className="object-cover"
                   alt="artikel1"
-                  fill={true}
                 />
               </div>
             </div>
@@ -100,9 +105,9 @@ const page = () => {
         </div>
       </div>
       {/* ARTIKEL 2 */}
-      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+      {/* <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
             Penyebab Sendi Geser dan Cara Menanganinya dengan Tepat
           </h3>
@@ -117,7 +122,7 @@ const page = () => {
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel2"
+              href="/InformasiKesehatan/RumahTangga/Artikel2"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -138,11 +143,11 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ARTIKEL 3 */}
-      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+      {/* <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
             Sakit Gigi Tak Kunjung Sembuh, Ini Penyebab dan Cara Mengatasinya
           </h3>
@@ -162,7 +167,7 @@ const page = () => {
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel3"
+              href="/InformasiKesehatan/RumahTangga/Artikel3"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -183,11 +188,11 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ARTIKEL 4 */}
-      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+      {/* <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PENYAKIT</h1>
+          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
             Penyebab Napas Pendek dan Cara Mengatasinya
           </h3>
@@ -207,7 +212,7 @@ const page = () => {
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/Penyakit/Artikel4"
+              href="/InformasiKesehatan/RumahTangga/Artikel4"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -228,7 +233,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
         <button title="leftbig" className="sm:flex hidden">
           <AiOutlineLeft size={40} />

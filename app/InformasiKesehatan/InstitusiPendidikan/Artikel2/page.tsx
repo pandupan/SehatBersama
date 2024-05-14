@@ -31,7 +31,7 @@ const page = () => {
           </div>
           <div className="my-auto">
             <a
-              href="/InformasiKesehatan/KesehatanMental"
+              href="/InformasiKesehatan/InstitusiPendidikan"
               className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2"
             >
               Kembali
