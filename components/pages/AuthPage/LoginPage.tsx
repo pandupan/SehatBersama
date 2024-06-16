@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/jsx-no-undef */
 'use client';
 import React, { useState, useEffect } from "react";
@@ -7,21 +8,17 @@ import Image from "next/image";
 
 const LoginPage = () => {
   const router = useRouter();
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
   const [redirectUrl, setRedirectUrl] = useState("/"); // Default redirect URL
 
   useEffect(() => {
-    // Cek apakah ada URL yang disimpan sebelumnya pada state session
-    if (session) {
-      const storedUrl = sessionStorage.getItem("redirectUrl");
-      if (storedUrl) {
-        setRedirectUrl(storedUrl);
-        sessionStorage.removeItem("redirectUrl"); // Hapus URL yang disimpan setelah menggunakannya
-      }
+    if (status === "authenticated") {
+      const callbackUrl = new URLSearchParams(window.location.search).get('callbackUrl');
+      router.push(callbackUrl || redirectUrl);
     }
-  }, [session]);
+  }, [status]);
 
   const handleLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -33,7 +30,10 @@ const LoginPage = () => {
         password: e.currentTarget.password.value,
       });
       if (!res?.error) {
-        router.push(redirectUrl); // Arahkan pengguna ke redirectUrl setelah login berhasil
+        // Trigger a session reload to update the session context
+        const callbackUrl = new URLSearchParams(window.location.search).get('callbackUrl');
+        router.push(callbackUrl || redirectUrl); // Redirect user to callbackUrl or default redirectUrl after successful login
+        window.location.reload(); // Force reload to update session
       } else {
         setError(res.error);
       }
@@ -79,7 +79,7 @@ const LoginPage = () => {
                   type='submit'
                   disabled={isLoading}
                 >
-                  {isLoading?"Loading...":"Login"}
+                  {isLoading ? "Loading..." : "Login"}
                 </button>
               </div>
             </div>
