@@ -5,8 +5,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Implementasi Phbs, Lpka Palu Bersama Mahasiswa/I Poltekkes Kemenkes
-          Palu Tinjau Langsung Area Blok Hunian
+          Upaya Penanaman Budaya Perilaku Hidup Bersih dan Sehat di Sekolah
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -23,7 +22,7 @@ const page = () => {
                 Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-              16 Februari 2024
+                16 Februari 2024
               </span>
             </div>
           </div>
@@ -41,16 +40,13 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video flex justify-center items-center rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="https://i.ibb.co/G2ZYDnd/whatsapp-image-2024-02-16-at-12-14-25-65cefb0fde948f448e4b9e14.jpg"
+              src="https://i.ibb.co.com/cFwY5cg/d9a29937fa29ba9bc5a6c1cf48795cbe.jpg"
               alt="article"
               className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
-            <b>Gambar 1</b>{" "}
-            <span className="italic">
-              LPKA Palu Bersama Mahasiswa/I Poltekkes Kemenkes Palu
-            </span>
+            <b>Gambar 1</b> <span className="italic">Ilustrasi Perilaku Bersih</span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
@@ -59,72 +55,78 @@ const page = () => {
             Profesi Ners
           </h3>
           <p className="text-gray-600 text-justify">
-            Lembaga Pembinaan Khusus Anak (LPKA) Kelas II Palu dan Mahasiswa
-            Profesi Ners dari Politeknik Kesehatan Kementerian Kesehatan
-            (Poltekkes Kemenkes) Kota Palu melakukan tinjauan langsung ke area
-            blok hunian anak binaan sebagai bagian dari implementasi Perilaku
-            Hidup Bersih dan Sehat (PHBS).
-          </p>
-          <p className="text-gray-600 text-justify">
-            Implementasi PHBS di lingkungan sekitar bertujuan untuk mendorong
-            anak binaan untuk memahami tujuan dan keuntungan dari program
-            tersebut, serta untuk mendorong mereka untuk mempraktikkannya dan
-            berpartisipasi aktif dalam menciptakan lingkungan yang sehat dan
-            bersih.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Mahasiswa dan Kepala Seksi Pengawasan dan Penegakkan Disiplin
-          </h3>
-          <p className="text-gray-600 text-justify">
-            Mahasiswa dan Kepala Seksi Pengawasan dan Penegakkan Disiplin,
-            Mohamad Ma'ruf, melakukan inspeksi di area blok hunian anak.
-            Pengecekkan ini mencakup kamar hunian, area cuci, toilet, dan area
-            santai dan kebugaran. Ma'ruf mengatakan bahwa dia ingin bertemu
-            dengan siswa untuk memastikan apakah anak binaan mampu menerapkan
-            PHBS di lingkungan sekitar mereka.
+            Penerapan Perilaku Hidup Bersih dan Sehat (PHBS) di lingkungan
+            sekolah sangat penting untuk memastikan kesehatan dan keselamatan
+            semua siswa, staf, dan warga sekolah lainnya. Lingkungan pendidikan
+            yang sehat tidak hanya menciptakan kondisi belajar yang optimal
+            tetapi juga melindungi dari risiko penyakit. Berbagai indikator PHBS
+            di tingkat SMP dan pendidikan sederajat perlu diperhatikan sesuai
+            dengan pedoman yang telah ditetapkan. Contoh indikator ini mencakup
+            praktik konsumsi jajanan sehat di kantin, kebiasaan mencuci tangan
+            dengan sabun dan air mengalir, pemilahan dan pembuangan sampah yang
+            tepat, pengendalian jentik nyamuk, larangan merokok di area sekolah,
+            promosi membawa makanan sehat, serta perawatan kebersihan diri dan
+            kesehatan reproduksi yang teratur.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Ma'ruf berpesan kepada anak binaannya
-          </h3>
           <p className="text-gray-600 text-justify">
-            ;&quot;Menjaga kesehatan dan kebersihan itu penting, jika bukan kalian
-            yang menjaga lantas siapa lagi. Teman yang berperilaku buruk tolong
-            diingatkan dengan memberikan contoh yang baik.;&quot;
+            Implementasi PHBS di sekolah tidak hanya berfokus pada aspek fisik
+            semata, tetapi juga memperhatikan edukasi dan pembiasaan perilaku
+            sehat sebagai bagian integral dari kehidupan sehari-hari. Upaya ini
+            tidak hanya bertujuan untuk mengurangi risiko penyakit infeksius dan
+            non-infeksius di kalangan siswa dan staf, tetapi juga untuk
+            meningkatkan kesadaran akan pentingnya menjaga kesehatan secara
+            menyeluruh. Dengan demikian, pendidikan kesehatan melalui PHBS
+            diharapkan dapat memberikan kontribusi positif dalam menciptakan
+            lingkungan belajar yang aman, produktif, dan mendukung perkembangan
+            optimal bagi seluruh komunitas sekolah.
           </p>
           <p className="text-gray-600 text-justify">
-            I Komang Gede Ardiwahyudi menyatakan bahwa PHBS harus ditanamkan
-            dalam jiwa kita karena dengan menggunakannya, kita dapat memperoleh
-            banyak manfaat untuk diri kita sendiri, orang lain, dan lingkungan.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Ardiwahyudi menyarankan untuk terus menjaga kesehatan dengan
-            menerapkan PHBS
-          </h3>
-          <p className="text-gray-600 text-justify">
-            Ardiwahyudi menyarankan untuk terus menjaga kesehatan dengan
-            menerapkan PHBS. Mulailah dengan hal-hal kecil yang dimulai dari
-            diri sendiri. Perhatikan juga kebersihan tubuh, mulut, dan gigi
-            serta kebersihan lingkungan agar tidak menjadi sarang penyakit.
+            Upaya penanaman perilaku hidup bersih dan sehat di sekolah Selain
+            memperhatikan indikator PHBS, juga dilakukan upaya penanaman
+            perilaku hidup bersih dan sehat di lingkungan sekolah.
+            <br />
+            <br />
+            Berikut beberapa langkah yang dapat kita lakukan:
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            LPKA Palu memberikan layanan kesehatan tambahan seperti bubur kacang
-            hijau, vitamin, dan pemeriksaan gigi dan mulut yang rutin.
+          <h3 className="text-md font-bold text-gray-700">
+            1. Meningkatkan Literasi Kesehatan
           </h3>
           <p className="text-gray-600 text-justify">
-            LPKA Palu telah mengantongi sertifikat laik hygiene dari Dinas
-            Kesehatan Kota Palu dan terus berupaya memberikan layanan kesehatan
-            terbaik kepada anak-anak dengan memperhatikan gizi mereka dengan
-            memberikan makanan sehat dan higienis. Selain itu, LPKA Palu
-            memberikan layanan kesehatan tambahan seperti bubur kacang hijau,
-            vitamin, dan pemeriksaan gigi dan mulut yang rutin.
+            Literasi merupakan hal yang sangat mendasar. Hal ini diperlukan
+            untuk meningkatkan pemahaman warga sekolah hingga terjadi perubahan
+            perilaku mengenai tindakan standar yang harus dilakukan siswa untuk
+            mencegah penyebaran penyakit, khususnya infeksi virus corona.
+            Peningkatan kemampuan literasi dapat dimulai dari hal yang paling
+            mendasar seperti melakukan 3M, melakukan aktivitas kebugaran
+            jasmani, dan menjaga pola makan yang sehat.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-md font-bold text-gray-700">
+            2. Penguatan komunitas sekolah lebih lanjut
+          </h3>
+          <p className="text-gray-600 text-justify">
+             Penguatan komunitas sekolah
+            juga perlu dilakukan melalui berbagai upaya kesehatan di sekolah.
+            Contohnya seperti imbauan sekolah KTR (Kawasan Dilarang Merokok),
+            imbauan CTPS (Cuci Tangan Pakai Sabun), imbauan Gigi Sehat, imbauan
+            Senyum Cerah, dan masih banyak lagi yang lainnya.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-md font-bold text-gray-700">
+            3. Memanfaatkan fasilitas UKS Usaha Kesehatan Sekolah (UKS)
+          </h3>
+          <p className="text-gray-600 text-justify">
+            Memanfaatkan fasilitas UKS Usaha Kesehatan Sekolah (UKS) merupakan
+            salah satu fasilitas penting dalam penerapan PHBS di lingkungan
+            sekolah. Kita perlu memanfaatkan UKS sebagai fasilitas kesehatan
+            dasar sekolah. Oleh karena itu, Direktorat SMP juga melaksanakan
+            program pembinaan dan pengembangan UKS.
           </p>
         </div>
 

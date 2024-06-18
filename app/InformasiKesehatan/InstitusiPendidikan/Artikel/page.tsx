@@ -6,8 +6,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Puskesmas Maju: Mahasiswa PMM UMM Kelompok 63 Tingkatkan Pemahaman
-          para Pasien Puskesmas DAU melalui Edukasi Hipertensi dan PHBS
+          Pembiasaan Perilaku Hidup Bersih dan Sehat
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -24,7 +23,7 @@ const page = () => {
                 Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                14 Februari 2024, diperbarui 25 Maret 2024
+                07 Juni 2024
               </span>
             </div>
           </div>
@@ -42,90 +41,103 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video flex justify-center items-center rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="https://i.ibb.co/YyJCk4B/gambar-1-65ccd609de948f69127071f2.jpg"
+              src="https://i.ibb.co.com/bKrLw74/anak-skj.jpg"
               alt="article"
               className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
-            <b>Gambar 1</b> <span className="italic">Mahasiswa PMM UMM</span>
+            <b>Gambar 1</b>{" "}
+            <span className="italic">Ilustrasi Hidup Sehat</span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Kegiatan pengabdian kepada masyarakat mahasiswa (PMM) ini bertujuan
-            untuk hilirisasi hasil penelitian Universitas Muhammadiyah Malang
-            (UMM)
+          <h3 className="text-md font-bold text-gray-600">
+            Salah satu tugas guru dan orang tua adalah mendidik dan memantau
+            perilaku hidup bersih dan sehat (PHBS) pada anak.
           </h3>
           <p className="text-gray-600 text-justify">
-            Bantuan ini dimanfaatkan oleh kelompok PMM yang berjumlah 63
-            mahasiswa Universitas Muhammadiyah Malang yang beranggotakan Toby
-            Farhan Nabiel Kubarek dan kawan-kawan untuk membantu pasien di
-            Puskesmas DAU yang mengidap penyakit darah tinggi dan PHBS.
-            Penerapan ini dilakukan karena masih kurangnya pengetahuan
-            masyarakat umum khususnya lansia mengenai pemeriksaan kesehatan
-            rutin, dan perilaku PHBS khususnya pada ibu menyusui. Latihan
-            sosialisasi ini akan dilakukan melalui pemberian informasi topik
-            kesehatan yang dibahas dan pembagian leaflet di akhir sesi
-          </p>
-          <p className="text-gray-600 text-justify">
-            Mahasiswa rombongan PMM UMM yang berjumlah 36 orang tersebut
-            melaksanakan kegiatan bakti sosial melalui pertukaran yang dipimpin
-            oleh Dosen Pembimbing Lapangan (DPL) Firda Ayu Amalia, S.E., Ak.,
-            M.SA, dan menyelesaikan pelatihannya di Puskesmas DAU pokok bahasan
-            hipertensi dan PHBS.
+          PHBS ini hendaknya
+            diterapkan tidak hanya di sekolah tetapi juga di rumah dan tempat
+            umum. Pola hidup bersih dan sehat dapat menurunkan risiko anak Anda
+            terkena penyakit.
+            <br/>
+            <br/>
+            Berikut lima perilaku hidup bersih dan sehat yang sebaiknya
+            dilakukan anak setiap hari :
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Kegiatan pertukaran dilaksanakan selama dua hari, dengan
-            menghadirkan dua pembicara mahasiswa dan 35 peserta umum
+          <h3 className="text-md font-bold text-gray-600">
+            1. Cuci tangan pakai dengan sabun
           </h3>
           <p className="text-gray-600 text-justify">
-            Perubahan perilaku sehat pada ibu menyusui, khususnya yang menderita
-            hipertensi. Pengabdian masyarakat ini sering dilakukan oleh
-            mahasiswa untuk meningkatkan keterampilan dan berkontribusi terhadap
-            kesejahteraan masyarakat dengan memberikan solusi berdasarkan
-            permasalahan dunia nyata.
+            Tangan merupakan salah satu bagian tubuh yang paling sering
+            menyentuh benda. Kita tidak tahu jenis kuman dan kuman apa yang akan
+            menempel pada permukaan benda yang kita sentuh. Oleh karena itu,
+            penting untuk membiasakan mencuci tangan dengan sabun setelah
+            menyentuh permukaan benda.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Materi pertama yang diberikan ditujukan kepada penderita darah
-            tinggi yang meliputi tanda dan gejala, faktor risiko, dampak darah
-            tinggi, pola hidup sehat dan pencegahan penyakit
+          <h3 className="text-md font-bold text-gray-600">
+            2. Buang sampah pada tempatnya
           </h3>
           <p className="text-gray-600 text-justify">
-            Materi pertama yang diberikan ditujukan kepada penderita darah
-            tinggi yang meliputi tanda dan gejala, faktor risiko, dampak darah
-            tinggi, pola hidup sehat dan pencegahan penyakit. Kegiatan
-            berlangsung interaktif antara narasumber dan peserta umum. Terdapat
-            kesempatan untuk tanya jawab di akhir sesi. Pemateri akan membagikan
-            leaflet atau poster dengan gambaran materi yang mudah dipahami oleh
-            masyarakat. Hal ini memungkinkan masyarakat untuk membawa pulang
-            materi tersebut dengan harapan dapat digunakan di kemudian hari.
+            Menanamkan perilaku hidup bersih dan sehat pada anak tidak hanya
+            soal kebersihan diri, namun juga kebersihan lingkungan. Mengajari
+            anak membuang sampah secara disiplin merupakan kebiasaan yang
+            membantu menjaga kebersihan lingkungan.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Pemberian materi kedua dirujukan kepada para ibu menyusui mengenai
-            kebersihan diri ibu menyusui untuk pencegahan stunting pada anak
+          <h3 className="text-md font-bold text-gray-600">
+            3. Rutin melakukan sikat gigi
           </h3>
           <p className="text-gray-600 text-justify">
-            Pemberian materi kedua dirujukan kepada para ibu menyusui mengenai
-            kebersihan diri ibu menyusui untuk pencegahan stunting pada anak.
-            ASI perlu diberikan selama 6 bulan kehidupan anak untuk menunjang
-            imunitas tubuh anak. Sosialisasi dilakukan dengan pemberian materi,
-            sesi tanya-jawab serta pemberian leaflet
+            Menyikat gigi dengan pasta gigi berfluoride merupakan salah satu
+            cara mencegah gigi berlubang. Membiasakan anak menyikat gigi dua
+            kali sehari akan berdampak positif pada gigi yang lebih sehat dan
+            napas yang lebih segar. Ajari anak menyikat gigi selama dua menit
+            dengan gerakan maju mundur ke atas dan ke bawah pada gigi bagian
+            dalam dan luar, serta gerakan memutar pada bagian luar gigi.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-md font-bold text-gray-600">
+            4. Mengonsumsi makanan yang sehat dan bergizi Mengonsumsi makanan
+            yang sehat dan bergizi adalah langkah awal untuk menjaga kesehatan
+            tubuh.
+          </h3>
           <p className="text-gray-600 text-justify">
-            Kelompok PMM 36 dari Universitas Muhammadiyah Malang ini berhasil
-            melaksanakan sosialisasi yang tidak terhenti hanya pada masyarakat
-            umum saja, namun melibatkan para tenaga kesehatan di puskesmas DAU
-            serta kader - kadernya dalam membantu berperan pada program kerja
-            mereka yang berfokus kepada kesehatan masyarakat.
+            Ajari anak bahwa makanan benar-benar memperkuat sistem kekebalan
+            tubuh. Pola makan yang sehat dan bergizi membantu mengisi kembali
+            sel-sel tubuh yang rusak. Kebutuhan gizi setiap orang berbeda-beda
+            tergantung jenis kelamin, kelompok umur, aktivitas fisik, dan status
+            fisiologis. Menjaga kesehatan juga mencakup mengonsumsi makanan
+            bersih dan memantau berat badan secara teratur.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-md font-bold text-gray-600">
+            5. Olahraga/ Aktivitas fisik
+          </h3>
+          <p className="text-gray-600 text-justify">
+            Banyak aktivitas fisik yang menyenangkan dapat membantu anak
+            membangun kekuatan dan daya tahan serta membantu mengendalikan berat
+            badan. Aktivitas tidak harus selalu berupa olahraga. Permainan
+            anak-anak juga mempunyai manfaat fisik dan sering kali meningkatkan
+            fungsi otak. Oleh karena itu, penting untuk memberikan ruang pada
+            anak untuk melakukan aktivitas fisik.
+          </p>
+        </div>
+
+        <div className="mt-4 mb-6 space-y-2">
+          <p className="text-gray-600 text-justify">
+            Perilaku Hidup Bersih dan Sehat (PHBS) harus dilakukan tidak hanya
+            di lingkungan sekolah tetapi juga di ruang publik dan di rumah.
+            Menerapkan pola hidup bersih dan sehat juga menjadi bagian penting
+            dalam mewujudkan gerakan sekolah sehat.
           </p>
         </div>
 

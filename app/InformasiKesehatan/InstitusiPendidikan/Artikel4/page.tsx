@@ -5,8 +5,8 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Mahasiswa KKN Tim 1 UNDIP Ajak Siswa Sekolah Dasar di Desa Jatilawang
-          Terapkan PHBS di Sekolah
+          Manfaat Aktivitas Fisik untuk Kesehatan dan Kesejahteraan: Memulai
+          Hidup Sehat dari Sekarang
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -41,96 +41,71 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="https://i.ibb.co/TWLWDH4/whatsapp-image-2024-02-05-at-13-32-33-fa696211-65ccc87412d50f20cc089513.jpg"
+              src="https://i.ibb.co.com/612YZtJ/istockphoto-671375670-1024x1024.jpg"
               alt="article"
               className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
             <b>Gambar 1</b>{" "}
-            <span className="italic">
-            Mahasiswa KKN Tim 1 UNDIP
-            </span>
+            <span className="italic">Ilustrasi Aktivitas Fisik</span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Perilaku Hidup Bersih dan Sehat (PHBS)
+            Melakukan aktivitas fisik secara teratur memberikan banyak manfaat
+            yang signifikan bagi kesehatan dan kesejahteraan kita.
           </h3>
           <p className="text-gray-600 text-justify">
-            Perilaku Hidup Bersih dan Sehat (PHBS) adalah upaya atau rekayasa
-            sosial yang mengajak masyarakat untuk berperilaku sehari-hari
-            sebagai agen perubahan (agent of change) yang mampu meningkatkan
-            kualitas dalam rangka menciptakan kehidupan yang bersih dan sehat.
-            Manfaat utama dari PHBS adalah masyarakat menjadi sadar kesehatan
-            dan memiliki pengetahuan dan kesadaran untuk menjalani perilaku
-            hidup yang menjaga kebersihan dan kesehatan.
+            Aktivitas fisik tidak hanya membantu meningkatkan kebugaran fisik,
+            tetapi juga memiliki dampak positif dalam mengendalikan berat badan,
+            tekanan darah, serta meningkatkan daya tahan tubuh. Selain itu,
+            aktivitas fisik secara teratur dapat meningkatkan fungsi organ vital
+            seperti jantung, paru-paru, dan otot, menjaga agar mereka tetap kuat
+            dan berfungsi optimal.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <p className="text-gray-600 text-justify">
-            Perilaku Hidup Bersih dan Sehat (PHBS) melibatkan berbagai tatanan
-            dalam kehidupan, salah satunya adalah sekolah. PHBS di sekolah
-            sangat penting untuk memberdayakan siswa, guru, dan warga sekolah
-            lainnya untuk menciptakan lingkungan sekolah yang bersih dan sehat
-            dan mencegah penyakit. PHBS dapat meningkatkan semangat dan prestasi
-            siswa.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Kondisi di lapangan menunjukkan bahwa siswa sekolah dasar Desa
-            Jatilawang
-          </h3>
-          <p className="text-gray-600 text-justify">
-            Kondisi di lapangan menunjukkan bahwa siswa sekolah dasar Desa
-            Jatilawang tidak tahu cara mencuci tangan pakai sabun dengan benar,
-            yang merupakan indikator PHBS di sekolah. Oleh karena itu, sebagai
-            bentuk pengabdian kepada masyarakat, Vidiya Amalia, mahasiswa Tim 1
-            KKN Universitas Diponegoro Tahun 2024, mengajar melalui program
-            "Bersih Mulai Dari Tangan: Menanamkan PHBS Sejak Dini". Program ini
-            bertujuan untuk meningkatkan kesadaran dan pengetahuan siswa sekolah
-            dasar di Desa Jatilawang tentang PHBS.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Siswa kelas 1 dan 2 SDN 01 Jatilawang mengikuti program ini pada
-            tanggal 26 Januari 2024
-          </h3>
-          <p className="text-gray-600 text-justify">
-            Sebagai bagian dari kegiatan, materi tentang pentingnya Perilaku
-            Hidup Bersih dan Sehat di sekolah disampaikan dan praktik cuci
-            tangan pakai sabun yang benar dilakukan bersama-sama melalui video.
-            Siswa yang paling antusias dengan kegiatan diberikan hadiah sabun
-            cuci tangan. Tujuan dari pemberian sabun cuci tangan ini adalah agar
-            siswa menjadi lebih terbiasa mencuci tangan pakai sabun, terutama di
-            luar sekolah. Secara keseluruhan, diharapkan bahwa program ini akan
-            membantu siswa lebih terlibat dalam praktik perilaku hidup bersih
-            dan sehat (PHBS) di sekolah.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Program ;&quot;#HabiskanMakanmu: Aksi Zero Food Waste;&quot;
-          </h3>
-          <p className="text-gray-600 text-justify">
-            Selain itu, program ;&quot;#HabiskanMakanmu: Aksi Zero Food Waste;&quot;
-            membantu siswa sekolah dasar Desa Jatilawang menerapkan Perilaku
-            Hidup Bersih dan Sehat (PHBS) di sekolah mereka. Program ini
-            mengajak siswa untuk menghabiskan jajanan yang mereka beli atau
-            makan untuk mengurangi tingkat sampah makanan yang berbahaya bagi
-            lingkungan.
+            Aktivitas fisik tidak selalu harus berarti melakukan olahraga
+            formal. Segala bentuk aktivitas fisik, termasuk bermain atau
+            melakukan kegiatan sehari-hari yang melibatkan gerakan tubuh, dapat
+            memberikan manfaat yang sama. Misalnya, berjalan kaki, naik tangga,
+            atau bahkan melakukan pekerjaan rumah tangga dapat menjadi bagian
+            dari rutinitas aktivitas fisik kita sehari-hari.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <p className="text-gray-600 text-justify">
-            Siswa kelas 4 mengikuti program di SDN 02 Jatilawang pada tanggal 27
-            januari 2024. Kegiatan terdiri dari presentasi materi, tanya jawab
-            singkat, dan penempelan poster Aksi Zero Food Waste di setiap kelas.
-            Diharapkan bahwa program ini akan membantu meningkatkan manajemen
-            sampah di sekolah, khususnya sampah makanan, dan menciptakan
-            lingkungan sekolah yang sehat dan bersih.
+            Selain manfaat fisik yang nyata, aktivitas fisik juga memiliki
+            dampak positif pada kesehatan mental dan kognitif. Penelitian
+            menunjukkan bahwa aktivitas fisik yang teratur dapat meningkatkan
+            fungsi otak, mempertahankan daya ingat, serta meningkatkan
+            keterampilan berpikir. Ini sangat penting, terutama dalam konteks
+            pendidikan, di mana kemampuan kognitif yang baik memungkinkan
+            peserta didik untuk belajar dengan lebih efektif dan menyerap
+            informasi dengan lebih baik.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <p className="text-gray-600 text-justify">
+            Oleh karena itu, penting bagi kita untuk memperkenalkan kebiasaan
+            hidup sehat, termasuk aktivitas fisik, sedini mungkin kepada
+            generasi muda. Dengan memulai kebiasaan ini sejak dini, kita tidak
+            hanya membantu mereka tumbuh dengan tubuh yang kuat dan sehat,
+            tetapi juga membantu mereka mengembangkan keterampilan kognitif yang
+            penting untuk masa depan mereka.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <p className="text-gray-600 text-justify">
+            Secara keseluruhan, aktivitas fisik secara teratur adalah bagian
+            integral dari gaya hidup sehat yang harus dipromosikan dan
+            diterapkan di semua kalangan masyarakat. Dengan mengenalkan dan
+            mendorong pentingnya aktivitas fisik, kita dapat membantu individu
+            untuk hidup lebih lama, lebih sehat, dan lebih bahagia. Itulah
+            mengapa penting untuk terus mendukung dan memotivasi diri sendiri
+            serta orang lain untuk tetap aktif secara fisik setiap hari.
           </p>
         </div>
 

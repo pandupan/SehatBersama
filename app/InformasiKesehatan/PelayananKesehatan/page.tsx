@@ -21,19 +21,11 @@ const page = () => {
             PELAYANAN KESEHATAN
           </h3>
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
-            Pemerintah Berupaya Memenuhi Pelayanan Kesehatan Masyarakat Secara
-            Berkesinambungan
+          Perilaku Hidup Bersih dan Sehat (PHBS) di Fasilitas Pelayanan Kesehatan
           </h1>
           <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
-            Pemerintah terus berupaya membangun sistem Jaminan Kesehatan
-            Nasional (JKN) agar dapat memenuhi pelayanan kesehatan masyarakat
-            secara optimal dan berkesinambungan. Menurut Menteri Koordinator
-            Bidang Pembangunan Manusia dan Kebudayaan (Menko PMK) Muhadjir
-            Effendy, pemerintah telah menyiapkan serangkaian kebijakan untuk
-            memperbaiki ekosistem JKN secara menyeluruh. Kebijakan tersebut
-            mencakup rasionalisasi manfaat program sesuai kebutuhan dasar
-            kesehatan, penerapan satu kelas rawat yang standar, dan
-            penyederhanaan tarif layanan.
+          Kebijakan pembangunan kesehatan menekankan pada upaya promotif dan preventif untuk menjadikan individu yang sudah sehat menjadi lebih sehat dan produktif. Pola hidup sehat adalah implementasi dari paradigma kesehatan yang melibatkan perilaku individu, keluarga, kelompok, dan masyarakat yang bertujuan untuk meningkatkan, memelihara, dan melindungi kesehatan secara fisik, mental, spiritual, dan sosial.
+
           </p>
           <div>
             <h3 className="flex justify-start lg:text-base text-xs">

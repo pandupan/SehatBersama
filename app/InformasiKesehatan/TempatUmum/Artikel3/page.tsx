@@ -5,7 +5,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Ini Lengkap Keputusan Menkes Soal Protokol Kesehatan di Tempat Umum
+        Pentingnya Cuci Tangan dengan Sabun dan Cara Tepat Melakukannya
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -19,10 +19,10 @@ const page = () => {
             </div>
             <div>
               <span className="block font-bold text-sm sm:text-lg text-gray-600">
-                Puskesmas Purbaratu
+              Dr. Airindya Bella
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Jumat, 19 Juni 2020
+              Jumat, 4 Maret 2022
               </span>
             </div>
           </div>
@@ -40,7 +40,7 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="https://i.ibb.co/fNxDvWx/menkes-terawan-agus-putranto-6-169.jpg"
+              src="https://i.ibb.co/mDR9L6K/photo-1604520531441-680d541221c2.jpg"
               alt="article"
               className="object-contain items-center w-full"
             />

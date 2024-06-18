@@ -10,7 +10,7 @@ const page = () => {
           <div className="relative xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]">
             <div className="object-fit">
               <img
-                src="https://i.ibb.co/YyJCk4B/gambar-1-65ccd609de948f69127071f2.jpg"
+                src="https://i.ibb.co.com/bKrLw74/anak-skj.jpg"
                 alt="phbs"
                 className="object-cover items-center rounded-xl xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]"
               />
@@ -22,25 +22,16 @@ const page = () => {
             INSTITUSI PENDIDIKAN
           </h3>
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
-            Puskesmas Maju: Mahasiswa PMM UMM Kelompok 63 Tingkatkan Pemahaman
-            para Pasien Puskesmas DAU melalui Edukasi Hipertensi dan PHBS
+          Pembiasaan Perilaku Hidup Bersih dan Sehat
           </h1>
           <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
-            Kegiatan pengabdian kepada masyarakat mahasiswa (PMM) ini bertujuan
-            untuk hilirisasi hasil penelitian Universitas Muhammadiyah Malang
-            (UMM). Bantuan ini dimanfaatkan oleh kelompok PMM yang berjumlah 63
-            mahasiswa Universitas Muhammadiyah Malang yang beranggotakan Toby
-            Farhan Nabiel Kubarek dan kawan-kawan untuk membantu pasien di
-            Puskesmas DAU yang mengidap penyakit darah tinggi dan PHBS.
-            Penerapan ini dilakukan karena masih kurangnya pengetahuan
-            masyarakat umum khususnya lansia mengenai pemeriksaan kesehatan
-            rutin, dan perilaku PHBS khususnya pada ibu menyusui. Latihan
-            sosialisasi ini akan dilakukan melalui pemberian informasi topik
-            kesehatan yang dibahas dan pembagian leaflet di akhir sesi
+          Salah satu tugas guru dan orang tua adalah mendidik dan memantau  perilaku hidup bersih dan sehat (PHBS) pada anak.PHBS ini hendaknya diterapkan tidak hanya di sekolah tetapi juga di rumah dan  tempat umum.
+Pola hidup bersih dan sehat dapat menurunkan risiko anak Anda terkena penyakit.
+
           </p>
           <div>
             <h3 className="flex justify-start lg:text-base text-xs">
-              14 Februari 2024, diperbarui 25 Maret 2024
+            07 Juni 2024
             </h3>
             <a
               href="/InformasiKesehatan/InstitusiPendidikan/Artikel"
@@ -61,15 +52,21 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">INSTITUSI PENDIDIKAN</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-          Implementasi Phbs, Lpka Palu Bersama Mahasiswa/I Poltekkes Kemenkes
-          Palu Tinjau Langsung Area Blok Hunian
+          Upaya Penanaman Budaya Perilaku Hidup Bersih dan Sehat di Sekolah
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-          Lembaga Pembinaan Khusus Anak (LPKA) Kelas II Palu dan Mahasiswa
-            Profesi Ners dari Politeknik Kesehatan Kementerian Kesehatan
-            (Poltekkes Kemenkes) Kota Palu melakukan tinjauan langsung ke area
-            blok hunian anak binaan sebagai bagian dari implementasi Perilaku
-            Hidup Bersih dan Sehat (PHBS).
+          Penerapan Perilaku Hidup Bersih dan Sehat (PHBS) di lingkungan
+            sekolah sangat penting untuk memastikan kesehatan dan keselamatan
+            semua siswa, staf, dan warga sekolah lainnya. Lingkungan pendidikan
+            yang sehat tidak hanya menciptakan kondisi belajar yang optimal
+            tetapi juga melindungi dari risiko penyakit. Berbagai indikator PHBS
+            di tingkat SMP dan pendidikan sederajat perlu diperhatikan sesuai
+            dengan pedoman yang telah ditetapkan. Contoh indikator ini mencakup
+            praktik konsumsi jajanan sehat di kantin, kebiasaan mencuci tangan
+            dengan sabun dan air mengalir, pemilahan dan pembuangan sampah yang
+            tepat, pengendalian jentik nyamuk, larangan merokok di area sekolah,
+            promosi membawa makanan sehat, serta perawatan kebersihan diri dan
+            kesehatan reproduksi yang teratur.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">16 Februari 2024</h2>
           <div>
@@ -86,7 +83,7 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <img
-                  src="https://i.ibb.co/G2ZYDnd/whatsapp-image-2024-02-16-at-12-14-25-65cefb0fde948f448e4b9e14.jpg"
+                  src="https://i.ibb.co.com/cFwY5cg/d9a29937fa29ba9bc5a6c1cf48795cbe.jpg"
                   className="object-cover"
                   alt="artikel1"
                 />
@@ -100,16 +97,18 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">INSTITUSI PENDIDIKAN</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-          Pembentukan TIMKES, Dalam Upaya Melaksanakan Praktik Perilaku Hidup
-          Bersih dan Sehat (PHBS) di Pondok Pesantren Miftahul Huda 4
+          Menjaga Kebersihan Dengan Membuang Sampah Ke Tempat Sampah
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-          Mahasiswa Pengabdian Masyarakat (PMM) Gelombang 05 Kelompok 93 di
-            Universitas Muhammadiyah Malang, dibimbing oleh Ibu Sri Sunaringsih
-            Ika Wrdojo SKM. M.PH. Ph.D, memberikan edukasi dan praktik Perilaku
-            Hidup Bersih dan Sehat (PHBS) kepada warga Pondok Pesantren Miftahul
-            Huda 4 dengan membentuk Tim Kesehatan (TIMKES) pada hari Sabtu, 3
-            Februari 2020.
+          Dalam upaya mewujudkan lingkungan yang bersih dan nyaman, sangat
+            penting untuk memastikan bahwa tempat sampah tertutup tersedia di
+            berbagai lokasi strategis di sekolah, seperti ruang kelas, selasar,
+            jamban, kantin, halaman, dan area lainnya. Tempat sampah ini harus
+            dikosongkan setiap hari sesuai dengan sistem pengelolaan sampah yang
+            efektif. Selain itu, penting juga untuk menciptakan budaya membuang
+            sampah pada tempatnya dan sesuai dengan kategorinya, sehingga
+            pengelolaan sampah dapat berjalan dengan optimal dan lingkungan
+            sekolah tetap terjaga kebersihannya.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
           17 April 2024
@@ -128,7 +127,7 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <img
-                  src="https://i.ibb.co/gPCGpx8/gambar-whatsapp-2024-02-25-pukul-10-07-27-f04673ed-65daaf64de948f3dd032ac22.jpg"
+                  src="https://i.ibb.co.com/XknLkMR/istockphoto-2149538813-1024x1024.jpg"
                   alt="artikel1"
                   className="object-cover"
                 />
@@ -142,15 +141,10 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">INSTITUSI PENDIDIKAN</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-          Perilaku Hidup Bersih dan Sehat di RA Nurul Huda Langang
+          Pentingnya Gizi Seimbang untuk Kesehatan dan Perkembangan Anak Sekolah
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-          Semua mahasiswa Universitas Muhammadiyah Malang harus mengikuti
-            Kegiatan Pengabdian Masyarakat Oleh Mahasiswa (PMM). PMM adalah cara
-            bagi mahasiswa untuk berkontribusi pada masyarakat melalui berbagai
-            kegiatan positif. Salah satu tujuan dari Kegiatan Pengabdian
-            Masyarakat oleh Mahasiswa (PMM) ini adalah untuk menerapkan
-            Hilirisasi temuan penelitian Universitas Muhammadiyah Malang.
+          Kesehatan dan kesejahteraan anak sekolah merupakan aspek yang sangat penting dalam proses pendidikan. Salah satu faktor penentu kesehatan yang krusial adalah asupan gizi yang seimbang. Anak-anak memerlukan gizi yang cukup setiap harinya, yang dapat diperoleh dari berbagai jenis makanan dan minuman. Gizi ini berperan sebagai sumber energi, mendukung pertumbuhan, memperbaiki sel-sel yang rusak, dan menjaga kesehatan secara keseluruhan. Oleh karena itu, penting bagi kita untuk memahami dan memenuhi kebutuhan gizi anak-anak agar mereka dapat tumbuh dan berkembang dengan optimal.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
           15 Februari 2024
@@ -169,7 +163,7 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <img
-                  src="https://i.ibb.co/jgRqL84/umm.jpg"
+                  src="https://i.ibb.co.com/4jLbNzM/anh-nguyen-kc-A-c3f-3-FE-unsplash.jpg"
                   alt="artikel1"
                   className="object-cover"
                 />
@@ -183,17 +177,16 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">INSTITUSI PENDIDIKAN</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-          Mahasiswa KKN Tim 1 UNDIP Ajak Siswa Sekolah Dasar di Desa Jatilawang
-          Terapkan PHBS di Sekolah
+          Manfaat Aktivitas Fisik untuk Kesehatan dan Kesejahteraan: Memulai Hidup Sehat dari Sekarang
+
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-          Perilaku Hidup Bersih dan Sehat (PHBS) adalah upaya atau rekayasa
-            sosial yang mengajak masyarakat untuk berperilaku sehari-hari
-            sebagai agen perubahan (agent of change) yang mampu meningkatkan
-            kualitas dalam rangka menciptakan kehidupan yang bersih dan sehat.
-            Manfaat utama dari PHBS adalah masyarakat menjadi sadar kesehatan
-            dan memiliki pengetahuan dan kesadaran untuk menjalani perilaku
-            hidup yang menjaga kebersihan dan kesehatan.
+          Aktivitas fisik tidak hanya membantu meningkatkan kebugaran fisik,
+            tetapi juga memiliki dampak positif dalam mengendalikan berat badan,
+            tekanan darah, serta meningkatkan daya tahan tubuh. Selain itu,
+            aktivitas fisik secara teratur dapat meningkatkan fungsi organ vital
+            seperti jantung, paru-paru, dan otot, menjaga agar mereka tetap kuat
+            dan berfungsi optimal.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
           15 Februari 2024
@@ -212,7 +205,7 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <img
-                  src="https://i.ibb.co/TWLWDH4/whatsapp-image-2024-02-05-at-13-32-33-fa696211-65ccc87412d50f20cc089513.jpg"
+                  src="https://i.ibb.co.com/612YZtJ/istockphoto-671375670-1024x1024.jpg"
                   alt="artikel1"
                   className="object-cover"
                 />

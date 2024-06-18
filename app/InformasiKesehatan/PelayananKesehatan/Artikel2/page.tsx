@@ -6,7 +6,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Peran Fasilitas Kesehatan Jadi Kunci Negara Sehat
+          artikel 2
         </h1>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">

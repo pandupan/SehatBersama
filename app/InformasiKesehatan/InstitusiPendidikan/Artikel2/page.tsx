@@ -1,4 +1,3 @@
-
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
@@ -7,8 +6,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Pembentukan TIMKES, Dalam Upaya Melaksanakan Praktik Perilaku Hidup
-          Bersih dan Sehat (PHBS) di Pondok Pesantren Miftahul Huda 4
+          Menjaga Kebersihan Debgan Membuang Sampah Ke Tempat Sampah
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -25,7 +23,7 @@ const page = () => {
                 Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-              17 April 2024
+                17 April 2024
               </span>
             </div>
           </div>
@@ -43,7 +41,7 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="https://i.ibb.co/gPCGpx8/gambar-whatsapp-2024-02-25-pukul-10-07-27-f04673ed-65daaf64de948f3dd032ac22.jpg"
+              src="https://i.ibb.co.com/XknLkMR/istockphoto-2149538813-1024x1024.jpg"
               alt="article"
               className="object-contain items-center w-full"
             />
@@ -51,80 +49,57 @@ const page = () => {
           <p className="text-sm text-gray-600 mt-2 text-center">
             <b>Gambar 1</b>{" "}
             <span className="italic">
-              Mahasiswa Pengabdian Masyarakat (PMM)
+              Ilustrasi Tempat Sampah
             </span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Mahasiswa Pengabdian Masyarakat (PMM) Gelombang 05 Kelompok 93 di
-            Universitas Muhammadiyah Malang
+            Pengelolaan sampah yang baik dan benar merupakan salah satu aspek
+            penting dalam menjaga kebersihan dan kesehatan lingkungan sekolah.
           </h3>
           <p className="text-gray-600 text-justify">
-            Mahasiswa Pengabdian Masyarakat (PMM) Gelombang 05 Kelompok 93 di
-            Universitas Muhammadiyah Malang, dibimbing oleh Ibu Sri Sunaringsih
-            Ika Wrdojo SKM. M.PH. Ph.D, memberikan edukasi dan praktik Perilaku
-            Hidup Bersih dan Sehat (PHBS) kepada warga Pondok Pesantren Miftahul
-            Huda 4 dengan membentuk Tim Kesehatan (TIMKES) pada hari Sabtu, 3
-            Februari 2020.
+            Dalam upaya mewujudkan lingkungan yang bersih dan nyaman, sangat
+            penting untuk memastikan bahwa tempat sampah tertutup tersedia di
+            berbagai lokasi strategis di sekolah, seperti ruang kelas, selasar,
+            jamban, kantin, halaman, dan area lainnya. Tempat sampah ini harus
+            dikosongkan setiap hari sesuai dengan sistem pengelolaan sampah yang
+            efektif. Selain itu, penting juga untuk menciptakan budaya membuang
+            sampah pada tempatnya dan sesuai dengan kategorinya, sehingga
+            pengelolaan sampah dapat berjalan dengan optimal dan lingkungan
+            sekolah tetap terjaga kebersihannya.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <h3 className="text-xl sm:text-2xl font-bold">
-            Menurut Fadli Mahendra Alfatony, anggota PMM
+            Menjaga kebersihan lingkungan sekolah memerlukan perhatian dan
+            komitmen dari seluruh warga sekolah.
           </h3>
           <p className="text-gray-600 text-justify">
-            Menurut Fadli Mahendra Alfatony, anggota PMM, kegiatan ini dilakukan
-            untuk menyebarkan informasi, meningkatkan pengetahuan dan pemahaman
-            tentang PHBS di Pondok Pesantren, dan mendorong santri dan pengurus
-            supaya tahu, ingin, dan mampu mempraktikkan PHBS dan berpartisipasi
-            secara aktif dalam menciptakan lingkungan Pondok Pesantren yang
-            sehat. Salah satu tujuan dari kegiatan Pengabdian Masyarakat oleh
-            Mahasiswa (PMM) ini adalah untuk menerapkan hasil penelitian
-            Universitas Muhammadiyah Malang (UMM).
-          </p>
-          <p className="text-gray-600 text-justify">
-            Menurutnya, ;&quot;Sosialisasi dan pelatihan praktik PHBS ini bertujuan
-            untuk meningkatkan kesadaran, pengetahuan, dan pemahaman warga
-            Pondok Pesantren tentang cara mencegah penyakit yang disebabkan oleh
-            tidak melaksanakan PHBS.;&quot;
+            Pastikan tempat sampah tertutup berada di ruang kelas, selasar,
+            jamban, kantin, halaman, dan di lokasi strategis lainnya,
+            dikosongkan setiap hari menggunakan sistem pengelolaan sampah yang
+            terorganisir dengan baik. Dengan demikian, kita dapat mencegah
+            penumpukan sampah yang dapat menyebabkan bau tidak sedap dan menjadi
+            sarang penyakit. Selain itu, menciptakan budaya untuk membuang
+            sampah pada tempatnya sesuai kategorinya sangat penting untuk
+            mendukung program daur ulang dan pengelolaan sampah yang
+            berkelanjutan. Melalui langkah-langkah ini, kita dapat menciptakan
+            lingkungan sekolah yang bersih, sehat, dan nyaman bagi semua
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Kegiatan ini ditujukan kepada seluruh anggota Pondok Pesantren
-            Miftahul Huda 4
-          </h3>
           <p className="text-gray-600 text-justify">
-            kata Fadli. dengan mendidik orang tentang pentingnya PHBS dan
-            penyakit yang disebabkan oleh tidak menerapkannya. Selanjutnya, PMM
-            kelompok 93 juga mempelajari teknik mencuci tangan 6 langkah,
-            penggunaan sarung tangan dan masker, dan cara membedakan sampah
-            organik dan anorganik. Dia menyatakan bahwa semua santri dan
-            pengurus pondok pesantren sangat senang mendengarkan materi dan
-            mempraktikkan teknik mencuci tangan enam langkah serta menggunakan
-            sarung tangan dan masker dalam memilah sampah organik dan anorganik.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            TIMKES menjadi penggerak pertama warga Pondok dalam upaya mencegah
-            dan menangani masalah kesehatan yang muncul di lingkungan Pondok
-            Pesantren Miftahul Huda 4.
-          </h3>
-          <p className="text-gray-600 text-justify">
-            Setelah pemberian edukasi dan pelatihan praktik PHBS, PMM kelompok
-            93 membentuk Tim Kesehatan (TIMKES) struktural yang terdiri dari
-            ketua, bendahara, sekretaris, dan anggota. Tujuan pembentukan TIMKES
-            adalah untuk menjadikan santri sebagai koordiantor dan penggerak
-            gaya hidup sehat dan bersih di lingkungan Pondok Pesantren.
-          </p>
-          <p className="text-gray-600 text-justify">
-            Salah seorang pengurus Pondok Pesantren, Mas Mu&apos;afa mengatakan,
-            keberadaan TIMKES di Pondok Pesantren menjadi sangat penting karena
-            TIMKES menjadi penggerak pertama warga Pondok dalam upaya mencegah
-            dan menangani masalah kesehatan yang muncul di lingkungan Pondok
-            Pesantren Miftahul Huda 4.
+            Dengan menerapkan sistem pengelolaan sampah yang terstruktur dan
+            memastikan tempat sampah tertutup tersedia di lokasi-lokasi
+            strategis seperti ruang kelas, selasar, jamban, kantin, dan halaman,
+            kita dapat menjaga kebersihan dan kesehatan lingkungan sekolah.
+            Pengosongan tempat sampah setiap hari dan penciptaan budaya membuang
+            sampah pada tempatnya sesuai kategorinya adalah langkah-langkah
+            penting untuk mencegah penumpukan sampah dan mendukung program daur
+            ulang. Melalui upaya bersama ini, kita dapat menciptakan lingkungan
+            sekolah yang lebih bersih, sehat, dan nyaman bagi semua warga
+            sekolah.
           </p>
         </div>
 
