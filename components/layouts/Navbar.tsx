@@ -71,20 +71,6 @@ const Navbar = () => {
             <Link href="/ForumKomunitas">
               <p>Layanan Diskusi</p>
             </Link>
-            <BiChevronDown
-              size={25}
-              className="transform-gpu transition-transform group-hover:rotate-180"
-            />
-            <div className="hidden group-hover:flex border absolute top-[77px] left-0 w-[250px] bg-white shadow-lg px-8 flex-col justify-center py-4 z-10 rounded-md">
-              <Link href="/LayananKomunitas">
-                <div className="py-2 hover:text-blue-500">Forum Diskusi</div>
-              </Link>
-              <Link href="/LayananKonsultasi">
-                <div className="py-2 hover:text-blue-500 whitespace-nowrap">
-                  Konsultasi
-                </div>
-              </Link>
-            </div>
           </div>
         </div>
         <div className="flex gap-2">

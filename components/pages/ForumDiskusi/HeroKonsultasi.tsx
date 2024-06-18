@@ -20,7 +20,8 @@ const HeroKonsultasi = () => {
           <Image
           src="/image/KonsulDokter.png"
           alt='Konsultasi'
-          fill={true}/>
+          fill={true}
+          className='object-cover'/>
         </div>
       </div>
     </div>
