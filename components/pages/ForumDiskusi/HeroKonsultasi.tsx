@@ -11,7 +11,7 @@ const HeroKonsultasi = () => {
           Jangan biarkan masalah kesehatan Anda semakin parah, segera konsultasikan dengan dokter untuk mendapatkan penanganan yang tepat.
           </p>
           <div>
-            <a href="/LayananKomunitas" className='px-10 py-2 bg-[#4bb6be] hover:bg-[#36858b] text-white lg:text-base sm:text-sm text-xs rounded-xl'>
+            <a href="https://chat.whatsapp.com/LMgbfkmu3F8EQPhBD5NCuR" className='px-10 py-2 bg-[#4bb6be] hover:bg-[#36858b] text-white lg:text-base sm:text-sm text-xs rounded-xl'>
               Gabung Komunitas
             </a>
           </div>
