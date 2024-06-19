@@ -5,7 +5,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          5 Cara Merawat Luka Diabetes agar Cepat Kering
+          PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Rumah Tangga
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -22,7 +22,7 @@ const page = () => {
                 Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Rabu, 29 November 2023 06:20
+                07 Juni 2024
               </span>
             </div>
           </div>
@@ -38,118 +38,86 @@ const page = () => {
       </div>
       <div className="mt-4">
         <div>
-          <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
-            <Image
-              src="/image/penyakit0.png"
+          <div className="relative w-full aspect-video flex justify-center items-center rounded-md bg-gray-100 overflow-hidden">
+            <img
+              src="https://i.ibb.co.com/rw14ntn/image.png"
               alt="article"
-              fill={true}
-              className="object-cover"
+              className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
-            <b>Gambar 1</b> <span className="italic">Luka</span>
+            <b>Gambar 1</b>{" "}
+            <span className="italic">Ilustrasi PHBS di Rumah Tangga</span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            5 Cara Merawat Luka Diabetes agar Cepat Kering
+          <h3 className="text-md font-bold text-gray-600">
+            PHBS (perilaku Hidup Bersi dan Sehat) di Tatanan Rumah Tangga
           </h3>
           <p className="text-gray-600 text-justify">
-            Cara merawat luka diabetes agar cepat kering adalah dengan
-            membungkusnya menggunakan perban steril, lalu menghindari tekanan
-            pada area luka. Luka juga perlu segera dirawat dan rutin
-            dibersihkan.
-          </p>
-          <p className="text-gray-600 text-justify">
-            Diabetes dapat menyebabkan imun tubuh melemah. Kondisi ini
-            menyebabkan luka sekecil apa pun jadi lebih lama sembuh dan lebih
-            rentan mengalami komplikasi. Karena luka diabetes sulit sembuh, maka
-            diperlukan langkah khusus untuk merawatnya agar tidak sampai
-            infeksi. Ada beberapa cara merawat luka diabetes agar cepat kering,
-            antara lain harus rutin mengganti perban atau penutup luka dan
-            menghindari tekanan berlebihan pada luka. Berikut penjelasannya.
+            PHBS (perilaku Hidup Bersi dan Sehat) di Tatanan Rumah Tangga adalah
+            semua perilaku kebersihan dan kesehatan yang dilakukan atas
+            kesadaran masing masing sehingga setiap anggota keluarga atau
+            keluarga dapat menolong dirinya sendiri di bidang kesehatan dan ikut
+            berperan aktif dalam kegiatan-kegiatan kesehatan di masyarakat.
+            <br /> <br /> 
+            PHBS di Tatanan Rumah Tangga adalah upaya untuk menyadarkan keluarga
+            dan masing masing anggota keuarga agar memilki kemaunan dan
+            kemampuan dalam mempraktikkan PHBS.Sehingga keluarga dan seluruh
+            anggota keluarga dapat memelihara dan meningkatkan kesehatannya,
+            mencegah resiko terjadinya penyakit dan melindungi diri dari ancaman
+            penyakit serta berperan aktif dalam gerakan kesehatan masyarakat.
+            Rumah tangga atau keluarga yang sehat dapat diwujudkan dengan
+            mengimplementasikan PHBS dan menciptakan dukungan lingkungan yang
+            sehat.
+            <br /> <br /> 
+            Rumah tangga atau keluarga yang sehat merupakan aset utama pembangunan yang perlu dipelihara terus menerus, ditingkakan dan dilindungi kesehatannya. Sehingga perlu dilakukan upaya upaya untuk meningkatkan pengetahuan, kemauan dan kemampuan anggota rumah tangga atau anggota keluarga untuk melaksanakan PHBS, dan ikut berperan aktif dalam gerakan PHBS di masyarakat.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Cara merawat luka diabetes agar cepat kering
+          <h3 className="text-md font-bold text-gray-600">
+          Latar Belakang PHBS di Tatanan Rumah Tangga
           </h3>
           <p className="text-gray-600 text-justify">
-            Luka diabetes harus segera dirawat sebelum bertambah parah. Ini
-            beberapa cara merawat luka diabetes agar cepat kering:
+          Bahwa rumah tangga atau keluarga sehat merupakan aset atau modal utama pembangunan di masa depan yang perlu dijaga, ditingkakan dan dilindungi kesehatannya. Beberapa anggota rumah tangga mempunyai masa rawan terkena gangguan berbagai penyakit. Angka kesakitan dan kematian penyakit infeksi dan non infeksi dapat dicegah dengan PHBS.
+          <br/><br/>
+          PHBS itu jumlahnya bisa banyak sekali, bisa ratusan; misalnya tentang Gizi: makan beraneka ragam makanan, minum Tablet Tambah Darah, mengkonsumsi Garam Beryodium, memberi bayi dan balita Kapsul Vitamin A; dst. Namun setiap rumah tangga dianjurkan untuk melaksanakan semua perilaku kesehatan; untuk manfaat yang tidak ternilai; baik bagi rumah tangga itu sendiri, lingkungan, dan bahkan nasional.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            1. Rawat luka dengan segera
+          <h3 className="text-md font-bold text-gray-600">
+          Manfaat PHBS di Tatanan Rumah Tangga
           </h3>
           <p className="text-gray-600 text-justify">
-            Saat menemukan luka, obati dengan segera. Bersihkan area yang luka
-            dengan air mengalir dan sabun setiap hari, kecuali dokter
-            merekomendasikan antiseptik lain. Setelahnya dibersihkan, keringkan
-            luka dan oleskan salep antibiotik yang diresepkan dokter agar luka
-            tidak infeksi.
+          • Setiap anggota keluarga menjadi sehat dan tidak mudah sakit.<br/>
+          • Anak tumbuh sehat dan cerdas.<br/>
+          • Anggota keluarga giat bekerja.<br/>
+          • Pengeluaran biaya rumah tangga dapat ditujukan untuk memenuhi gizi keluarga, pendidikan dan modal usaha untuk peningkatan pendapatan keluarga.
+
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            2. Gunakan perban untuk melindungi luka
+          <h3 className="text-md font-bold text-gray-600">
+          Rumah Tangga Ber-PHBS adalah rumah tangga yang melakukan 10 PHBS di Rumah Tangga, yaitu :
+
           </h3>
           <p className="text-gray-600 text-justify">
-            Pastikan luka tetap dibalut dengan perban ataupun jenis penutup
-            lain. Jika tidak ditutup, bakteri bisa hinggap di luka, sehingga
-            memperbesar kemungkinan terjadi infeksi.
+          •  Pertolongan persalinan oleh tenaga kesehatan.
+          <br/> •  Memberi bayi ASI Eksklusif.
+          <br/> •  Menimbang balita setiap bulan.
+          <br/> •  Menggunakan air bersih.
+          <br/> •  Mencuci tangan dengan air bersih dan sabun.
+          <br/> •  Menggunakan jamban sehat.
+          <br/> •  Memberantas jentik di rumah sekali seminggu.
+          <br/> •  Makan buah dan sayur setiap hari.
+          <br/> •  Melakukan Aktivitas Fisik setiap hari.
+          <br/> •  Tidak merokok di dalam rumah.
+
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            3. Hindari tekanan pada area luka
-          </h3>
           <p className="text-gray-600 text-justify">
-            Sebisa mungkin hindari tekanan pada area yang luka, terutama di
-            kaki. Kalau luka yang belum sembuh terlalu sering menerima tekanan,
-            bisa-bisa terjadi iritasi. Hal ini tentu membuat proses penyembuhan
-            jadi lebih lama.
-          </p>
-          <p className="text-gray-600 text-justify">
-            Untuk mengurangi tekanan pada luka diabetes yang ada di kaki, kamu
-            bisa menggunakan kruk atau penyangga lain saat berjalan. Beberapa
-            dokter juga mungkin menyarankan kamu menggunakan perban atau alas
-            kaki khusus yang bisa menjaga area kaki yang luka dari tekanan
-            berlebih.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            4. Gunakan obat topikal sesuai anjuran
-          </h3>
-          <p className="text-gray-600 text-justify">
-            Cara merawat luka diabetes agar cepat kering selanjutnya adalah
-            dengan mengoleskan salep secara berkala pada luka sesuai anjuran
-            dokter. Salep untuk mengatasi luka diabetes dapat mengandung growth
-            factors.
-          </p>
-          <p className="text-gray-600 text-justify">
-            Selain salep, dokter juga bisa meresepkan cairan untuk menjaga luka
-            tetap bersih berupa saline. Beberapa diabetesi juga ada yang
-            diresepkan semacam penutup luka yang bekerja mirip dengan kulit asli
-            dan disebut sebagai skin substitute.
-          </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            5. Awasi tanda-tanda infeksi
-          </h3>
-          <p className="text-gray-600 text-justify">
-            Sekecil apapun luka yang kamu alami, selalu waspadai tanda-tanda
-            infeksi pada luka saat diabetes. Luka kamu mungkin mengalami infeksi
-            jika ditandai dengan nyeri, kemerahan, pembengkakan, atau terasa
-            hangat.
-          </p>
-          <p className="text-gray-600 text-justify">
-            Selain itu, luka infeksi juga bisa mengeluarkan cairan atau nanah
-            dan beraroma menyengat. Jangan abaikan tanda-tanda ini, dan segera
-            kunjungi dokter untuk mendapatkan pengobatan.
+          PHBS Tatanan Rumah Tangga harus dapat diketahui, dimengerti dan dipraktekkan oleh keluarga, anggota keluarga, serta lingkungan dimana setiap keluarga tinggal. Dalam kondisi ini peran anggota keluarga, masyarakat, tokoh masyarakat, pemerintah daerah sangat berpengaruh termasuk dalam tersedianya fasilitas serta adanya kebijakan yang mendukung
           </p>
         </div>
 

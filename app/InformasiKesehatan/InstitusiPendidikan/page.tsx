@@ -24,7 +24,7 @@ const page = () => {
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
           Pembiasaan Perilaku Hidup Bersih dan Sehat
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
+          <p className="xl:text-base text-xs line-clamp-5">
           Salah satu tugas guru dan orang tua adalah mendidik dan memantau  perilaku hidup bersih dan sehat (PHBS) pada anak.PHBS ini hendaknya diterapkan tidak hanya di sekolah tetapi juga di rumah dan  tempat umum.
 Pola hidup bersih dan sehat dapat menurunkan risiko anak Anda terkena penyakit.
 

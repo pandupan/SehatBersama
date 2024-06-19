@@ -5,7 +5,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Penyebab Napas Pendek dan Cara Mengatasinya
+          7 Langkah Bijak Memproses dan Membuang Sampah Medis Rumah Tangga
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -14,15 +14,15 @@ const page = () => {
                 src="/image/profile.jpeg"
                 alt="logo"
                 fill={true}
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div>
               <span className="block font-bold text-sm sm:text-lg text-gray-600">
-                Puskesmas Purbaratu
+                Christovel Ramot
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Minggu, 11 Oktober 2023 06:20
+                6 Maret 2024
               </span>
             </div>
           </div>
@@ -38,88 +38,127 @@ const page = () => {
       </div>
       <div className="mt-4">
         <div>
-          <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
-            <Image
-              src="/image/penyakit4.png"
+          <div className="relative w-full aspect-video flex justify-center items-center rounded-md bg-gray-100 overflow-hidden">
+            <img
+              src=""
               alt="article"
-              fill={true}
-              className="object-cover"
+              className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
             <b>Gambar 1</b>{" "}
-            <span className="italic">
-              Penyakit jantung bisa membuat napas jadi pendek-pendek
-            </span>
+            <span className="italic">Ilustrasi Hidup Sehat</span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Penyakit jantung penyebab napas pendek
+          <h3 className="text-md font-bold text-gray-600">
+            Salah satu tugas guru dan orang tua adalah mendidik dan memantau
+            perilaku hidup bersih dan sehat (PHBS) pada anak.
           </h3>
           <p className="text-gray-600 text-justify">
-            Mengalami napas pendek terus-menerus bisa jadi merupakan gejala dari
-            penyakit jantung. Beberapa penyakit jantung yang bisa menyebabkan
-            napas pendek antara lain adalah:
+            Kesehatan rumah tangga tidak hanya mencakup kebersihan fisik, tetapi
+            juga penanganan yang aman terhadap sampah medis. Sampah medis rumah
+            tangga mencakup benda-benda yang terkontaminasi oleh darah, cairan
+            tubuh, atau bahan kimia berbahaya. Penting untuk mengelola sampah
+            medis dengan bijak agar tidak menimbulkan risiko kesehatan bagi
+            penghuni rumah tangga dan lingkungan sekitar.
+            <br />
+            <br />
+            Sampah Medis Rumah TanggaSampah medis rumah tangga adalah
+            benda-benda yang terkontaminasi oleh darah, cairan tubuh, atau bahan
+            kimia berbahaya, yang dihasilkan dari perawatan kesehatan di rumah.
+            Contohnya termasuk jarum suntik, alat pengukur glukosa darah, perban
+            bekas, peralatan nebulizer, dan obat-obatan kedaluwarsa.
+          </p>
+          <br />
+          <h3 className="text-md font-bold text-gray-600">
+            Cara Mengolah dan Membuang Sampah Medis Rumah Tangga
+          </h3>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <p className="text-gray-600 text-justify">
+            1. Pisahkan Sampah Medis <br />- Sediakan wadah khusus berwarna
+            mencolok (seperti kuning atau merah) untuk sampah medis.
+            <br /> - Beri label &quot;Sampah Medis&quot; agar tidak tercampur
+            dengan jenis sampah lain.
+            <br /> - Pisahkan sampah tajam seperti jarum suntik dalam wadah yang
+            keras dan tahan bocor untuk mencegah kecelakaan.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">1. Gagal jantung</h3>
           <p className="text-gray-600 text-justify">
-            Gagal jantung, atau kadang-kadang disebut dengan gagal jantung
-            kongestif adalah kondisi saat jantung tidak cukup kuat memompa darah
-            dengan baik sehingga tidak dapat memenuhi kebutuhan tubuh. Selain
-            napas pendek, gagal jantung juga ditandai dengan rasa lelah,
-            pembengkakan di pergelangan kaki, telapak kaki, dan bagian tengah
-            tubuh.
+            2. Penyimpanan yang Aman
+            <br /> - Tempatkan wadah sampah medis di lokasi yang tidak mudah
+            dijangkau oleh anak- anak dan hewan peliharaan.
+            <br /> - Pastikan wadah kedap udara dan tahan kebocoran untuk
+            mencegah kontaminasi.
+            <br /> - Selalu tutup rapat wadah sampah medis setelah digunakan
+            untuk menghindari penyebaran bakteri atau virus.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">2. Takikardia</h3>
           <p className="text-gray-600 text-justify">
-            Takikardia adalah kondisi detak jantung yang sangat cepat, biasanya
-            lebih dari 100 detak per menit pada orang dewasa. Padahal, frekuensi
-            detak jantung yang normal adalah 60 kali per menit untuk orang
-            dewasa. Salah satu jenis takikardia yang dapat menyebabkan napas
-            pendek adalah atrial tachycardia atau SVT. Ini adalah kondisi saat
-            sinyal listrik jantung tidak menyala dengan baik dan harus segera
-            mendapatkan pertolongan medis.
+            3. Jangan Mencampur dengan Sampah Organik
+            <br /> - Edukasikan anggota keluarga tentang pentingnya tidak
+            mencampur sampah medis dengan sampah organik atau jenis sampah
+            lainnya.
+            <br /> - Kelola sampah organik dalam wadah terpisah dan buang sampah
+            medis sesuai aturan setempat.
+            <br />- Gunakan layanan pengelolaan sampah medis profesional jika
+            memungkinkan.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">3. Angina</h3>
           <p className="text-gray-600 text-justify">
-            Sebenarnya, angina bukanlah penyakit, melainkan suatu gejala berupa
-            rasa sakit atau perasaan tidak nyaman ketika aliran darah ke jantung
-            berkurang. Saat terjadi, angina biasanya disertai dengan gangguan
-            napas seperti napas pendek dan keringat yang keluar berlebihan.
-            Angina bisa menjadi tanda adanya masalah jantung yang memerlukan
-            penanganan medis, seperti misalnya penyakit jantung koroner.
+            4. Kemas dengan Aman
+            <br /> - Setelah dimasukkan ke dalam wadah yang tepat, pastikan
+            untuk mengemas dan menyegel wadah tersebut dengan baik.
+            <br /> - Gunakan pita perekat untuk menyegel wadah plastik atau
+            kotak, dan berikan label yang jelas bahwa ini adalah sampah medis.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">4. Serangan jantung</h3>
           <p className="text-gray-600 text-justify">
-            Serangan jantung terjadi saat sesuatu menyumbat aliran darah ke
-            jantung, sehingga jantung tidak mendapatkan oksigen yang
-            dibutuhkannya. Ini adalah kondisi darurat medis yang perlu ditangani
-            dengan cepat.
-          </p>
-          <p className="text-gray-600 text-justify">
-            Napas pendek adalah salah satu gejala serangan jantung. Selain itu,
-            orang yang sedang mengalami serangan jantung juga akan merasakan
-            nyeri di bagian dada dan bawah tulang dada, serta lengan. Rasa nyeri
-            juga bisa menyebar ke rahang, tenggorokan, dan punggung.
+            5. Pemusnahan yang Aman
+            <br /> - Ikuti pedoman atau aturan pemusnahan sampah medis yang
+            ditetapkan oleh otoritas kesehatan lokal.
+            <br /> - Gunakan layanan pemusnahan sampah medis profesional jika
+            tersedia.
+            <br /> - Untuk jarum dan benda tajam lainnya, gunakan kotak
+            pemusnahan khusus dan serahkan ke pusat layanan kesehatan atau
+            layanan pemusnahan yang aman.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">5. Fibrilasi atrium</h3>
           <p className="text-gray-600 text-justify">
-            Fibrilasi atrium adalah kondisi ketika impuls listrik jantung kacau,
-            sehingga menyebabkan detak jantung tidak teratur atau berdebar-debar
-            Selain jantung berdebar kencang, AF juga dapat disertai gejala napas
-            pendek, nyeri dada, kelelahan, pusing atau merasa ingin pingsan, dan
-            merasa kesulitan untuk berolahraga.
+            6. Hindari Penggunaan Ulang
+            <br /> - Edukasikan anggota keluarga tentang bahaya penggunaan ulang
+            alat medis yang seharusnya dibuang.
+            <br /> - Tandai alat medis sekali pakai setelah digunakan untuk
+            mencegah penggunaan ulang secara tidak sengaja.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <p className="text-gray-600 text-justify">
+            7. Konsultasi dengan Pusat Layanan Kesehatan
+            <br /> - Beberapa pusat layanan kesehatan atau apotek menawarkan
+            program pengambilan sampah medis atau pengembalian alat tajam yang
+            sudah digunakan. Pusat layanan kesehatan dapat memberikan informasi
+            dan panduan tentang cara menyimpan sampah medis sebelum pemusnahan
+            dan rekomendasi wadah penyimpanan yang tepat.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <p className="text-gray-600 text-justify">
+            <h3 className="text-md font-bold text-gray-600">
+              Manfaat Mengelola Sampah Medis dengan Bijak
+            </h3>
+            <br/>
+            Dengan mengikuti langkah-langkah di atas, kita dapat meminimalkan
+            risiko kontaminasi dan melindungi diri serta anggota keluarga dari
+            bahaya yang mungkin ditimbulkan oleh sampah medis. Konsultasikan
+            dengan pusat layanan kesehatan jika memerlukan bantuan tambahan
+            dalam mengelola sampah medis rumah tangga secara aman dan efektif.
           </p>
         </div>
 

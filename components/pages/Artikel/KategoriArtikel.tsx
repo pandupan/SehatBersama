@@ -20,7 +20,7 @@ const KategoriArtikel = () => {
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
             Pola Hidup Sehat
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
+          <p className="xl:text-base text-xs line-clamp-5">
             Artikel kesehatan kali ini membahas tentang pola hidup sehat yang
             merupakan syarat mutlak agar kita dapat terhindar dari berbagai
             penyakit selain juga faktor lain yang juga mempengaruhi seperti

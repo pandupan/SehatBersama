@@ -25,7 +25,7 @@ const page = () => {
             Ketika Kenyamanan Menjadi Bumerang: Tantangan Mental Generasi Z di
             Era Digital
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
+          <p className="xl:text-base text-xs line-clamp-5">
             Generasi Z, yang tumbuh di era smartphone dan media sosial, memang
             hidup di dunia yang penuh kemudahan. Dengan segala informasi yang
             ada di ujung jari, mereka bisa mendapatkan apa yang mereka inginkan

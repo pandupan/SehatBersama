@@ -24,7 +24,7 @@ const page = () => {
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
             Diet Sehat: Panduan, Tips dan Menu Diet agar Berat Badan Cepat Turun
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
+          <p className="xl:text-base text-xs line-clamp-5">
             Diet sehat adalah salah satu cara yang banyak dilakukan untuk
             menurunkan berat badan. Cara diet cepat dan sehat sudah banyak
             dilakukan, tetapi masih ada saja yang mempraktikkan diet tidak

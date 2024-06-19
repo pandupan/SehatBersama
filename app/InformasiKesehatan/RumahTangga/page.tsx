@@ -8,8 +8,8 @@ const page = () => {
         <div className="flex items-center justify-center sm:items-stretch sm:justify-stretch">
           <div className="relative xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]">
             <div className="object-fit">
-            <img
-                src="https://i.ibb.co/YyJCk4B/gambar-1-65ccd609de948f69127071f2.jpg"
+              <img
+                src="https://i.ibb.co.com/rw14ntn/image.png"
                 alt="phbs"
                 className="object-cover items-center rounded-xl xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]"
               />
@@ -17,12 +17,14 @@ const page = () => {
           </div>
         </div>
         <div className="flex flex-col xl:gap-6 lg:gap-2 gap-[2px] px-4 sm:px-0">
-          <h3 className="text-white font-semibold lg:text-base text-xs ">RUMAH TANGGA</h3>
+          <h3 className="text-white font-semibold lg:text-base text-xs ">
+            RUMAH TANGGA
+          </h3>
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
-          PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Rumah Tangga
+            PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Rumah Tangga
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
-          PHBS (perilaku Hidup Bersi dan Sehat) di Tatanan Rumah Tangga adalah
+          <p className="xl:text-base text-xs line-clamp-5">
+            PHBS (perilaku Hidup Bersi dan Sehat) di Tatanan Rumah Tangga adalah
             semua perilaku kebersihan dan kesehatan yang dilakukan atas
             kesadaran masing masing sehingga setiap anggota keluarga atau
             keluarga dapat menolong dirinya sendiri di bidang kesehatan dan ikut
@@ -44,10 +46,10 @@ const page = () => {
           </p>
           <div>
             <h3 className="flex justify-start lg:text-base text-xs">
-            11 November 2023
+              11 November 2023
             </h3>
             <a
-              href="/InformasiKesehatan/RumahTangga/Artikel1"
+              href="/InformasiKesehatan/RumahTangga/Artikel"
               className="text-gray-500 hover:text-blue-500 lg:text-base text-xs "
             >
               Baca Selengkapnya ...
@@ -65,25 +67,20 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-          Apa Itu Perilaku Hidup Bersih dan Sehat (PHBS) serta Contohnya
+            Apa Itu Perilaku Hidup Bersih dan Sehat (PHBS) serta Contohnya
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-          Perilaku Hidup Bersih dan Sehat (PHBS) merupakan upaya untuk
+            Perilaku Hidup Bersih dan Sehat (PHBS) merupakan upaya untuk
             menularkan pengalaman mengenai perilaku hidup sehat melalui
             individu, kelompok, atau pun masyarakat luas dengan jalur-jalur
-            komunikasi sebagai media berbagi informasi. PHBS merupakan langkah
-            awal menuju peningkatan kualitas kesehatan masyarakat. Program ini
-            dapat diterapkan di berbagai lingkungan seperti sekolah dan rumah
-            tangga. Salah satu contoh PHBS di lingkungan sekolah ialah membuang
-            sampah pada tempatnya dan mencuci tangan dengan sabun sebelum serta
-            sesudah makan.
+            komunikasi sebagai media berbagi informasi.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-          15 Februari 2024
+            15 Februari 2024
           </h2>
           <div>
             <a
-              href="/InformasiKesehatan/RumahTangga/Artikel2"
+              href="/InformasiKesehatan/RumahTangga/Artikel1"
               className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
             >
               Baca Selengkapnya ...
@@ -95,9 +92,9 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <img
-                  src="https://i.ibb.co/yF4fxKt/hari-cuci-tangan-pakai-sabun-sedunia-di-bogor-antarafoto-ratio-16x9.jpg"
+                  src="https://i.ibb.co.com/G9qwxP5/image-2024-06-19-063316567.png"
                   className="object-cover"
-                  alt="artikel1"
+                  alt="artikel2"
                 />
               </div>
             </div>
@@ -105,20 +102,26 @@ const page = () => {
         </div>
       </div>
       {/* ARTIKEL 2 */}
-      {/* <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Penyebab Sendi Geser dan Cara Menanganinya dengan Tepat
+            Pentingnya Jamban Sehat untuk Perilaku Hidup Bersih dan Sehat
+            (PHBS), Coba Cek di Rumahmu!
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Sendi geser adalah keadaan di mana tulang bergeser dari tempat
-            perlekatannya pada sendi yang disebabkan dari kecelakaan, olahraga,
-            faktor usia dan faktor keturunan. Kondisi ini bisa diatasi dengan
-            reposisi, imobilisasi, hingga operasi.
+            Salah satu indikator penting dalam Perilaku Hidup Bersih dan Sehat
+            (PHBS) adalah kebiasaan buang hajat di jamban yang sehat. Jamban
+            yang sehat merupakan infrastruktur sanitasi yang penting untuk
+            pembuangan kotoran dan pengelolaan air limbah. Menggunakan jamban
+            yang sehat dapat mencegah penyebaran berbagai penyakit yang
+            disebabkan oleh buang hajat di sembarang tempat.PHBS dapat
+            diterapkan di rumah tangga, tempat umum, dan sekolah. Artikel ini
+            akan membahas PHBS dalam lingkungan rumah tangga yang berkaitan
+            dengan penggunaan jamban sehat dan syarat-syaratnya.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            11 November 2023
+            21 Desember 2023
           </h2>
           <div>
             <a
@@ -134,8 +137,8 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <Image
-                  src="/image/penyakit2.png"
-                  alt="artikel1"
+                  src=""
+                  alt="artikel3"
                   fill={true}
                   className="object-cover"
                 />
@@ -143,27 +146,26 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* ARTIKEL 3 */}
-      {/* <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Sakit Gigi Tak Kunjung Sembuh, Ini Penyebab dan Cara Mengatasinya
+            Hindari Penyakit dengan Terapkan PHBS di Rumah: Syarat dan Manfaat
+            Hunian Sehat dan Bersih
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Sakit gigi tak kunjung sembuh bisa disebabkan oleh infeksi di gigi.
-            Jika gigi tidak segera dirawat ke dokter gigi, maka rasa sakit bisa
-            terus timbul meski bisa mereda sementara saat minum obat sakit gigi.
-            Sakit gigi bisa cuma dirasakan sebentar, tapi bisa juga dirasakan
-            terus menerus. Sakit gigi yang tidak kunjung sembuh ini tentu
-            mengganggu, jadi kamu perlu tahu juga cara mengatasinya. Biasanya,
-            jika rasa nyeri tidak kunjung hilang meski kamu sudah minum obat,
-            itu tandanya tindakan perawatan dari dokter perlu segera kamu
-            dapatkan.
+            Perilaku Hidup Bersih dan Sehat (PHBS) bermula dari rumah, kemudian
+            merambah ke lingkungan dan komunitas masyarakat. Menerapkan PHBS di
+            rumah menciptakan keluarga yang sehat dan mampu meminimalisir
+            masalah kesehatan.Manfaat PHBS di Rumah1. Meningkatkan
+            Kesejahteraan: Setiap anggota keluarga tidak mudah terkena
+            penyakit.2. Meningkatkan Produktivitas: Keluarga dapat tumbuh sehat
+            dan tercukupi gizinya, meningkatkan produktivitas anggota keluarga.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            10 November 2023
+            20 desember 2023
           </h2>
           <div>
             <a
@@ -179,8 +181,8 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <Image
-                  src="/image/penyakit3.png"
-                  alt="artikel1"
+                  src=""
+                  alt="artikel4"
                   fill={true}
                   className="object-cover"
                 />
@@ -188,28 +190,29 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* ARTIKEL 4 */}
-      {/* <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Penyebab Napas Pendek dan Cara Mengatasinya
+            7 Langkah Bijak Memproses dan Membuang Sampah Medis Rumah Tangga
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Penyakit jantung bisa menyebabkan napas jadi pendek-pendek. Saat
-            seseorang mengalami gangguan jantung, jantung tidak cukup kuat
-            memompa darah dengan baik, sehingga fungsi pernapasan tidak
-            maksimal. Napas pendek normal jika dialami oleh orang yang baru saja
-            melakukan olahraga intens, mengalami perubahan suhu secara drastis,
-            atau berada di ketinggian. Namun, jika kamu mengalaminya hampir
-            setiap saat, bahkan saat beraktivitas ringan atau sedang
-            beristirahat, bisa jadi ada gangguan kesehatan yang perlu
-            diwaspadai.
+            Kesehatan rumah tangga tidak hanya mencakup kebersihan fisik, tetapi
+            juga penanganan yang aman terhadap sampah medis. Sampah medis rumah
+            tangga mencakup benda-benda yang terkontaminasi oleh darah, cairan
+            tubuh, atau bahan kimia berbahaya. Penting untuk mengelola sampah
+            medis dengan bijak agar tidak menimbulkan risiko kesehatan bagi
+            penghuni rumah tangga dan lingkungan sekitar.Sampah Medis Rumah
+            TanggaSampah medis rumah tangga adalah benda-benda yang
+            terkontaminasi oleh darah, cairan tubuh, atau bahan kimia berbahaya,
+            yang dihasilkan dari perawatan kesehatan di rumah. Contohnya
+            termasuk jarum suntik, alat pengukur glukosa darah, perban bekas,
+            peralatan nebulizer, dan obat-obatan kedaluwarsa.Cara Mengolah dan
+            Membuang Sampah Medis Rumah Tangga
           </p>
-          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            18 November 2023
-          </h2>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">6 Maret 2024</h2>
           <div>
             <a
               href="/InformasiKesehatan/RumahTangga/Artikel4"
@@ -224,8 +227,8 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <Image
-                  src="/image/penyakit4.png"
-                  alt="artikel1"
+                  src=""
+                  alt="artikel5"
                   fill={true}
                   className="object-cover"
                 />
@@ -233,7 +236,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
         <button title="leftbig" className="sm:flex hidden">
           <AiOutlineLeft size={40} />

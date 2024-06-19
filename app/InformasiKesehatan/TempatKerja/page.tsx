@@ -21,7 +21,7 @@ const page = () => {
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
           Ini Hubungan Kesehatan Mental dengan Lingkungan Kerja
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
+          <p className="xl:text-base text-xs line-clamp-5">
           Jakarta - Banyak orang menghabiskan sebagian besar waktunya di
             tempat kerja dari Senin hingga Jumat, dan terkadang akhir pekan
             mereka juga dihabiskan untuk bekerja meskipun dari rumah. Tekanan

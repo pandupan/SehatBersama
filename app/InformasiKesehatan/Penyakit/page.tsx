@@ -24,7 +24,7 @@ const page = () => {
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
             5 Cara Merawat Luka Diabetes agar Cepat Kering
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
+          <p className="xl:text-base text-xs line-clamp-5">
             Cara merawat luka diabetes agar cepat kering adalah dengan
             membungkusnya menggunakan perban steril, lalu menghindari tekanan
             pada area luka. Luka juga perlu segera dirawat dan rutin

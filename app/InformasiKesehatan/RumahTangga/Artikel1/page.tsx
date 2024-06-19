@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 const page = () => {
@@ -6,7 +5,7 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Rumah Tangga
+          Apa Itu Perilaku Hidup Bersih dan Sehat (PHBS) serta Contohnya
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -23,7 +22,7 @@ const page = () => {
                 Puskesmas Purbaratu
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Sabtu, 11 November 2023 06:20
+                07 Juni 2024
               </span>
             </div>
           </div>
@@ -39,106 +38,64 @@ const page = () => {
       </div>
       <div className="mt-4">
         <div>
-          <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
+          <div className="relative w-full aspect-video flex justify-center items-center rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="https://i.ibb.co/Zhnp397/phbs-tatanan-rt.jpg"
+              src="https://i.ibb.co.com/G9qwxP5/image-2024-06-19-063316567.png"
               alt="article"
               className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
-            <b>Gambar 1</b> <span className="italic">Ilustrasi</span>
+            <b>Gambar 1</b>{" "}
+            <span className="italic">Ilustrasi Hidup Sehat</span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Latar Belakang PHBS di Tatanan Rumah Tangga
+          <h3 className="text-md font-bold text-gray-600">
+            Salah satu tugas guru dan orang tua adalah mendidik dan memantau
+            perilaku hidup bersih dan sehat (PHBS) pada anak.
           </h3>
           <p className="text-gray-600 text-justify">
-            PHBS (perilaku Hidup Bersi dan Sehat) di Tatanan Rumah Tangga adalah
-            semua perilaku kebersihan dan kesehatan yang dilakukan atas
-            kesadaran masing masing sehingga setiap anggota keluarga atau
-            keluarga dapat menolong dirinya sendiri di bidang kesehatan dan ikut
-            berperan aktif dalam kegiatan-kegiatan kesehatan di masyarakat. PHBS
-            di Tatanan Rumah Tangga adalah upaya untuk menyadarkan keluarga dan
-            masing masing anggota keuarga agar memilki kemaunan dan kemampuan
-            dalam mempraktikkan PHBS.Sehingga keluarga dan seluruh anggota
-            keluarga dapat memelihara dan meningkatkan kesehatannya, mencegah
-            resiko terjadinya penyakit dan melindungi diri dari ancaman penyakit
-            serta berperan aktif dalam gerakan kesehatan masyarakat. Rumah
-            tangga atau keluarga yang sehat dapat diwujudkan dengan
-            mengimplementasikan PHBS dan menciptakan dukungan lingkungan yang
-            sehat. Rumah tangga atau keluarga yang sehat merupakan aset utama
-            pembangunan yang perlu dipelihara terus menerus, ditingkakan dan
-            dilindungi kesehatannya. Sehingga perlu dilakukan upaya upaya untuk
-            meningkatkan pengetahuan, kemauan dan kemampuan anggota rumah tangga
-            atau anggota keluarga untuk melaksanakan PHBS, dan ikut berperan
-            aktif dalam gerakan PHBS di masyarakat.
+            Perilaku Hidup Bersih dan Sehat (PHBS) merupakan upaya untuk
+            menularkan pengalaman mengenai perilaku hidup sehat melalui
+            individu, kelompok, atau pun masyarakat luas dengan jalur-jalur
+            komunikasi sebagai media berbagi informasi.
           </p>
-        </div>
-        <div className="mt-4 mb-6 space-y-2">
           <p className="text-gray-600 text-justify">
-            Bahwa rumah tangga atau keluarga sehat merupakan aset atau modal
-            utama pembangunan di masa depan yang perlu dijaga, ditingkakan dan
-            dilindungi kesehatannya. Beberapa anggota rumah tangga mempunyai
-            masa rawan terkena gangguan berbagai penyakit. Angka kesakitan dan
-            kematian penyakit infeksi dan non infeksi dapat dicegah dengan PHBS.
-            PHBS itu jumlahnya bisa banyak sekali, bisa ratusan; misalnya
-            tentang Gizi: makan beraneka ragam makanan, minum Tablet Tambah
-            Darah, mengkonsumsi Garam Beryodium, memberi bayi dan balita Kapsul
-            Vitamin A; dst. Namun setiap rumah tangga dianjurkan untuk
-            melaksanakan semua perilaku kesehatan; untuk manfaat yang tidak
-            ternilai; baik bagi rumah tangga itu sendiri, lingkungan, dan bahkan
-            nasional.
+            PHBS merupakan langkah awal menuju peningkatan kualitas kesehatan
+            masyarakat. Program ini dapat diterapkan di berbagai lingkungan
+            seperti sekolah dan rumah tangga. Salah satu contoh PHBS di
+            lingkungan sekolah ialah membuang sampah pada tempatnya dan mencuci
+            tangan dengan sabun sebelum serta sesudah makan.
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Manfaat PHBS di Tatanan Rumah Tangga
+          <h3 className="text-md font-bold text-gray-600">
+            Pengertian Perilaku Hidup Bersih dan Sehat (PHBS)
           </h3>
-          <p className=" font-bold">
-            1. Setiap anggota keluarga menjadi sehat dan tidak mudah sakit.
+          <p className="text-gray-600 text-justify">
+            Dikutip dari laman Promkes Kemenkes (2016), PHBS adalah semua
+            perilaku kesehatan yang dilakukan karena kesadaran pribadi sehingga
+            keluarga dan seluruh anggotanya mampu menolong diri sendiri pada
+            bidang kesehatan serta memiliki peran aktif dalam aktivitas
+            masyarakat.
           </p>
-          <p className=" font-bold">2. Anak tumbuh sehat dan cerdas.</p>
-          <p className=" font-bold">3. Anggota keluarga giat bekerja.</p>
-          <p className=" font-bold">
-            4. Pengeluaran biaya rumah tangga dapat ditujukan untuk memenuhi
-            gizi keluarga, pendidikan dan modal usaha untuk peningkatan
-            pendapatan keluarga.
+          <p className="text-gray-600 text-justify">
+            PHBS merupakan rekayasa sosial yang menjadikan banyak anggota
+            masyarakat berperan aktif sebagai agen perubahan supaya mampu
+            meningkatkan kualitas perilaku sehari-hari dengan tujuan hidup
+            bersih dan sehat. Dalam artikel bertajuk "Perilaku Hidup Bersih dan
+            Sehat" pada laman RSUP Persahabatan (2019) disebutkan, tujuan PHBS
+            adalah mencapai rumah tangga sehat, setiap anggota keluarga menjadi
+            sehat, tidak mudah sakit, anak tumbuh sehat dan cerdas, serta
+            anggota keluarga giat bekerja.
+          </p>
+          <p className="text-gray-600 text-justify">
+            Selain itu, anggota rumah tangga diharapkan meningkatkan
+            pengetahuan, kemauan dan kemampuan untuk melaksanakan PHBS, serta
+            berperan aktif dalam gerakan PHBS di masyarakat.
           </p>
         </div>
-        <h3 className="font-bold">
-          Rumah Tangga Ber-PHBS adalah rumah tangga yang melakukan 10 PHBS di
-          Rumah Tangga, yaitu :
-        </h3>
-        <div className="mt-4 mb-6 space-y-2">
-          <p className=" font-bold">
-            1. Pertolongan persalinan oleh tenaga kesehatan.
-          </p>
-          <p className=" font-bold">2. Memberi bayi ASI Eksklusif.</p>
-          <p className=" font-bold">3. Menimbang balita setiap bulan.</p>
-          <p className=" font-bold">4. Menggunakan air bersih.</p>
-          <p className=" font-bold">
-            5. Mencuci tangan dengan air bersih dan sabun.
-          </p>
-          <p className=" font-bold">6. Menggunakan jamban sehat.</p>
-          <p className=" font-bold">
-            7. Memberantas jentik di rumah sekali seminggu.
-          </p>
-          <p className=" font-bold">8. Makan buah dan sayur setiap hari.</p>
-          <p className=" font-bold">
-            9. Melakukan Aktivitas Fisik setiap hari.
-          </p>
-          <p className=" font-bold">10. Tidak merokok di dalam rumah.</p>
-        </div>
-        <p>
-          PHBS Tatanan Rumah Tangga harus dapat diketahui, dimengerti dan
-          dipraktekkan oleh keluarga, anggota keluarga, serta lingkungan dimana
-          setiap keluarga tinggal. Dalam kondisi ini peran anggota keluarga,
-          masyarakat, tokoh masyarakat, pemerintah daerah sangat berpengaruh
-          termasuk dalam tersedianya fasilitas serta adanya kebijakan yang
-          mendukung.
-        </p>
 
         {/* <div>
           <h4 className="font-bold">Tag:</h4>

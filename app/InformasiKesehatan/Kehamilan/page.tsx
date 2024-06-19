@@ -24,7 +24,7 @@ const page = () => {
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
             Ciri-ciri Hamil 2 Minggu yang Perlu Ibu Sadari
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
+          <p className="xl:text-base text-xs line-clamp-5">
             Dilansir dari Medical News Today, beberapa wanita belum menunjukan
             gejala kehamilan pada minggu pertama atau kedua kehamilan.
             Sedangkan, beberapa wanita yang lain mungkin mengalami gejala

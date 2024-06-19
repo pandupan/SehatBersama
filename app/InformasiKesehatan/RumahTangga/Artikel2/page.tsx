@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 const page = () => {
@@ -6,7 +5,8 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Apa Itu Perilaku Hidup Bersih dan Sehat (PHBS) serta Contohnya
+          Pentingnya Jamban Sehat untuk Perilaku Hidup Bersih dan Sehat (PHBS),
+          Coba Cek di Rumahmu!
         </h1>
         <div className="flex items-centerjustify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -20,10 +20,10 @@ const page = () => {
             </div>
             <div>
               <span className="block font-bold text-sm sm:text-lg text-gray-600">
-                Puskesmas Purbaratu
+                Firdha Austin
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                15 Februari 2024
+                Kamis, 21 Desember 2023 14 : 00 WIB
               </span>
             </div>
           </div>
@@ -39,50 +39,151 @@ const page = () => {
       </div>
       <div className="mt-4">
         <div>
-          <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
+          <div className="relative w-full aspect-video flex justify-center items-center rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="https://i.ibb.co/yF4fxKt/hari-cuci-tangan-pakai-sabun-sedunia-di-bogor-antarafoto-ratio-16x9.jpg"
+              src=""
               alt="article"
               className="object-contain items-center w-full"
             />
           </div>
           <p className="text-sm text-gray-600 mt-2 text-center">
-            <b>Gambar 1</b> <span className="italic">Ilustrasi</span>
+            <b>Gambar 1</b>{" "}
+            <span className="italic">Ilustrasi Hidup Sehat</span>
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
-          <h3 className="text-xl sm:text-2xl font-bold">
-            Pengertian Perilaku Hidup Bersih dan Sehat (PHBS)
+          <h3 className="text-md font-bold text-gray-600">
+            Salah satu indikator penting dalam Perilaku Hidup Bersih dan Sehat
+            (PHBS)
           </h3>
           <p className="text-gray-600 text-justify">
-            Perilaku Hidup Bersih dan Sehat (PHBS) merupakan upaya untuk
-            menularkan pengalaman mengenai perilaku hidup sehat melalui
-            individu, kelompok, atau pun masyarakat luas dengan jalur-jalur
-            komunikasi sebagai media berbagi informasi. PHBS merupakan langkah
-            awal menuju peningkatan kualitas kesehatan masyarakat. Program ini
-            dapat diterapkan di berbagai lingkungan seperti sekolah dan rumah
-            tangga. Salah satu contoh PHBS di lingkungan sekolah ialah membuang
-            sampah pada tempatnya dan mencuci tangan dengan sabun sebelum serta
-            sesudah makan.
-          </p>
-          <p className="text-gray-600 text-justify">
-            Dikutip dari laman Promkes Kemenkes (2016), PHBS adalah semua
-            perilaku kesehatan yang dilakukan karena kesadaran pribadi sehingga
-            keluarga dan seluruh anggotanya mampu menolong diri sendiri pada
-            bidang kesehatan serta memiliki peran aktif dalam aktivitas
-            masyarakat. PHBS merupakan rekayasa sosial yang menjadikan banyak
-            anggota masyarakat berperan aktif sebagai agen perubahan supaya
-            mampu meningkatkan kualitas perilaku sehari-hari dengan tujuan hidup
-            bersih dan sehat. Dalam artikel bertajuk "Perilaku Hidup Bersih dan
-            Sehat" pada laman RSUP Persahabatan (2019) disebutkan, tujuan PHBS
-            adalah mencapai rumah tangga sehat, setiap anggota keluarga menjadi
-            sehat, tidak mudah sakit, anak tumbuh sehat dan cerdas, serta
-            anggota keluarga giat bekerja. Selain itu, anggota rumah tangga
-            diharapkan meningkatkan pengetahuan, kemauan dan kemampuan untuk
-            melaksanakan PHBS, serta berperan aktif dalam gerakan PHBS di
-            masyarakat.
+            Salah satu indikator penting dalam Perilaku Hidup Bersih dan Sehat
+            (PHBS) adalah kebiasaan buang hajat di jamban yang sehat. Jamban
+            yang sehat merupakan infrastruktur sanitasi yang penting untuk
+            pembuangan kotoran dan pengelolaan air limbah. Menggunakan jamban
+            yang sehat dapat mencegah penyebaran berbagai penyakit yang
+            disebabkan oleh buang hajat di sembarang tempat.PHBS dapat
+            diterapkan di rumah tangga, tempat umum, dan sekolah. Artikel ini
+            akan membahas PHBS dalam lingkungan rumah tangga yang berkaitan
+            dengan penggunaan jamban sehat dan syarat-syaratnya.
+            <br />
+            <br />
+            Apa itu Jamban Sehat? Menurut Dinas Kesehatan Malang, jamban adalah
+            suatu ruangan yang memiliki fasilitas pembuangan kotoran manusia,
+            terdiri atas tempat jongkok atau tempat duduk dengan atau tanpa
+            leher angsa (cemplung) yang dilengkapi dengan unit penampungan
+            kotoran dan air untuk membersihkannya.
           </p>
         </div>
+        <h3 className="text-md font-bold text-gray-600">
+        Jenis-jenis Jamban:
+          </h3>
+        <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-gray-600 text-justify">
+            1. Jamban Cemplung:
+          </h3>
+          <p className="text-gray-600 text-justify">
+            Jamban ini memiliki penampungan berupa lubang yang menyimpan dan
+            meresapkan cairan kotoran atau tinja ke dalam tanah, serta
+            mengendapkan kotoran ke dasar lubang. Jamban cemplung harus memiliki
+            penutup agar tidak berbau.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-gray-600 text-justify">
+            2. Jamban Tangki Septik/Leher Angsa:
+          </h3>
+          <p className="text-gray-600 text-justify">
+            Jamban ini memiliki penampungan berupa tangki septik kedap air yang
+            berfungsi sebagai wadah proses penguraian kotoran manusia,
+            dilengkapi dengan resapan. Jamban jenis ini cocok untuk daerah
+            dengan pasokan air yang cukup dan kepadatan penduduk yang tinggi.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-md font-bold text-gray-600">
+            Memilih Jamban yang Tepat:
+          </h3>
+          <p className="text-gray-600 text-justify">
+            - Jamban Cemplung: Cocok untuk daerah yang sulit air.
+            <br />- Jamban Tangki Septik/Leher Angsa: Cocok untuk daerah dengan
+            cukup air dan padat penduduk, serta daerah pasang surut dengan
+            penampungan kotoran yang ditinggikan.
+          </p>
+          <p className="text-gray-600 text-justify">
+            Penggunaan Jamban Semua anggota rumah tangga harus menggunakan
+            jamban untuk buang air besar atau kecil guna menjaga lingkungan
+            tetap bersih, sehat, dan tidak berbau.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-md font-bold text-gray-600">
+            Syarat Jamban Sehat
+          </h3>
+          <p className="text-gray-600 text-justify">
+            Penggunaan jamban juga mencegah pencemaran sumber air, menghindari
+            lalat dan serangga yang dapat menularkan penyakit seperti diare,
+            kolera, disentri, tipes, kecacingan, penyakit saluran pencernaan,
+            penyakit kulit, dan keracunan.
+          </p>
+          <p className="text-gray-600 text-justify">
+            1. Tidak mencemari sumber air minum (jarak minimal 10meter).
+            <br />
+            2. Tidak berbau.
+            <br />
+            3. Kotoran tidak dapat dijamah oleh serangga dan tikus.
+            <br />
+            4. Tidak mencemari tanah di sekitarnya.
+            <br />
+            5. Mudah dibersihkan dan aman digunakan.
+            <br />
+            6. Dilengkapi dinding dan atap pelindung.
+            <br />
+            7. Memiliki penerangan dan ventilasi yang cukup.
+            <br />
+            8. Lantai kedap air dan luas ruangan memadai.
+            <br />
+            9. Tersedia air, sabun, dan alat pembersih.
+          </p>
+        </div>
+        <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-md font-bold text-gray-600">
+            Cara Memelihara Jamban Sehat
+          </h3>
+          <p className="text-gray-600 text-justify">
+            1. Jaga kebersihan lantai jamban dan hindari genangan air.
+            <br />
+            2. Bersihkan jamban secara teratur.
+            <br />
+            3. Pastikan tidak ada kotoran yang terlihat di dalam jamban.
+            <br />
+            4. Hindari keberadaan serangga seperti kecoa, lalat, dan tikus.
+            <br />
+            5. Sediakan alat pembersih seperti sabun, sikat, dan air bersih.
+            <br />
+            6. Segera perbaiki jika terdapat kerusakan.
+          </p>
+        </div>
+
+        <div className="mt-4 mb-6 space-y-2">
+          <p className="text-gray-600 text-justify">
+            Dengan menerapkan kebiasaan buang hajat di jamban yang
+            sehat, kita dapat menjaga kebersihan lingkungan dan mencegah
+            berbagai penyakit, serta mendukung upaya PHBS di rumah tangga.
+          </p>
+        </div>
+
+        {/* <div>
+          <h4 className="font-bold">Tag:</h4>
+          <div className="flex flex-wrap gap-2 items-center mt-2 text-xs sm:text-base">
+            <span className="block py-1 px-2 rounded bg-primary text-white">
+              Gizi
+            </span>
+            <span className="block py-1 px-2 rounded bg-primary text-white">
+              Tips & Trick
+            </span>
+          </div>
+        </div> */}
       </div>
     </div>
   );

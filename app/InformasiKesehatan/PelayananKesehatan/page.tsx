@@ -23,7 +23,7 @@ const page = () => {
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
           Perilaku Hidup Bersih dan Sehat (PHBS) di Fasilitas Pelayanan Kesehatan
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
+          <p className="xl:text-base text-xs line-clamp-5">
           Kebijakan pembangunan kesehatan menekankan pada upaya promotif dan preventif untuk menjadikan individu yang sudah sehat menjadi lebih sehat dan produktif. Pola hidup sehat adalah implementasi dari paradigma kesehatan yang melibatkan perilaku individu, keluarga, kelompok, dan masyarakat yang bertujuan untuk meningkatkan, memelihara, dan melindungi kesehatan secara fisik, mental, spiritual, dan sosial.
 
           </p>

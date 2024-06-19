@@ -23,7 +23,7 @@ const page = () => {
           <h1 className="font-bold xl:text-5xl lg:text-2xl sm:text-lg">
             6 Langkah Mencuci Tangan yang Benar Agar Tetap Bersih
           </h1>
-          <p className="xl:text-base text-xs line-clamp-5 lg:line-clamp-none">
+          <p className="xl:text-base text-xs line-clamp-5">
             Cuci tangan adalah praktik penting dalam menjaga kebersihan dan
             kesehatan tubuh, membantu mengurangi risiko infeksi atau penyakit
             yang dapat ditularkan melalui tangan. Mencuci tangan dengan sabun
