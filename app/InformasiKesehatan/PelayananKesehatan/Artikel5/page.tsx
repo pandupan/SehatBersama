@@ -30,10 +30,10 @@ const page = () => {
           </div>
           <div className="my-auto">
             <a
-              href="https://www.kompasiana.com/muflifdaffa6643/65a2423fde948f0d25430013/kehidupan-sehat-dan-sejahtera-upaya-mewujudkan-pelayanan-kesehatan-yang-lebih-baik-di-indonesia?page=2&_gl=1*9jpod1*_ga*UDJUWkVmbEhfMVJ0WWR4Z1pEYklpY2RXZlZyTzFpNFh3d2p1YzdpbEc2M3FpbEd3cl9sd2UzSmRuNnlMRjJqMQ"
+              href="/InformasiKesehatan/PelayananKesehatan"
               className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2"
             >
-              Sumber
+              Kembali
             </a>
           </div>
         </div>

@@ -9,7 +9,7 @@ const page = () => {
           <div className="relative xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]">
             <div className="object-fit">
               <img
-                src="https://www.kemenkopmk.go.id/pemerintah-berupaya-memenuhi-pelayanan-kesehatan-masyarakat-secara-berkesinambungan"
+                src="https://i.ibb.co.com/rc2ccRV/image.png"
                 alt="phbs"
                 className="object-cover items-center rounded-xl xl:w-[563px] xl:h-[376px] lg:w-[463px] lg:h-[263px] w-[263px] h-[163px]"
               />
@@ -91,17 +91,16 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">PELAYANAN KESEHATAN</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Peran Fasilitas Kesehatan Jadi Kunci Negara Sehat
+          Mengenal Retrograde Intrarenal Surgery dan Pentingnya PHBS di Fasilitas Kesehatan untuk Pencegahan Batu Ginjal Jangka Panjang
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Menteri Kesehatan (Menkes) Budi Gunadi Sadikin telah menyoroti peran
-            penting fasilitas kesehatan dalam memperkuat fondasi kesehatan suatu
-            negara. Pernyataannya ini mencuat dalam kegiatan Silaturahmi
-            Presiden RI dengan peserta Jaminan Kesehatan Nasional (JKN) di
-            Kabupaten Gunungkidul, Provinsi DI Yogyakarta pada Selasa, 30
-            Januari 2024.
+          Menurut data Riset Kesehatan Dasar Nasional (Riskesdas) tahun 2020,
+            prevalensi penyakit batu ginjal di Indonesia tercatat sebanyak 3.8%,
+            yang setara dengan 739.208 jiwa. Penyakit batu ginjal sering kali
+            tidak menunjukkan gejala atau keluhan awal, sehingga batu ginjal
+            bisa tumbuh tanpa disadari hingga mencapai ukuran yang signifikan.
           </p>
-          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">31 Januari 2024</h2>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">Rabu 05 Juni 2024</h2>
           <div>
             <a
               href="/InformasiKesehatan/PelayananKesehatan/Artikel2"
@@ -116,7 +115,7 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <img
-                  src="https://infopublik.id/assets/upload/headline//bpjs22.jpg"
+                  src="https://i.ibb.co.com/T2pG4Jr/fk-1.jpg"
                   alt="artikel1"
                   className="object-cover"
                 />
@@ -130,31 +129,13 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">PELAYANAN KESEHATAN</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Masyarakat Dihimbau Memanfaatkan Pelayanan Kesehatan Saat ”GERMAS”
+          Pangan Yang Sehat Dan Aman Bisa Cegah Berbagai Penyakit dengan Peran Fasilitas Kesehatan dalam Menjalankan PHBS
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            {" "}
-            Gerakan Masyarakat Hidup Sehat (GERMAS) adalah inisiatif nasional
-            yang dicanangkan oleh pemerintah Indonesia untuk meningkatkan
-            kesadaran dan partisipasi masyarakat dalam menjaga kesehatan. Dengan
-            slogan "Sehat Dimulai dari Diri Sendiri", GERMAS mendorong
-            masyarakat untuk aktif melakukan berbagai aktivitas yang mendukung
-            kesehatan, seperti olahraga rutin, makan makanan bergizi, dan cek
-            kesehatan secara berkala. Salah satu poin penting yang ditekankan
-            dalam GERMAS adalah pemanfaatan pelayanan kesehatan yang tersedia.
-            Menteri Kesehatan, Terawan Agus Putranto, telah mengeluarkan
-            peraturan terkait protokol kesehatan bagi masyarakat yang berlaku di
-            tempat umum, sebagai langkah preventif untuk menghambat penyebaran
-            virus Corona (COVID-19). Panduan ini diatur dalam Keputusan Menteri
-            Kesehatan nomor HK.01.07/MENKES/382/2020 tentang Protokol Kesehatan
-            bagi Masyarakat di Tempat dan Fasilitas Umum, yang disahkan pada 19
-            Juni 2020. Tempat umum yang termasuk dalam lingkup aturan ini
-            meliputi mal, pertokoan, hotel, rumah makan, fasilitas olahraga,
-            moda transportasi, lokasi wisata, layanan kecantikan, sektor ekonomi
-            kreatif, aktivitas keagamaan di tempat ibadah, serta penyelenggaraan
-            acara
+          Setiap tahun, pada tanggal 7 Juni, dunia memperingati Hari Keamanan Pangan Sedunia (HKPS) untuk meningkatkan kesadaran global tentang pentingnya mencegah, mendeteksi, dan mengelola risiko penyakit yang disebabkan oleh makanan terkontaminasi atau Kejadian Luar Biasa (KLB) Keracunan Pangan.
+
           </p>
-          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">3 November 2023</h2>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">Selasa, 11 Juni</h2>
           <div>
             <a
               href="/InformasiKesehatan/PelayananKesehatan/Artikel3"
@@ -169,8 +150,8 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <img
-                  src="https://th.bing.com/th/id/OIP.Hg7wFIaHuHEJMF3Ium_KIwHaEl?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-                  alt="artikel1"
+                  src="https://i.ibb.co.com/0DMVjLt/fk-2.jpg"
+                  alt="artikel3"
                   className="object-cover"
                 />
               </div>
@@ -183,13 +164,14 @@ const page = () => {
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">PELAYANAN KESEHATAN</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-          Penerapan RME Jamin Kemudahan Akses Layanan Kesehatan Masyarakat
+          Strategi Pencegahan Kusta dan Implementasi PHBS oleh Petugas Kesehatan
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-          Pemerintah Indonesia terus berupaya meningkatkan akses layanan kesehatan yang murah dan berkualitas melalui pemanfaatan teknologi digital. Salah satu langkah utamanya adalah penerapan Rekam Medis Elektronik (RME) di fasilitas kesehatan di seluruh Indonesia. Inisiatif ini bertujuan untuk mempercepat, mempermudah, dan meningkatkan transparansi akses layanan kesehatan.
+          Penyakit kusta, jika tidak diobati dengan baik, dapat menyebabkan kecacatan. Pengobatan kusta umumnya membutuhkan waktu 6 hingga 12 bulan, tergantung pada kondisi pasien. Salah satu terapi yang umum digunakan untuk pasien kusta adalah terapi MDT (Multi Drug Therapy). Terapi MDT diberikan khususnya di daerah-daerah dengan tingkat kasus kusta yang tinggi. Pemerintah menyediakan obat kusta ini secara gratis di daerah-daerah tersebut, tanpa dipungut biaya.
+
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-          07 November 2023
+          Sabtu, 6 Februari 2021
           </h2>
           <div>
             <a
@@ -205,8 +187,8 @@ const page = () => {
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
                 <img
-                  src="https://sehatnegeriku.kemkes.go.id/wp-content/uploads/2023/11/a1b4366a-4697-4a96-92e1-f8a7d65ab346.jpeg"
-                  alt="artikel1"
+                  src="https://i.ibb.co.com/BrDSJ68/4-fk.jpg"
+                  alt="artikel4"
                   className="object-cover"
                 />
               </div>
@@ -243,7 +225,7 @@ const page = () => {
               <div className="object-fit">
                 <img
                   src="https://assets.kompasiana.com/items/album/2024/01/14/homecare2-65a3e92412d50f2c706dfef7.png?t=o&v=740&x=416"
-                  alt="artikel1"
+                  alt="artikel5"
                   className="object-cover"
                 />
               </div>
@@ -252,42 +234,6 @@ const page = () => {
         </div>
       </div>
       
-      {/* ARTIKEL 6 */}
-      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
-        <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">PELAYANAN KESEHATAN</h1>
-          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-          Pemerintah Berupaya Memenuhi Pelayanan Kesehatan Masyarakat Secara Berkesinambungan
-          </h3>
-          <p className="line-clamp-2 sm:text-base text-xs">
-          Pemerintah terus berupaya membangun sistem Jaminan Kesehatan Nasional (JKN) agar dapat memenuhi pelayanan kesehatan masyarakat secara optimal dan berkesinambungan. Menurut Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan (Menko PMK) Muhadjir Effendy, pemerintah telah menyiapkan serangkaian kebijakan untuk memperbaiki ekosistem JKN secara menyeluruh. Kebijakan tersebut mencakup rasionalisasi manfaat program sesuai kebutuhan dasar kesehatan, penerapan satu kelas rawat yang standar, dan penyederhanaan tarif layanan.
-          </p>
-          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-          11 Juni 2020
-          </h2>
-          <div>
-            <a
-              href="/InformasiKesehatan/PelayananKesehatan/Artikel6"
-              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
-            >
-              Baca Selengkapnya ...
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="flex items-center justify-center">
-            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
-              <div className="object-fit">
-                <img
-                  src="https://www.kemenkopmk.go.id/sites/default/files/articles/2020-06/A27B6966-825C-4467-A863-42A4A1300C6B.jpeg"
-                  alt="artikel1"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       {/* <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
         <button title="leftbig" className="sm:flex hidden">
           <AiOutlineLeft size={40} />

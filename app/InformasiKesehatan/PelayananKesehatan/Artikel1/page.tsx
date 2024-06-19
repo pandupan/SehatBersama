@@ -30,10 +30,10 @@ const page = () => {
           </div>
           <div className="my-auto">
             <a
-              href="https://journals.sagepub.com/doi/full/10.1177/1420326X20922650"
+              href="/InformasiKesehatan/PelayananKesehatan"
               className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2"
             >
-              Sumber
+              Kembali
             </a>
           </div>
         </div>

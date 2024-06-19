@@ -6,7 +6,8 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          artikel 2
+          Mengenal Retrograde Intrarenal Surgery dan Pentingnya PHBS di
+          Fasilitas Kesehatan untuk Pencegahan Batu Ginjal Jangka Panjang
         </h1>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -20,19 +21,19 @@ const page = () => {
             </div>
             <div>
               <span className="block font-bold text-sm sm:text-lg text-gray-600">
-                Putri
+                A. Firdaus
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Rabu, 31 Januari 2024 22:07 WIB
+                Rabu 05 Juni 2024
               </span>
             </div>
           </div>
           <div className="my-auto">
             <a
-              href="https://infopublik.id/kategori/nasional-sosial-budaya/821930/peran-fasilitas-kesehatan-jadi-kunci-negara-sehat"
+              href="/InformasiKesehatan/PelayananKesehatan"
               className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2"
             >
-              Sumber
+              Kembali
             </a>
           </div>
         </div>
@@ -41,7 +42,7 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="https://infopublik.id/assets/upload/headline//bpjs22.jpg" // Ganti dengan URL gambar yang tepat
+              src="https://i.ibb.co.com/T2pG4Jr/fk-1.jpg" // Ganti dengan URL gambar yang tepat
               alt="article"
               className="object-contain items-center w-full"
             />
@@ -52,19 +53,57 @@ const page = () => {
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <p className="text-gray-600 text-justify">
-            Menteri Kesehatan (Menkes) Budi Gunadi Sadikin telah menyoroti peran penting fasilitas kesehatan dalam memperkuat fondasi kesehatan suatu negara. Pernyataannya ini mencuat dalam kegiatan Silaturahmi Presiden RI dengan peserta Jaminan Kesehatan Nasional (JKN) di Kabupaten Gunungkidul, Provinsi DI Yogyakarta pada Selasa, 30 Januari 2024.
+            Menurut data Riset Kesehatan Dasar Nasional (Riskesdas) tahun 2020,
+            prevalensi penyakit batu ginjal di Indonesia tercatat sebanyak 3.8%,
+            yang setara dengan 739.208 jiwa. Penyakit batu ginjal sering kali
+            tidak menunjukkan gejala atau keluhan awal, sehingga batu ginjal
+            bisa tumbuh tanpa disadari hingga mencapai ukuran yang signifikan.
           </p>
           <p className="text-gray-600 text-justify">
-            Menkes Budi menekankan bahwa kualitas pelayanan di fasilitas kesehatan merupakan salah satu faktor kunci untuk memastikan pasien merasa aman dan nyaman. "Kita harus terus meningkatkan kualitas layanan di fasilitas kesehatan. Apabila pelayanan di fasilitas kesehatan memuaskan, maka pasien akan merasa aman dan nyaman," ujarnya.
+            Gejala yang umum dialami oleh penderita batu ginjal meliputi nyeri
+            pinggang yang hilang timbul, urin berwarna kemerahan atau berdarah,
+            urin keruh berpasir atau keluar batu kecil, serta demam dan nyeri
+            saat berkemih jika terjadi infeksi. Risiko terkena batu ginjal
+            meningkat jika ada riwayat keluarga yang menderita penyakit ini.
+            Dehidrasi, terutama bagi mereka yang tinggal di iklim hangat dan
+            kering, juga dapat meningkatkan risiko karena tubuh cenderung
+            kehilangan banyak cairan.
           </p>
           <p className="text-gray-600 text-justify">
-            Di samping menggarisbawahi pentingnya pelayanan yang berkualitas, Menkes Budi juga membangun kesadaran akan pentingnya penerapan pola hidup sehat sebagai langkah preventif. Beliau menjelaskan bahwa kesadaran akan pentingnya kesehatan dan upaya pencegahan merupakan modal utama dalam menjaga kesejahteraan individu dan masyarakat secara keseluruhan. Menurutnya, kebiasaan hidup sehat akan membantu mengurangi risiko penyakit dan memperpanjang usia harapan hidup.
+            Konsumsi makanan dengan kadar protein, natrium (garam), dan gula
+            yang berlebihan, obesitas, penyakit pencernaan, prosedur bedah
+            sebelumnya, dan kondisi medis lain seperti asidosis tubulus ginjal,
+            sistinuria, hiperparatiroidisme, serta infeksi saluran kemih
+            berulang, juga berkontribusi terhadap peningkatan risiko batu
+            ginjal.
           </p>
           <p className="text-gray-600 text-justify">
-            Presiden Joko Widodo juga memberikan apresiasi yang tinggi terhadap Program JKN yang telah memberikan jaminan kesehatan kepada masyarakat Indonesia. Baginya, memberikan jaminan kesehatan adalah bagian tak terpisahkan dari tugas negara untuk memastikan kesejahteraan rakyat. Dalam pandangannya, investasi dalam kesehatan adalah investasi bagi masa depan bangsa. Dalam konteks ini, pelayanan kesehatan yang berkualitas dan terjangkau merupakan pijakan utama dalam mewujudkan kesejahteraan masyarakat secara keseluruhan.
+            Untuk mengatasi masalah batu ginjal, Siloam Hospitals ASRI
+            memperkenalkan metode inovatif yaitu Retrograde Intrarenal Surgery
+            (RIRS). Metode ini menawarkan berbagai keunggulan dibandingkan
+            metode bedah terbuka tradisional. RIRS dilakukan dengan prosedur
+            yang lebih cepat, tidak meninggalkan bekas luka, memungkinkan
+            pemulihan yang lebih cepat, minim rasa nyeri, dan risiko infeksi
+            yang lebih rendah.
           </p>
           <p className="text-gray-600 text-justify">
-            Direktur Utama BPJS Kesehatan, Ghufron Mukti, menambahkan data konkret terkait pencapaian Program JKN. Menurutnya, jumlah peserta JKN telah mencapai angka yang signifikan, mencerminkan tingginya tingkat partisipasi masyarakat dalam program tersebut. Dengan pencapaian ini, diharapkan bahwa kualitas pelayanan di fasilitas kesehatan akan terus ditingkatkan guna memastikan kepuasan dan kesejahteraan masyarakat pengguna layanan kesehatan. Ghufron menegaskan bahwa pencapaian ini merupakan hasil kerja keras dari seluruh stakeholder terkait, termasuk pemerintah dan masyarakat. Diharapkan bahwa pelayanan kesehatan yang berkualitas akan menjadi pilar utama dalam membangun kesejahteraan bangsa yang berkelanjutan.
+            Dalam konteks Perilaku Hidup Bersih dan Sehat (PHBS), penerapan
+            metode RIRS dapat dianggap sebagai bagian dari upaya meningkatkan
+            kualitas layanan kesehatan. Prosedur ini mendukung PHBS dengan
+            mengurangi risiko infeksi dan mempercepat pemulihan pasien, sehingga
+            mereka dapat kembali beraktivitas dengan normal lebih cepat. Selain
+            itu, kesadaran akan pentingnya menjaga hidrasi dan pola makan yang
+            sehat juga merupakan bagian dari PHBS yang dapat membantu mencegah
+            terbentuknya batu ginjal.
+          </p>
+          <p className="text-gray-600 text-justify">
+            Dengan terus berkembangnya metode perawatan kesehatan di bidang
+            urologi dan nefrologi, inovasi seperti RIRS menunjukkan bahwa upaya
+            peningkatan kualitas layanan kesehatan dan penerapan PHBS secara
+            keseluruhan dapat berjalan beriringan. Melalui edukasi dan penerapan
+            teknologi medis yang canggih, diharapkan angka kejadian penyakit
+            batu ginjal dapat ditekan dan masyarakat dapat menjalani hidup yang
+            lebih sehat.
           </p>
         </div>
       </div>

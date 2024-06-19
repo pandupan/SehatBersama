@@ -25,16 +25,16 @@ const page = () => {
                 Rina Nurjannah
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                6 Nivember 2013
+                6 November 2013
               </span>
             </div>
           </div>
           <div className="my-auto">
             <a
-              href="https://web.rshs.or.id/perilaku-hidup-bersih-dan-sehat-phbs-di-fasilitas-pelayanan-kesehatan/"
+              href="/InformasiKesehatan/PelayananKesehatan"
               className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2"
             >
-              Sumber
+              Kembali
             </a>
           </div>
         </div>
@@ -43,7 +43,7 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="" // Ganti dengan URL gambar yang tepat
+              src="https://i.ibb.co.com/rc2ccRV/image.png" // Ganti dengan URL gambar yang tepat
               alt="article"
               className="object-contain items-center w-full"
             />

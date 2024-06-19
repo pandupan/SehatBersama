@@ -6,7 +6,8 @@ const page = () => {
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
-          Artikel 3
+          Pangan Yang Sehat Dan Aman Bisa Cegah Berbagai Penyakit dengan Peran
+          Fasilitas Kesehatan dalam Menjalankan PHBS
         </h1>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
@@ -20,19 +21,19 @@ const page = () => {
             </div>
             <div>
               <span className="block font-bold text-sm sm:text-lg text-gray-600">
-                Dinkominfo
+                Didid Rustandi
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                3 November 2023
+                Selasa, 11 Juni
               </span>
             </div>
           </div>
           <div className="my-auto">
             <a
-              href="https://purbalinggakab.go.id"
+              href="/InformasiKesehatan/PelayananKesehatan"
               className="bg-[#1dbbb4] rounded-md text-white sm:text-base text-xs px-2 py-2 sm:px-10 sm:py-2"
             >
-              Sumber
+              Kembali
             </a>
           </div>
         </div>
@@ -41,7 +42,7 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video rounded-md bg-gray-100 overflow-hidden">
             <img
-              src="https://th.bing.com/th/id/OIP.Hg7wFIaHuHEJMF3Ium_KIwHaEl?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" // Ganti dengan URL gambar yang tepat
+              src="https://i.ibb.co.com/0DMVjLt/fk-2.jpg" // Ganti dengan URL gambar yang tepat
               alt="article"
               className="object-contain items-center w-full"
             />
@@ -52,19 +53,74 @@ const page = () => {
         </div>
         <div className="mt-4 mb-6 space-y-2">
           <p className="text-gray-600 text-justify">
-            Gerakan Masyarakat Hidup Sehat (GERMAS) adalah inisiatif nasional yang dicanangkan oleh pemerintah Indonesia untuk meningkatkan kesadaran dan partisipasi masyarakat dalam menjaga kesehatan. Dengan slogan "Sehat Dimulai dari Diri Sendiri", GERMAS mendorong masyarakat untuk aktif melakukan berbagai aktivitas yang mendukung kesehatan, seperti olahraga rutin, makan makanan bergizi, dan cek kesehatan secara berkala. Salah satu poin penting yang ditekankan dalam GERMAS adalah pemanfaatan pelayanan kesehatan yang tersedia.
+            Setiap tahun, pada tanggal 7 Juni, dunia memperingati Hari Keamanan
+            Pangan Sedunia (HKPS) untuk meningkatkan kesadaran global tentang
+            pentingnya mencegah, mendeteksi, dan mengelola risiko penyakit yang
+            disebabkan oleh makanan terkontaminasi atau Kejadian Luar Biasa
+            (KLB) Keracunan Pangan.
           </p>
           <p className="text-gray-600 text-justify">
-            Pemerintah melalui Kementerian Kesehatan mengimbau seluruh masyarakat untuk memanfaatkan pelayanan kesehatan yang disediakan oleh fasilitas kesehatan. Menurut Menteri Kesehatan, Budi Gunadi Sadikin, layanan kesehatan yang ada saat ini sudah cukup memadai dan terus ditingkatkan kualitasnya. "Kami mengajak masyarakat untuk rutin memeriksakan kesehatan mereka di puskesmas atau rumah sakit terdekat. Dengan begitu, kita dapat mendeteksi dini penyakit dan mencegah komplikasi yang lebih serius," ujarnya.
+            Wakil Menteri Kesehatan, Prof. dr. Dante Saksono Harbuwono,
+            mengungkapkan bahwa lebih dari 200 penyakit dapat disebabkan oleh
+            makanan yang terkontaminasi, dengan gejala mulai dari ringan hingga
+            fatal. Oleh karena itu, pengelolaan pangan yang higienis dan aman
+            sangat penting untuk mencegah penyakit tersebut, termasuk Penyakit
+            Tidak Menular (PTM) seperti hipertensi, kanker, diabetes, dan
+            penyakit jantung.
+          </p>
+          <h3 className="text-md font-bold text-gray-600">
+          Berlandaskan penekanan akan pentingnya keamanan pangan, terdapat
+            lima kunci utama yang menjadi fondasi dalam menjaga kualitas dan
+            keamanan makanan.
+          </h3>
+          <p className="text-gray-600 text-justify">
+            1. Menjaga Kebersihan: Langkah pertama dalam memastikan
+            keamanan pangan adalah dengan menjaga kebersihan. Ini termasuk
+            membersihkan tangan, peralatan, dan area kerja dengan benar sebelum
+            dan sesudah menangani makanan. <br />
+            <br /> 2. Memisahkan Pangan Mentah dan Matang: Penting untuk
+            memisahkan pangan mentah, seperti daging mentah, dari pangan matang
+            atau siap saji. Hal ini dapat mencegah kontaminasi silang yang dapat
+            menyebabkan penyakit. <br />
+            <br /> 3. Memasak dengan Benar: Memasak makanan dengan suhu yang
+            tepat dan waktu yang cukup adalah kunci untuk membunuh bakteri dan
+            patogen yang mungkin ada dalam makanan mentah. <br />
+            <br /> 4. Menggunakan Air dan Bahan Pangan yang Aman: Pastikan bahwa
+            air yang digunakan untuk memasak dan bahan makanan yang digunakan
+            adalah aman dan bebas dari kontaminasi. <br />
+            <br /> 5. Menjaga Pangan pada Suhu yang Aman: Setelah dimasak,
+            penting untuk menjaga makanan pada suhu yang aman untuk mencegah
+            pertumbuhan bakteri. Ini bisa berarti menyimpan makanan dalam suhu
+            dingin di lemari es atau memanaskannya kembali sebelum disajikan.
+          </p>
+          <h3 className="text-md font-bold text-gray-600">
+          Peran Fasilitas Kesehatan dalam Menyediakan Makanan yang Sehat dan
+          Aman 
+          </h3>
+          <p className="text-gray-600 text-justify">
+           Peran fasilitas kesehatan dalam menyediakan makanan yang sehat
+            dan aman tak boleh diabaikan, terutama dalam menerapkan Perilaku
+            Hidup Bersih dan Sehat (PHBS). PHBS menjadi krusial untuk memastikan
+            bahwa pasien, pengunjung, dan staf medis dapat mengonsumsi makanan
+            yang tak hanya bergizi, tetapi juga bebas dari kontaminasi dan aman
+            dikonsumsi.
           </p>
           <p className="text-gray-600 text-justify">
-            Pemanfaatan pelayanan kesehatan tidak hanya terbatas pada pemeriksaan rutin, tetapi juga mencakup imunisasi, pemeriksaan gigi, pemeriksaan ibu hamil, serta konseling gizi dan kesehatan mental. Program-program seperti Posbindu PTM (Pos Pembinaan Terpadu Penyakit Tidak Menular) di puskesmas, misalnya, dirancang untuk memantau kesehatan masyarakat secara berkala dan memberikan edukasi terkait gaya hidup sehat. Dengan adanya program ini, diharapkan masyarakat dapat lebih sadar akan pentingnya menjaga kesehatan sejak dini.
+            Implementasi PHBS di fasilitas kesehatan harus menjadikan proses
+            pemilihan bahan makanan yang berkualitas, penyimpanan yang tepat,
+            pengolahan yang higienis, dan penyajian dengan standar kebersihan
+            yang tinggi sebagai prioritas utama. Dengan demikian, fasilitas
+            kesehatan tidak hanya memberikan perawatan medis yang baik, tetapi
+            juga mendukung kesehatan secara menyeluruh melalui aspek makanan
+            yang aman dan sehat.
           </p>
           <p className="text-gray-600 text-justify">
-            Partisipasi aktif masyarakat dalam GERMAS sangat diperlukan untuk mencapai tujuan jangka panjang program ini, yaitu meningkatkan kualitas hidup dan kesejahteraan masyarakat. GERMAS tidak hanya berfokus pada aspek fisik saja, tetapi juga kesehatan mental dan sosial. Masyarakat diajak untuk tidak ragu-ragu memanfaatkan layanan kesehatan yang ada, baik untuk keperluan pencegahan, pengobatan, maupun rehabilitasi. "Dengan memanfaatkan pelayanan kesehatan yang ada, kita bersama-sama dapat mewujudkan masyarakat yang lebih sehat dan produktif," tambah Menteri Kesehatan.
-          </p>
-          <p className="text-gray-600 text-justify">
-            Untuk mendukung keberhasilan GERMAS, pemerintah juga menggandeng berbagai pihak seperti lembaga pendidikan, organisasi masyarakat, dan sektor swasta. Kerjasama lintas sektor ini diharapkan dapat memperluas jangkauan program GERMAS dan meningkatkan kesadaran serta partisipasi masyarakat. Melalui berbagai kegiatan seperti kampanye kesehatan, penyuluhan, dan pemeriksaan kesehatan gratis, diharapkan masyarakat dapat lebih mudah mengakses informasi dan layanan kesehatan yang dibutuhkan.
+            Dengan menerapkan standar keamanan pangan yang ketat, fasilitas
+            kesehatan tidak hanya memberikan perawatan medis yang baik, tetapi
+            juga mendukung kesehatan secara menyeluruh melalui aspek makanan
+            yang aman dan sehat. Ini adalah langkah penting untuk menjaga
+            kesehatan masyarakat dan mengurangi risiko penyakit yang terkait
+            dengan konsumsi pangan yang tidak aman.
           </p>
         </div>
       </div>
