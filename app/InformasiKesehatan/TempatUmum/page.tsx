@@ -215,6 +215,48 @@ const page = () => {
           </div>
         </div>
       </div>
+ {/* ARTIKEL 5 */}
+ <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT UMUM</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Langkah Proaktif dalam Menghadapi Adaptasi Kebiasaan Baru dengan
+          Menerapkan PHBS di Tempat Umum
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Tempat umum seperti pasar, mall, hotel, restoran, serta transportasi
+            umum merupakan area dengan potensi tinggi untuk penyebaran berbagai
+            penyakit menular. Oleh karena itu, implementasi PHBS di
+            tempat-tempat ini sangat penting. Langkah-langkah PHBS mencakup
+            penggunaan masker, cuci tangan dengan sabun atau hand sanitizer,
+            menjaga jarak fisik, serta menjaga kebersihan lingkungan sekitar.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
+          19 Juni 2020
+          </h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/TempatUmum/Artikel5"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://i.ibb.co.com/CV7d2SP/6-tu.jpg"
+                  alt="artikel1"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
         <button title="leftbig" className="sm:flex hidden">
           <AiOutlineLeft size={40} />

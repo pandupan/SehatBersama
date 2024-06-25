@@ -41,7 +41,7 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video flex justify-center items-center rounded-md bg-gray-100 overflow-hidden">
             <img
-              src=""
+              src="https://i.ibb.co.com/r27wrJn/image.png"
               alt="article"
               className="object-contain items-center w-full"
             />

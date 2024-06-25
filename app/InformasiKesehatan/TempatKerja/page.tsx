@@ -187,26 +187,24 @@ const page = () => {
           </div>
         </div>
       </div>
-      {/* ARTIKEL 4 */}
-      {/* <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+
+  {/* ARTIKEL 4 */}
+  <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
           <h1 className="font-bold sm:text-xl text-sm">TEMPAT KERJA</h1>
           <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            Penyebab Napas Pendek dan Cara Mengatasinya
+          PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Tempat Kerja
           </h3>
           <p className="line-clamp-2 sm:text-base text-xs">
-            Penyakit jantung bisa menyebabkan napas jadi pendek-pendek. Saat
-            seseorang mengalami gangguan jantung, jantung tidak cukup kuat
-            memompa darah dengan baik, sehingga fungsi pernapasan tidak
-            maksimal. Napas pendek normal jika dialami oleh orang yang baru saja
-            melakukan olahraga intens, mengalami perubahan suhu secara drastis,
-            atau berada di ketinggian. Namun, jika kamu mengalaminya hampir
-            setiap saat, bahkan saat beraktivitas ringan atau sedang
-            beristirahat, bisa jadi ada gangguan kesehatan yang perlu
-            diwaspadai.
+          PHBS (Perilaku Hidup Bersih dan Sehat) di Tempat Kerja adalah upaya
+            untuk memberdayakan karyawan agar mereka mengetahui, mau, dan mampu
+            mempraktikkan PHBS serta berperan aktif dalam menciptakan lingkungan
+            kerja yang sehat. Implementasi PHBS di tempat kerja penting untuk
+            menjaga, memelihara, dan mempertahankan kesehatan karyawan sehingga
+            tetap sehat dan produktif.
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-            18 November 2023
+          15 Februari 2024
           </h2>
           <div>
             <a
@@ -221,18 +219,133 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src="/image/penyakit4.png"
+                <img
+                  src="https://i.ibb.co/fHM37Gq/photo-1560264280-88b68371db39.jpg"
                   alt="artikel1"
-                  fill={true}
                   className="object-cover"
                 />
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
+        {/* ARTIKEL 5 */}
+        <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT KERJA</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Pentingnya Edukasi Kesehatan di Tempat Kerja
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Edukasi kesehatan memainkan peran penting dalam meningkatkan kesejahteraan masyarakat, termasuk di kalangan pekerja. Menurut Organisasi Kesehatan Dunia (WHO), pendidikan kesehatan adalah alat untuk meningkatkan kesehatan dan kesejahteraan umum masyarakat melalui peningkatan pengetahuan dan praktik sehat. Pendidikan kesehatan di tempat kerja tidak hanya memberikan manfaat bagi perusahaan, namun juga bagi karyawan.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
+          Senin, 03 Juni 2024
+          </h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/TempatKerja/Artikel5"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://i.ibb.co.com/z7q42dn/5-Tk.jpg"
+                  alt="artikel1"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        {/* ARTIKEL 6 */}
+        <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT KERJA</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          5 Tips Menjaga Kesehatan Saat Kerja Shift Malam
+
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Beberapa profesi mengharuskan pekerjanya untuk bekerja di malam hari. Ini adalah tanggung jawab yang perlu dijalankan dengan baik, tetapi ada risiko kesehatan yang perlu diwaspadai. Apabila tidak mampu beradaptasi, kesehatan bisa menurun dan menyebabkan sakit. 
+Namun, Anda tidak perlu khawatir. Berikut adalah beberapa tips untuk menjaga kesehatan saat bekerja shift malam yang telah dirangkum dari berbagai sumber.
+
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
+          16 Oktober 2020
+
+          </h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/TempatKerja/Artikel6"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://i.ibb.co.com/hd2Bny0/6-tk.jpg"
+                  alt="artikel1"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  {/* ARTIKEL 7 */}
+  <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">TEMPAT KERJA</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Mengenali Tanda-tanda Stres karena Pekerjaan dan Cara Mengatasinya
+
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Apakah kamu merasa lelah dan sulit berkonsentrasi saat bekerja? Mungkin itu pertanda kamu sedang mengalami stres akibat pekerjaan. Stres ini bisa muncul karena beban kerja yang berat, tekanan untuk mencapai target, atau konflik interpersonal di tempat kerja. Jika tidak ditangani dengan baik, stres dapat berkembang menjadi masalah kesehatan mental yang serius, seperti depresi.
+
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
+          11 April 2019	
+          </h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/TempatKerja/Artikel7"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://i.ibb.co.com/ThvJYYm/7-tk.jpg"
+                  alt="artikel1"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
         <button title="leftbig" className="sm:flex hidden">
           <AiOutlineLeft size={40} />

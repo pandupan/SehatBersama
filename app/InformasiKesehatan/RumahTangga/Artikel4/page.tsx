@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
-const page = () => {
+
+const Page = () => {
   return (
     <div className="mt-[75px] py-4 container mx-auto">
       <div className="border-b-2 pb-4">
         <h1 className="text-lg sm:text-4xl font-bold">
           7 Langkah Bijak Memproses dan Membuang Sampah Medis Rumah Tangga
         </h1>
-        <div className="flex items-centerjustify-between">
+        <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
             <div className="relative w-16 sm:w-20 aspect-square rounded-full border-2 bg-gray-100 overflow-hidden">
               <Image
@@ -40,7 +41,7 @@ const page = () => {
         <div>
           <div className="relative w-full aspect-video flex justify-center items-center rounded-md bg-gray-100 overflow-hidden">
             <img
-              src=""
+              src="https://i.ibb.co/R64HQ2P/image.png"
               alt="article"
               className="object-contain items-center w-full"
             />
@@ -149,11 +150,10 @@ const page = () => {
           </p>
         </div>
         <div className="mt-4 mb-6 space-y-2">
+          <h3 className="text-md font-bold text-gray-600">
+            Manfaat Mengelola Sampah Medis dengan Bijak
+          </h3>
           <p className="text-gray-600 text-justify">
-            <h3 className="text-md font-bold text-gray-600">
-              Manfaat Mengelola Sampah Medis dengan Bijak
-            </h3>
-            <br/>
             Dengan mengikuti langkah-langkah di atas, kita dapat meminimalkan
             risiko kontaminasi dan melindungi diri serta anggota keluarga dari
             bahaya yang mungkin ditimbulkan oleh sampah medis. Konsultasikan
@@ -161,21 +161,9 @@ const page = () => {
             dalam mengelola sampah medis rumah tangga secara aman dan efektif.
           </p>
         </div>
-
-        {/* <div>
-          <h4 className="font-bold">Tag:</h4>
-          <div className="flex flex-wrap gap-2 items-center mt-2 text-xs sm:text-base">
-            <span className="block py-1 px-2 rounded bg-primary text-white">
-              Gizi
-            </span>
-            <span className="block py-1 px-2 rounded bg-primary text-white">
-              Tips & Trick
-            </span>
-          </div>
-        </div> */}
       </div>
     </div>
   );
 };
 
-export default page;
+export default Page;

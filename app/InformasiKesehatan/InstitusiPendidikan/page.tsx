@@ -214,6 +214,93 @@ Pola hidup bersih dan sehat dapat menurunkan risiko anak Anda terkena penyakit.
           </div>
         </div>
       </div>
+
+       {/* ARTIKEL 5 */}
+       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">INSTITUSI PENDIDIKAN</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Menerapkan Perilaku Hidup Bersih dan Sehat (PHBS) di Pondok Pesantren
+          untuk Pencegahan Penyakit Menular
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Penyakit menular merupakan salah satu ancaman serius bagi kesehatan
+            masyarakat, terutama di lingkungan yang padat seperti pondok
+            pesantren, sebuah lembaga pendidikan yang kerap menjadi tempat
+            tinggal dan belajar bagi banyak individu. Jenis penyakit ini
+            disebabkan oleh berbagai agen biologi seperti virus, bakteri, jamur,
+            dan parasit.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
+          07 Juni 2024
+          </h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/InstitusiPendidikan/Artikel5"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://i.ibb.co.com/ZxgY3Hz/6-P.png"
+                  alt="artikel1"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       {/* ARTIKEL 6 */}
+       <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">INSTITUSI PENDIDIKAN</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Implementasi PHBS untuk Meningkatkan Kesehatan Anak Sekolah Dasar
+          dengan Gizi Seimbang
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Anak-anak pada usia sekolah dasar membutuhkan asupan gizi yang
+            seimbang untuk mendukung pertumbuhan fisik, perkembangan otak, dan
+            kesehatan secara keseluruhan. Gizi yang cukup membantu mereka
+            menjaga energi tinggi untuk kegiatan belajar dan bermain sepanjang
+            hari. Dalam masa pertumbuhan yang pesat ini, penting untuk
+            memastikan bahwa mereka mendapatkan nutrisi yang cukup melalui
+            makanan yang seimbang dan berkualitas.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
+          19 Juni 2024
+          </h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/InstitusiPendidikan/Artikel6"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://i.ibb.co.com/1bqXcJb/7-p.jpg"
+                  alt="artikel1"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
         <button title="leftbig" className="sm:flex hidden">
           <AiOutlineLeft size={40} />

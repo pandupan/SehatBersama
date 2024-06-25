@@ -136,11 +136,10 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src=""
-                  alt="artikel3"
-                  fill={true}
+              <img
+                  src="https://i.ibb.co.com/r27wrJn/image.png"
                   className="object-cover"
+                  alt="artikel2"
                 />
               </div>
             </div>
@@ -180,10 +179,9 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src=""
+                <img
+                  src="https://i.ibb.co.com/fdYBSFC/image.png"
                   alt="artikel4"
-                  fill={true}
                   className="object-cover"
                 />
               </div>
@@ -205,11 +203,11 @@ const page = () => {
             tubuh, atau bahan kimia berbahaya. Penting untuk mengelola sampah
             medis dengan bijak agar tidak menimbulkan risiko kesehatan bagi
             penghuni rumah tangga dan lingkungan sekitar.Sampah Medis Rumah
-            TanggaSampah medis rumah tangga adalah benda-benda yang
+            Tangga Sampah medis rumah tangga adalah benda-benda yang
             terkontaminasi oleh darah, cairan tubuh, atau bahan kimia berbahaya,
             yang dihasilkan dari perawatan kesehatan di rumah. Contohnya
             termasuk jarum suntik, alat pengukur glukosa darah, perban bekas,
-            peralatan nebulizer, dan obat-obatan kedaluwarsa.Cara Mengolah dan
+            peralatan nebulizer, dan obat-obatan kedaluwarsa. Cara Mengolah dan
             Membuang Sampah Medis Rumah Tangga
           </p>
           <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">6 Maret 2024</h2>
@@ -226,10 +224,9 @@ const page = () => {
           <div className="flex items-center justify-center">
             <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
               <div className="object-fit">
-                <Image
-                  src=""
+                <img
+                  src="https://i.ibb.co.com/R64HQ2P/image.png"
                   alt="artikel5"
-                  fill={true}
                   className="object-cover"
                 />
               </div>
