@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
+
 const page = () => {
   return (
     <div className="mt-[75px] py-4 container mx-auto">
@@ -8,7 +9,7 @@ const page = () => {
         <h1 className="text-lg sm:text-4xl font-bold">
           Perilaku Hidup Bersih dan Sehat (PHBS) di Tempat Kerja
         </h1>
-        <div className="flex items-centerjustify-between">
+        <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 mt-4 mb-2 w-full">
             <div className="relative w-16 sm:w-20 aspect-square rounded-full border-2 bg-gray-100 overflow-hidden">
               <Image
@@ -99,7 +100,7 @@ const page = () => {
           </p>
         </div>
         <div className="text-gray-600 text-justify space-y-4">
-          <p>
+          <div>
             <strong>Tujuan PHBS di Tempat Kerja:</strong>
             <ul className="list-disc list-inside">
               <li>
@@ -116,8 +117,7 @@ const page = () => {
                 masyarakat
               </li>
             </ul>
-          </p>
-
+          </div>
           <div>
             <strong>
               Perilaku Hidup Bersih dan Sehat di Tempat Kerja antara lain:
@@ -141,8 +141,7 @@ const page = () => {
               </li>
             </ul>
           </div>
-
-          <p>
+          <div>
             <strong>Manfaat PHBS di Tempat Kerja:</strong>
             <ul className="list-disc list-inside">
               <li>
@@ -201,9 +200,8 @@ const page = () => {
                 </ul>
               </li>
             </ul>
-          </p>
-
-          <p>
+          </div>
+          <div>
             <strong>Ruang Lingkup PHBS:</strong>
             <ol className="list-decimal list-inside">
               <li>Perilaku Hidup Bersih dan Sehat di Rumah Tangga</li>
@@ -212,7 +210,7 @@ const page = () => {
               <li>Perilaku Hidup Bersih dan Sehat di Sekolah</li>
               <li>Perilaku Hidup Bersih dan Sehat di Tempat Kerja</li>
             </ol>
-          </p>
+          </div>
         </div>
       </div>
     </div>

@@ -235,51 +235,7 @@ const page = () => {
         </div>
       </div>
 
-            {/* ARTIKEL 4 */}
-            <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
-        <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
-          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-            7 Langkah Bijak Memproses dan Membuang Sampah Medis Rumah Tangga
-          </h3>
-          <p className="line-clamp-2 sm:text-base text-xs">
-            Kesehatan rumah tangga tidak hanya mencakup kebersihan fisik, tetapi
-            juga penanganan yang aman terhadap sampah medis. Sampah medis rumah
-            tangga mencakup benda-benda yang terkontaminasi oleh darah, cairan
-            tubuh, atau bahan kimia berbahaya. Penting untuk mengelola sampah
-            medis dengan bijak agar tidak menimbulkan risiko kesehatan bagi
-            penghuni rumah tangga dan lingkungan sekitar.Sampah Medis Rumah
-            Tangga Sampah medis rumah tangga adalah benda-benda yang
-            terkontaminasi oleh darah, cairan tubuh, atau bahan kimia berbahaya,
-            yang dihasilkan dari perawatan kesehatan di rumah. Contohnya
-            termasuk jarum suntik, alat pengukur glukosa darah, perban bekas,
-            peralatan nebulizer, dan obat-obatan kedaluwarsa. Cara Mengolah dan
-            Membuang Sampah Medis Rumah Tangga
-          </p>
-          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">6 Maret 2024</h2>
-          <div>
-            <a
-              href="/InformasiKesehatan/RumahTangga/Artikel4"
-              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
-            >
-              Baca Selengkapnya ...
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="flex items-center justify-center">
-            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
-              <div className="object-fit">
-                <img
-                  src="https://i.ibb.co.com/R64HQ2P/image.png"
-                  alt="artikel5"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+       
 
 
             {/* ARTIKEL 6 */}

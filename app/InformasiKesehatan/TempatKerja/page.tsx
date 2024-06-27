@@ -188,48 +188,6 @@ const page = () => {
         </div>
       </div>
 
-  {/* ARTIKEL 4 */}
-  <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
-        <div className="flex flex-col sm:mt-0 mt-1">
-          <h1 className="font-bold sm:text-xl text-sm">TEMPAT KERJA</h1>
-          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
-          PHBS Perilaku Hidup Bersih dan Sehat di Tatanan Tempat Kerja
-          </h3>
-          <p className="line-clamp-2 sm:text-base text-xs">
-          PHBS (Perilaku Hidup Bersih dan Sehat) di Tempat Kerja adalah upaya
-            untuk memberdayakan karyawan agar mereka mengetahui, mau, dan mampu
-            mempraktikkan PHBS serta berperan aktif dalam menciptakan lingkungan
-            kerja yang sehat. Implementasi PHBS di tempat kerja penting untuk
-            menjaga, memelihara, dan mempertahankan kesehatan karyawan sehingga
-            tetap sehat dan produktif.
-          </p>
-          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
-          15 Februari 2024
-          </h2>
-          <div>
-            <a
-              href="/InformasiKesehatan/TempatKerja/Artikel4"
-              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
-            >
-              Baca Selengkapnya ...
-            </a>
-          </div>
-        </div>
-        <div>
-          <div className="flex items-center justify-center">
-            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
-              <div className="object-fit">
-                <img
-                  src="https://i.ibb.co/fHM37Gq/photo-1560264280-88b68371db39.jpg"
-                  alt="artikel1"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
         {/* ARTIKEL 5 */}
         <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
         <div className="flex flex-col sm:mt-0 mt-1">
