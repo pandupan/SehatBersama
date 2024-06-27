@@ -24,7 +24,7 @@ const page = () => {
                 Nurkholis
               </span>
               <span className="block text-xs sm:text-base text-gray-400">
-                Jumat, 25 Agustus 2023 15:25 WIB
+                25 Agustus 2023
               </span>
             </div>
           </div>

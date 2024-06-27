@@ -234,6 +234,202 @@ const page = () => {
           </div>
         </div>
       </div>
+
+            {/* ARTIKEL 4 */}
+            <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+            7 Langkah Bijak Memproses dan Membuang Sampah Medis Rumah Tangga
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+            Kesehatan rumah tangga tidak hanya mencakup kebersihan fisik, tetapi
+            juga penanganan yang aman terhadap sampah medis. Sampah medis rumah
+            tangga mencakup benda-benda yang terkontaminasi oleh darah, cairan
+            tubuh, atau bahan kimia berbahaya. Penting untuk mengelola sampah
+            medis dengan bijak agar tidak menimbulkan risiko kesehatan bagi
+            penghuni rumah tangga dan lingkungan sekitar.Sampah Medis Rumah
+            Tangga Sampah medis rumah tangga adalah benda-benda yang
+            terkontaminasi oleh darah, cairan tubuh, atau bahan kimia berbahaya,
+            yang dihasilkan dari perawatan kesehatan di rumah. Contohnya
+            termasuk jarum suntik, alat pengukur glukosa darah, perban bekas,
+            peralatan nebulizer, dan obat-obatan kedaluwarsa. Cara Mengolah dan
+            Membuang Sampah Medis Rumah Tangga
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">6 Maret 2024</h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/RumahTangga/Artikel4"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://i.ibb.co.com/R64HQ2P/image.png"
+                  alt="artikel5"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+            {/* ARTIKEL 6 */}
+            <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Mengadopsi Gaya Hidup Sehat untuk Pencegahan Tuberkulosis TBC
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Tuberkulosis (TBC) adalah penyakit menular yang disebabkan oleh bakteri Mycobacterium tuberculosis. Memahami gejala dan cara pencegahan TBC sangat penting, terutama bagi generasi muda. Dengan pengetahuan ini, masyarakat dapat melakukan deteksi dini, penanganan yang tepat, dan upaya pencegahan yang efektif. Penerapan Perilaku Hidup Bersih dan Sehat (PHBS) di lingkungan rumah merupakan langkah kunci dalam mencegah penyebaran TBC. Berikut adalah lima kebiasaan hidup sehat yang bisa diterapkan:
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">25 Agustus 2023</h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/RumahTangga/Artikel6"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://th.bing.com/th/id/OIP.RuUoAAKGx4OLS_msje0OJAHaF7?w=249&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="artikel5"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            {/* ARTIKEL 7 */}
+            <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Menu Gizi Seimbang, Kunci Cegah Obesitas kala di Rumah Saja
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Pandemi COVID-19 telah membawa banyak perubahan dalam kehidupan sehari-hari, termasuk pola makan dan aktivitas fisik. Salah satu masalah kesehatan yang semakin banyak dibahas adalah obesitas. Banyak orang mengalami kenaikan berat badan selama pandemi, terutama karena mobilitas yang dibatasi dan kecenderungan memesan makanan siap saji. Ahli nutrisi dari Fakultas Kedokteran Universitas Indonesia (FKUI), Prof. Dr. dr. Saptawati Bardosono, mengungkapkan kekhawatiran terhadap peningkatan berat badan akibat perubahan pola hidup ini.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">6 Maret 2024</h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/RumahTangga/Artikel7"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://th.bing.com/th/id/OIP.0mEadCFwCkO5hpGRV8EYlgHaHa?rs=1&pid=ImgDetMain/"
+                  alt="artikel5"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            {/* ARTIKEL 8 */}
+            <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Ciptakan Udara Bersih di Rumah, Panduan Praktis Ruangan Segar dan
+          Hidup Lebih Sehat
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Udara bersih adalah kunci untuk menjaga ruangan tetap segar dan
+            sehat. Polusi udara dalam ruangan dapat menyebabkan berbagai
+            gangguan kesehatan, terutama pada lansia dan anak-anak, seperti
+            kanker paru-paru, pneumonia, dan iritasi kulit. Untuk menghindari
+            risiko penyakit yang disebabkan oleh polusi udara, penting bagi kita
+            untuk memperhatikan kualitas udara di dalam rumah.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">13 Januari 2024</h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/RumahTangga/Artikel8"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://cdn.discordapp.com/attachments/1005701738109620237/1255672312464674836/FotoJet-40-1043640164.png?ex=667dfb78&is=667ca9f8&hm=1e638b22f89e56a2fff025af84c23e459f03dd9e26ff622f5ffde38b661b05a0&"
+                  alt="artikel8"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            {/* ARTIKEL 9 */}
+            <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">RUMAH TANGGA</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Olahraga di Rumah: Meningkatkan Kesehatan dan Kebugaran dengan Mudah
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Apakah olahraga di rumah bisa memberikan manfaat yang sama dengan
+            berolahraga di luar rumah? Jawabannya adalah ya! Berolahraga di
+            rumah dapat menjadi pilihan yang baik dan praktis untuk meningkatkan
+            kesehatan dan kebugaran kamu.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs"> 15 Mei 2024</h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/RumahTangga/Artikel9"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://cdn.discordapp.com/attachments/1005701738109620237/1255673391567081472/7-tips-olahraga-di-rumah-yang-mudah-dan-aman-dilakukan-2-27122022-103216.png?ex=667dfc79&is=667caaf9&hm=9366bde174db2302d32895255ae13ea2b69b6afc3ee527ad218f97b789b2dd78&"
+                  alt="artikel9"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
         <button title="leftbig" className="sm:flex hidden">
           <AiOutlineLeft size={40} />

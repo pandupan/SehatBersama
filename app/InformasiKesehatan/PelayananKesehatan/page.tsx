@@ -233,6 +233,81 @@ const page = () => {
           </div>
         </div>
       </div>
+
+      {/* ARTIKEL 6 */}
+      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">PELAYANAN KESEHATAN</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          Meningkatkan Kesehatan dengan Perilaku Hidup Bersih dan Sehat di Fasilitas Pelayanan Kesehatan
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Membangun masyarakat yang sehat dan produktif menjadi fokus utama pembangunan kesehatan di Indonesia. Upaya preventif dan promotif menjadi kunci untuk mewujudkan hal ini. Salah satu pilar utama dalam mewujudkan masyarakat sehat adalah dengan menerapkan Perilaku Hidup Bersih dan Sehat (PHBS), khususnya di fasilitas pelayanan kesehatan seperti rumah sakit.
+          Kebijakan kesehatan menekankan pada upaya promotif dan preventif untuk menjadikan individu yang sehat menjadi lebih sehat dan produktif. Pola hidup sehat merupakan gambaran dari paradigma kesehatan yang berkaitan dengan perilaku individu, keluarga, kelompok, dan masyarakat yang berorientasi pada kesehatan, baik fisik, mental, spiritual, maupun sosial.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
+          13 Januari 2024
+          </h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/PelayananKesehatan/Artikel6"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://th.bing.com/th/id/OIP.EgZdha1huRFXB4w86mrJBwHaFj?w=264&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="artikel5"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ARTIKEL 7 */}
+      <div className="sm:p-8 p-4 flex sm:flex-row flex-col-reverse bg-white border-2 border-black rounded-2xl my-4 ">
+        <div className="flex flex-col sm:mt-0 mt-1">
+          <h1 className="font-bold sm:text-xl text-sm">PELAYANAN KESEHATAN</h1>
+          <h3 className="font-bold sm:text-md text-base sm:mt-2 mt-1">
+          4 Strategi Pemerintah Kendalikan TB di Indonesia
+          </h3>
+          <p className="line-clamp-2 sm:text-base text-xs">
+          Tuberkulosis (TB) masih menjadi masalah kesehatan serius di Indonesia. Berdasarkan Global TB Report 2022, Indonesia menempati posisi kedua di dunia setelah India dengan beban TB tertinggi, yaitu dengan estimasi 969.000 kasus dan 144.000 kematian per tahun. Untuk mengatasi masalah ini, pemerintah Indonesia menetapkan target eliminasi TB pada tahun 2030 dengan menerapkan empat strategi nasional.
+          </p>
+          <h2 className="sm:mt-3 mt-1 sm:text-base text-xs">
+          05 September 2023
+          </h2>
+          <div>
+            <a
+              href="/InformasiKesehatan/PelayananKesehatan/Artikel7"
+              className="sm:text-base text-xs text-gray-500 hover:text-blue-500 mt-1"
+            >
+              Baca Selengkapnya ...
+            </a>
+          </div>
+        </div>
+        <div>
+          <div className="flex items-center justify-center">
+            <div className="relative sm:w-[261px] sm:h-[181px] w-[220px] h-[140px] rounded-xl overflow-hidden">
+              <div className="object-fit">
+                <img
+                  src="https://www.lalpathlabs.com/blog/wp-content/uploads/2018/03/Tuberculosis-TB.jpg"
+                  alt="artikel5"
+                  className="object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       
       {/* <div className="flex flex-row justify-center items-center gap-4 font-semibold mt-4">
         <button title="leftbig" className="sm:flex hidden">
