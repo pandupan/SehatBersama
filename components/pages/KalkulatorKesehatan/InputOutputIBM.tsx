@@ -80,16 +80,16 @@ const InputOutputIBM = () => {
           <div className="text-[#9a8e8e] font-bold lg:text-base sm:text-sm text-xs flex flex-row">
             <a href="/">Home</a>
             <a href="/KalkulatorKesehatan">&gt; Kalkulator Kesehatan</a>
-            <div>&gt; Kalkulator IBM</div>
+            <div>&gt; Kalkulator BMI</div>
           </div>
         </div>
         <div className="container flex flex-col sm:gap-8 gap-4 justify-center items-center mt-10">
           <h1 className="text-center font-bold sm:text-3xl text-xl">
-            Kalkulator IBM
+            Kalkulator BMI
           </h1>
           <div className="sm:w-[600px]">
             <p className="text-center sm:text-xl text-xs">
-              Kalkulator IBM digunakan untuk menghitung Indeks Massa Tubuh (IMT)
+              Kalkulator BMI digunakan untuk menghitung Indeks Massa Tubuh (IMT)
               dan mengecek apakah berat badan dan tinggi badanmu sudah ideal
               atau belum
             </p>
